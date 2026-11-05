@@ -1,0 +1,64 @@
+# ============================================================
+# 下载站内容：只需要编辑这一个文件，就能增删改页面上的条目
+# 字段说明见 README.md
+# ============================================================
+
+[[categories]]
+id = "tool"
+label = "工具"
+
+[[categories]]
+id = "server"
+label = "服务端"
+
+[[categories]]
+id = "client"
+label = "客户端"
+
+[[items]]
+name = "Hugo Extended"
+category = "tool"
+description = "世界上最快的静态站点生成器，本下载站即由它构建。"
+version = "v0.168.0"
+date = "2026-10-28"
+platform = "Windows / macOS / Linux"
+size = "约 30 MB"
+url = "https://github.com/gohugoio/hugo/releases/tag/v0.168.0"
+checksum = ""
+tags = ["static-site", "go"]
+
+[[items]]
+name = "Cloudreve"
+category = "server"
+description = "支持多家云存储的公有云文件系统，Go 编写，单二进制部署。"
+version = "v4"
+date = "2026-09-12"
+platform = "Linux / Windows (amd64, arm64)"
+size = "约 40 MB"
+url = "https://github.com/cloudreve/Cloudreve/releases"
+checksum = ""
+tags = ["self-hosted", "go"]
+
+[[items]]
+name = "cnbws"
+category = "client"
+description = "查询运行中 CNB 工作区并输出 SSH 入口的命令行小工具。"
+version = "v1.0.0"
+date = "2026-11-01"
+platform = "Windows x64"
+size = "约 5 MB"
+url = ""
+checksum = ""
+tags = ["cli", "windows"]
+
+[[items]]
+name = "DDNS"
+category = "tool"
+description = "多服务商动态域名解析工具，支持 Docker 与边缘函数部署。"
+version = "v4.1.3"
+date = "2026-08-20"
+platform = "跨平台"
+size = "约 12 MB"
+url = "https://github.com/NewFuture/DDNS/releases"
+checksum = ""
+tags = ["dns", "cli"]

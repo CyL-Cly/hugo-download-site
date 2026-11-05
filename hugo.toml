@@ -1,0 +1,18 @@
+baseURL = "/"
+locale = "zh-CN"
+title = "DL / INDEX"
+enableRobotsTXT = true
+
+[params]
+  description = "软件发布与下载索引"
+  author = "CyL-Cly"
+
+[markup.goldmark.renderer]
+  unsafe = true
+
+[build]
+  writeStats = false
+
+[caches]
+  [caches.images]
+    dir = ":cacheDir/images"

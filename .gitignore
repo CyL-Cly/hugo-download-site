@@ -1,0 +1,4 @@
+resources/_gen/
+.hugo_build.lock
+.tools/
+.DS_Store

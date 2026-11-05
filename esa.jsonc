@@ -1,0 +1,12 @@
+{
+  // ESA Pages build configuration. This file overrides the console settings.
+  // Hugo is built locally; the generated public/ directory is committed and
+  // served as-is, so no cloud-side install or build step is needed.
+  "name": "hugo-download-site",
+  "installCommand": "",
+  "buildCommand": "",
+  "assets": {
+    "directory": "./public",
+    "notFoundStrategy": "404Page"
+  }
+}
