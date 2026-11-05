@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.Language.Locale }}">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>资源目录 — {{ .Site.Title }}</title>
+  <meta name="description" content="{{ .Site.Params.description }}">
+  <link rel="stylesheet" href="{{ "css/main.css" | relURL }}">
+</head>
+<body>
+  <div class="frame">
+    {{ partial "head.html" . }}
+    <main>
+      <section class="intro" aria-labelledby="intro-title">
+        <h1 class="intro__title" id="intro-title">资源<span class="intro__slash">/</span>目录</h1>
+        <p class="intro__lead">共 {{ len (where .Site.RegularPages "Section" "folders") }} 个文件夹，按分享时间倒序排列。可按名称、简介、标签搜索，或按分类筛选。</p>
+
+        <div class="controls">
+          <div class="search">
+            <label class="sr-only" for="q">搜索</label>
+            <input id="q" type="search" placeholder="搜索文件夹名称、简介、标签…" autocomplete="off" spellcheck="false">
+          </div>
+          <div class="filters" role="group" aria-label="分类筛选">
+            <button class="chip is-active" type="button" data-filter="all">全部</button>
+            {{ range $name, $taxonomy := .Site.Taxonomies.categories }}
+            <button class="chip" type="button" data-filter="{{ $name }}">{{ $name }}</button>
+            {{ end }}
+          </div>
+        </div>
+      </section>
+
+      <section aria-label="文件夹列表">
+        <div class="list-head" aria-hidden="true">
+          <span>文件夹 / 简介</span>
+          <span>分类</span>
+          <span>内容</span>
+          <span>更新</span>
+          <span></span>
+        </div>
+        <ul class="list" id="list">
+          {{ range (where .Site.RegularPages "Section" "folders").ByDate.Reverse }}
+          <li class="row" data-category="{{ range (.GetTerms "categories") }}{{ .Title }} {{ end }}" data-search="{{ .Title }} {{ .Description }} {{ with .Params.summary }}{{ . }}{{ end }} {{ range (.GetTerms "categories") }}{{ .Title }} {{ end }} {{ delimit .Params.tags " " }}">
+            <div class="row__main">
+              <div class="row__titleline">
+                <a class="row__name" href="{{ .RelPermalink }}">{{ .Title }}</a>
+                {{ range (.GetTerms "categories") }}<span class="tag">{{ .Title }}</span>{{ end }}
+              </div>
+              <p class="row__desc">{{ with .Params.summary }}{{ . }}{{ else }}{{ .Description }}{{ end }}</p>
+            </div>
+            <div class="row__cat">{{ range (.GetTerms "categories") }}{{ .Title }}{{ end }}</div>
+            <div class="row__meta">
+              {{ with .Params.item_count }}<span class="row__size">{{ . }}</span>{{ end }}
+            </div>
+            <div class="row__date"><time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "2006-01-02" }}</time></div>
+            <div class="row__action">
+              <a class="btn" href="{{ .RelPermalink }}" aria-label="查看 {{ .Title }}">查看 →</a>
+            </div>
+          </li>
+          {{ end }}
+        </ul>
+        <p class="empty" id="empty" hidden>没有匹配的文件夹。换个关键词或分类试试。</p>
+      </section>
+    </main>
+    {{ partial "foot.html" . }}
+  </div>
+  <script src="{{ "js/main.js" | relURL }}" defer></script>
+</body>
+</html>

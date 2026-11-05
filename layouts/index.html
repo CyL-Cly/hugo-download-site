@@ -12,64 +12,13 @@
     {{ partial "head.html" . }}
     <main>
       <section class="intro" aria-labelledby="intro-title">
-        <h1 class="intro__title" id="intro-title">网盘<span class="intro__slash">/</span>索引</h1>
-        <p class="intro__lead">按文件夹整理的分享目录。每个文件夹有独立页面，附简介、截图与网盘链接。</p>
-
-        {{ with .Site.Params.panUrl }}
-        <div class="pan">
-          <span class="pan__label mono">网盘入口</span>
-          <a class="btn btn--pan" href="{{ . }}" target="_blank" rel="noopener noreferrer">打开{{ $.Site.Params.panName }} ↗</a>
-        </div>
-        {{ end }}
-
-        <div class="controls">
-          <div class="search">
-            <label class="sr-only" for="q">搜索</label>
-            <input id="q" type="search" placeholder="搜索文件夹名称、简介、标签…" autocomplete="off" spellcheck="false">
-          </div>
-          <div class="filters" role="group" aria-label="分类筛选">
-            <button class="chip is-active" type="button" data-filter="all">全部</button>
-            {{ range $name, $taxonomy := .Site.Taxonomies.categories }}
-            <button class="chip" type="button" data-filter="{{ $name }}">{{ $name }}</button>
-            {{ end }}
-          </div>
-        </div>
-      </section>
-
-      <section aria-label="文件夹列表">
-        <div class="list-head" aria-hidden="true">
-          <span>文件夹 / 简介</span>
-          <span>分类</span>
-          <span>内容</span>
-          <span>更新</span>
-          <span></span>
-        </div>
-        <ul class="list" id="list">
-          {{ range (where .Site.RegularPages "Section" "folders").ByDate.Reverse }}
-          <li class="row" data-category="{{ range (.GetTerms "categories") }}{{ .Title }} {{ end }}" data-search="{{ .Title }} {{ .Description }} {{ with .Params.summary }}{{ . }}{{ end }} {{ range (.GetTerms "categories") }}{{ .Title }} {{ end }} {{ delimit .Params.tags " " }}">
-            <div class="row__main">
-              <div class="row__titleline">
-                <a class="row__name" href="{{ .RelPermalink }}">{{ .Title }}</a>
-                {{ range (.GetTerms "categories") }}<span class="tag">{{ .Title }}</span>{{ end }}
-              </div>
-              <p class="row__desc">{{ with .Params.summary }}{{ . }}{{ else }}{{ .Description }}{{ end }}</p>
-            </div>
-            <div class="row__cat">{{ range (.GetTerms "categories") }}{{ .Title }}{{ end }}</div>
-            <div class="row__meta">
-              {{ with .Params.item_count }}<span class="row__size">{{ . }}</span>{{ end }}
-            </div>
-            <div class="row__date"><time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "2006-01-02" }}</time></div>
-            <div class="row__action">
-              <a class="btn" href="{{ .RelPermalink }}" aria-label="查看 {{ .Title }}">查看 →</a>
-            </div>
-          </li>
-          {{ end }}
-        </ul>
-        <p class="empty" id="empty" hidden>没有匹配的文件夹。换个关键词或分类试试。</p>
+        <h1 class="intro__title" id="intro-title">资源<span class="intro__slash">/</span>分享站</h1>
+        <p class="intro__lead">这里收录整理自网盘的公开分享资源，按文件夹归档：软件工具、设备与固件、游戏、学习资料、影音媒体等。每条资源附有简介、分类与网盘链接，方便检索与取用。</p>
+        <p class="intro__lead">资源仅供学习与交流使用，请在下载后及时删除；如涉及版权问题，请联系移除。</p>
+        <a class="btn" href="{{ "/index/" | relURL }}">浏览资源目录 →</a>
       </section>
     </main>
     {{ partial "foot.html" . }}
   </div>
-  <script src="{{ "js/main.js" | relURL }}" defer></script>
 </body>
 </html>

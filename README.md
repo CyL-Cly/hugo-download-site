@@ -1,6 +1,6 @@
-# 网盘下载索引（Hugo + 阿里云 ESA Pages）
+# 资源分享站（Hugo + 阿里云 ESA Pages）
 
-用 [Hugo](https://gohugo.io/) 生成的静态下载索引站，托管在阿里云 ESA Pages。
+用 [Hugo](https://gohugo.io/) 生成的静态资源分享站，托管在阿里云 ESA Pages。
 数据源来自 `qsave share ls --json`（夸克网盘账号里的 **215 条有效分享**），每条分享一个独立页面：简介、真实网盘链接、截图位。
 
 - 仓库：https://github.com/CyL-Cly/hugo-download-site （public，`main`）
@@ -8,7 +8,9 @@
 
 ## 页面结构
 
-**首页** `index.html`：夸克网盘总入口 + 215 个文件夹卡片（搜索、分类筛选）。
+**首页** `/`：只有资源分享站介绍（用途、免责声明）与一个「浏览资源目录」入口，不放网盘入口，也不列文件夹。
+
+**资源目录** `/index/`：215 个文件夹列表（搜索、分类筛选）。列表模板在 `layouts/dirlist/list.html`。
 
 **每个文件夹页面** `/folders/<slug>/`：
 
@@ -37,9 +39,10 @@ screenshots:
 | 想改什么 | 编辑哪里 |
 | --- | --- |
 | 某条分享的简介、标题、网盘链接、截图 | `content/folders/<slug>/index.md` 的 front matter |
-| 首页标题、站点名、网盘总入口 | `hugo.toml`（`title` / `params.panUrl` / `params.panName`） |
+| 首页介绍文案 | `layouts/index.html` |
+| 站点名、站点描述 | `hugo.toml`（`title` / `params.description`） |
 | 分类关键词规则 | `tools/category-rules.json` |
-| 列表布局、卡片字段 | `layouts/index.html` |
+| 目录列表布局、卡片字段 | `layouts/dirlist/list.html` |
 | 文件夹页布局 | `layouts/folders/single.html` |
 | 配色 / 字体 / 间距 | `static/css/main.css`（`:root` 设计令牌） |
 | 搜索筛选逻辑 | `static/js/main.js` |
@@ -77,10 +80,12 @@ git push
 ## 目录结构
 
 ```
-hugo.toml                 站点配置（含网盘总入口）
-content/_index.md         首页
+hugo.toml                 站点配置
+content/_index.md         首页（介绍，仅 front matter）
+content/index/_index.md   资源目录页（驱动 /index/）
 content/folders/<slug>/   215 个文件夹页（每条分享一个）
-layouts/index.html        首页模板
+layouts/index.html        首页模板（纯介绍）
+layouts/dirlist/list.html 资源目录模板
 layouts/folders/single.html 文件夹页模板（含截图位）
 layouts/partials/         head / foot
 static/css/main.css       样式

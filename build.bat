@@ -6,7 +6,7 @@ if not exist "%HUGO_EXE%" (
   echo Extract hugo_0.169.0_windows-amd64.zip into .tools\hugo\ first.
   exit /b 1
 )
-"%HUGO_EXE%" --source "%~dp0" --destination "%~dp0public" --minify --cleanDestinationDir
+"%HUGO_EXE%" --source "%~dp0." --destination "%~dp0public" --minify --cleanDestinationDir
 if errorlevel 1 (
   echo Build failed.
   exit /b 1
