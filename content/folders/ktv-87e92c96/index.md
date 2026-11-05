@@ -1,0 +1,21 @@
+---
+title: "KTV"
+date: 2026-04-28
+description: "夸克网盘分享 · 其他"
+summary: "网盘分享资源，来自夸克网盘。 体积 1.7 GB。"
+categories: ["其他"]
+tags: ["夸克"]
+item_count: "1 个文件 · 1.7 GB"
+pan_url: "https://pan.quark.cn/s/c32eb5a57bbb"
+share_id: "87e92c960c7544a5a6b98e88e7c70f82"
+size: "1.7 GB"
+# 想加截图：把图片放进 static/screenshots/，然后取消注释并填 src
+# screenshots:
+#   - caption: "截图说明"
+#     src: "screenshots/xxx.png"
+screenshots:
+  - caption: "文件夹截图（待补充）"
+    src: ""
+---
+
+来自夸克网盘的分享，点击上方按钮打开。

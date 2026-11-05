@@ -1,11 +1,16 @@
 baseURL = "/"
+relativeURLs = true
 locale = "zh-CN"
 title = "DL / INDEX"
 enableRobotsTXT = true
+disableKinds = ["taxonomy", "term"]
 
 [params]
-  description = "软件发布与下载索引"
+  description = "网盘文件夹索引 · 简介与截图"
   author = "CyL-Cly"
+  panName = "夸克网盘"
+  # 首页「网盘入口」总链接；各分享自己的链接在每个文件夹页面的 pan_url 里
+  panUrl = "https://pan.quark.cn/"
 
 [markup.goldmark.renderer]
   unsafe = true

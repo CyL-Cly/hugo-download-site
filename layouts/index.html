@@ -9,75 +9,66 @@
 </head>
 <body>
   <div class="frame">
-    <header class="masthead">
-      <div class="brand">
-        <span class="brand__mark" aria-hidden="true">▚</span>
-        <span class="brand__name">{{ .Site.Title }}</span>
-      </div>
-      <p class="masthead__meta">{{ .Site.Params.description }} · 索引 {{ len hugo.Data.downloads.items }} 项</p>
-    </header>
-
+    {{ partial "head.html" . }}
     <main>
       <section class="intro" aria-labelledby="intro-title">
-        <h1 class="intro__title" id="intro-title">下载<span class="intro__slash">/</span>索引</h1>
-        <p class="intro__lead">软件发布与文件下载目录。点击卡片即可前往发布页，未配置链接的条目仅作展示。</p>
+        <h1 class="intro__title" id="intro-title">网盘<span class="intro__slash">/</span>索引</h1>
+        <p class="intro__lead">按文件夹整理的分享目录。每个文件夹有独立页面，附简介、截图与网盘链接。</p>
+
+        {{ with .Site.Params.panUrl }}
+        <div class="pan">
+          <span class="pan__label mono">网盘入口</span>
+          <a class="btn btn--pan" href="{{ . }}" target="_blank" rel="noopener noreferrer">打开{{ $.Site.Params.panName }} ↗</a>
+        </div>
+        {{ end }}
 
         <div class="controls">
           <div class="search">
             <label class="sr-only" for="q">搜索</label>
-            <input id="q" type="search" placeholder="搜索名称、标签、平台…" autocomplete="off" spellcheck="false">
+            <input id="q" type="search" placeholder="搜索文件夹名称、简介、标签…" autocomplete="off" spellcheck="false">
           </div>
           <div class="filters" role="group" aria-label="分类筛选">
             <button class="chip is-active" type="button" data-filter="all">全部</button>
-            {{ range hugo.Data.downloads.categories }}
-            <button class="chip" type="button" data-filter="{{ .id }}">{{ .label }}</button>
+            {{ range $name, $taxonomy := .Site.Taxonomies.categories }}
+            <button class="chip" type="button" data-filter="{{ $name }}">{{ $name }}</button>
             {{ end }}
           </div>
         </div>
       </section>
 
-      <section aria-label="下载列表">
+      <section aria-label="文件夹列表">
         <div class="list-head" aria-hidden="true">
-          <span>名称 / 说明</span>
-          <span>版本</span>
-          <span>平台 / 体积</span>
-          <span>日期</span>
+          <span>文件夹 / 简介</span>
+          <span>分类</span>
+          <span>内容</span>
+          <span>更新</span>
+          <span></span>
         </div>
         <ul class="list" id="list">
-          {{ range hugo.Data.downloads.items }}
-          <li class="row" data-category="{{ .category }}" data-search="{{ with .name }}{{ . }}{{ end }} {{ with .description }}{{ . }}{{ end }} {{ with .platform }}{{ . }}{{ end }} {{ range .tags }}{{ . }} {{ end }}">
+          {{ range (where .Site.RegularPages "Section" "folders").ByDate.Reverse }}
+          <li class="row" data-category="{{ range (.GetTerms "categories") }}{{ .Title }} {{ end }}" data-search="{{ .Title }} {{ .Description }} {{ with .Params.summary }}{{ . }}{{ end }} {{ range (.GetTerms "categories") }}{{ .Title }} {{ end }} {{ delimit .Params.tags " " }}">
             <div class="row__main">
               <div class="row__titleline">
-                <span class="row__name">{{ .name }}</span>
-                {{ range .tags }}<span class="tag">{{ . }}</span>{{ end }}
+                <a class="row__name" href="{{ .RelPermalink }}">{{ .Title }}</a>
+                {{ range (.GetTerms "categories") }}<span class="tag">{{ .Title }}</span>{{ end }}
               </div>
-              <p class="row__desc">{{ .description }}</p>
+              <p class="row__desc">{{ with .Params.summary }}{{ . }}{{ else }}{{ .Description }}{{ end }}</p>
             </div>
-            <div class="row__version"><span class="mono">{{ .version }}</span></div>
+            <div class="row__cat">{{ range (.GetTerms "categories") }}{{ .Title }}{{ end }}</div>
             <div class="row__meta">
-              <span>{{ .platform }}</span>
-              {{ with .size }}<span class="row__size">{{ . }}</span>{{ end }}
-              {{ with .checksum }}<span class="row__sum mono" title="校验值">{{ . }}</span>{{ end }}
+              {{ with .Params.item_count }}<span class="row__size">{{ . }}</span>{{ end }}
             </div>
-            <div class="row__date"><time datetime="{{ .date }}">{{ .date }}</time></div>
+            <div class="row__date"><time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "2006-01-02" }}</time></div>
             <div class="row__action">
-              {{ if .url }}
-              <a class="btn" href="{{ .url }}" target="_blank" rel="noopener noreferrer" aria-label="下载 {{ .name }}">下载 ↗</a>
-              {{ else }}
-              <span class="btn btn--disabled" aria-disabled="true">未发布</span>
-              {{ end }}
+              <a class="btn" href="{{ .RelPermalink }}" aria-label="查看 {{ .Title }}">查看 →</a>
             </div>
           </li>
           {{ end }}
         </ul>
-        <p class="empty" id="empty" hidden>没有匹配的条目。换个关键词或分类试试。</p>
+        <p class="empty" id="empty" hidden>没有匹配的文件夹。换个关键词或分类试试。</p>
       </section>
     </main>
-
-    <footer class="foot">
-      <span>{{ .Site.Title }} · Built with Hugo · Hosted on ESA Pages</span>
-      <span class="foot__hint">编辑 <code>data/downloads.toml</code> 更新条目</span>
-    </footer>
+    {{ partial "foot.html" . }}
   </div>
   <script src="{{ "js/main.js" | relURL }}" defer></script>
 </body>

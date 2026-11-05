@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.Language.Locale }}">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ .Title }} — {{ .Site.Title }}</title>
+  <meta name="description" content="{{ with .Params.summary }}{{ . }}{{ else }}{{ .Description }}{{ end }}">
+  <link rel="stylesheet" href="{{ "css/main.css" | relURL }}">
+</head>
+<body>
+  <div class="frame">
+    {{ partial "head.html" . }}
+    <main class="folder">
+      <nav class="crumb" aria-label="面包屑">
+        <a href="{{ "/" | relURL }}">首页</a><span aria-hidden="true"> / </span><span>{{ .Title }}</span>
+      </nav>
+
+      <header class="folder__head">
+        <p class="folder__eyebrow mono">FOLDER / {{ range (.GetTerms "categories") }}{{ .Title }}{{ end }}</p>
+        <h1 class="folder__title">{{ .Title }}</h1>
+        {{ with .Params.summary }}<p class="folder__summary">{{ . }}</p>{{ end }}
+        <div class="folder__meta">
+          {{ with .Params.item_count }}<span class="mono">{{ . }}</span>{{ end }}
+          <span class="mono">更新 {{ .Date.Format "2006-01-02" }}</span>
+          {{ range .Params.tags }}<span class="tag">{{ . }}</span>{{ end }}
+        </div>
+        {{ with .Params.pan_url }}
+        <a class="btn btn--pan" href="{{ . }}" target="_blank" rel="noopener noreferrer">打开网盘文件夹 ↗</a>
+        {{ else }}
+        <span class="btn btn--disabled" aria-disabled="true">网盘链接未配置</span>
+        {{ end }}
+      </header>
+
+      {{ with .Content }}
+      <article class="prose">{{ . }}</article>
+      {{ end }}
+
+      <section class="shots" aria-labelledby="shots-title">
+        <h2 class="section__title" id="shots-title">截图</h2>
+        {{ if .Params.screenshots }}
+        <div class="shots__grid">
+          {{ range $i, $s := .Params.screenshots }}
+          <figure class="shot">
+            {{ with $s.src }}
+            <a class="shot__link" href="{{ . | relURL }}" target="_blank" rel="noopener noreferrer" aria-label="查看大图：{{ $s.caption }}">
+              <img class="shot__img" src="{{ . | relURL }}" alt="{{ $s.caption }}" loading="lazy">
+            </a>
+            {{ else }}
+            <div class="shot__placeholder" role="img" aria-label="截图占位：{{ $s.caption }}">
+              <span class="shot__placeholder-mark mono">SCREENSHOT / {{ add $i 1 }}</span>
+              <span class="shot__placeholder-hint">把图片放到 static/screenshots/ 并填写 src</span>
+            </div>
+            {{ end }}
+            <figcaption class="shot__cap">{{ $s.caption }}</figcaption>
+          </figure>
+          {{ end }}
+        </div>
+        {{ else }}
+        <p class="shots__empty">暂无截图条目。在下方 <code>screenshots</code> 里加一项即可留出位置。</p>
+        {{ end }}
+      </section>
+    </main>
+    {{ partial "foot.html" . }}
+  </div>
+</body>
+</html>
