@@ -192,8 +192,17 @@ def build_md_sitemap_xml(base, pages):
 
 
 def write(path, lines):
+    """Write UTF-8. Plain-text artifacts (.txt/.md) get a BOM so browsers
+    decode them as UTF-8 even when ESA serves them without a charset in
+    Content-Type (ESA returns `text/plain` / `text/markdown` bare).
+
+    The authoritative fix is still the ESA response-header rule documented in
+    README (adds `charset=utf-8` for LLM crawlers that obey Content-Type).
+    XML files keep their XML encoding declaration and must NOT get a BOM.
+    """
     os.makedirs(os.path.dirname(path), exist_ok=True)
-    with open(path, "w", encoding="utf-8", newline="\n") as f:
+    encoding = "utf-8-sig" if path.endswith((".txt", ".md")) else "utf-8"
+    with open(path, "w", encoding=encoding, newline="\n") as f:
         f.write("\n".join(lines).rstrip("\n") + "\n")
 
 

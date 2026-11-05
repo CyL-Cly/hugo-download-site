@@ -1,4 +1,4 @@
----
+﻿---
 title: "LabelNova条码标签排版打印工具"
 date: 2026-04-25
 description: "夸克网盘分享 · 软件工具"

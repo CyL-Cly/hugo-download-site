@@ -1,4 +1,4 @@
----
+﻿---
 title: "资源目录"
 description: "DL / INDEX 全部 215 条资源的 Markdown 目录。"
 canonical: https://public.dagongren.tech/index/

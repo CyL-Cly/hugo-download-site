@@ -146,6 +146,20 @@ git push
 
 **隐私一致性**：`data/mobile_apps.json` 里的手机版软件在 HTML 页只给二维码；`gen_geo.py` 同样不会把 `pan_url` 写进任何 Markdown 镜像或 `llms-full.txt`。
 
+### 中文编码 / Content-Type（ESA 控制台需配一次）
+
+`llms.txt`、`llms-full.txt`、`sitemap.md`、各 `index.md` 都是合法 UTF-8，但 ESA Pages 默认把 `.txt` 返回成 `Content-Type: text/plain`、`.md` 返回成 `text/markdown`，**都不带 `charset`**。浏览器按 Latin-1 解码就会显示成 `èµæº...` 乱码；文件本身没问题。
+
+- `gen_geo.py` 给所有 `.txt` / `.md` 产物写了 UTF-8 BOM，浏览器据此自动按 UTF-8 解码（push 部署后即生效）。BOM 只影响浏览器嗅探，**不改变 HTTP 响应头**。
+- 要让所有客户端（尤其是按 `Content-Type` 解码的 LLM 抓取器）都正确，需在 ESA 控制台配一次「修改响应头」：**站点管理 → 规则 → 转换规则 → 修改响应头 → ESA到客户端 → 新增规则**。
+
+| 规则 | 匹配条件（表达式） | 操作 | 响应头名称 | 响应头值 |
+| --- | --- | --- | --- | --- |
+| 1 | `(http.request.uri.path.extension in {"txt"})` | 添加（静态） | `Content-Type` | `text/plain; charset=utf-8` |
+| 2 | `(http.request.uri.path.extension in {"md"})` | 添加（静态） | `Content-Type` | `text/markdown; charset=utf-8` |
+
+若套餐不支持 `extension` 字段，用「URI 路径 与正则表达式匹配」：`(?i)\.txt$` / `(?i)\.md$`，即 `(http.request.uri.path matches "\.txt$")`。配置生效后用 `curl -I https://<域名>/llms.txt` 应看到 `Content-Type: text/plain; charset=utf-8`。
+
 IndexNow 读取 `sitemap.xml` + `sitemap-md.xml`，把 HTML 页与 Markdown 镜像一起去重后提交给 Bing。验证文件要求域名下可访问，所以**第一次部署（或换域名）后**提交会返回
 `403 SiteVerificationNotCompleted`。等 ESA 部署完成再补交一次即可：
 

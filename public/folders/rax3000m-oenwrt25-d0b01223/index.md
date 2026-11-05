@@ -1,4 +1,4 @@
----
+﻿---
 title: "RAX3000M编译oenwrt25"
 date: 2026-03-29
 description: "夸克网盘分享 · 设备与固件"
