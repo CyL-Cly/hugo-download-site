@@ -2,20 +2,13 @@
 title: "DDU"
 date: 2026-04-09
 description: "夸克网盘分享 · 软件工具"
-summary: "软件工具与安装包，来自夸克网盘分享。 体积 5.8 MB。"
+summary: "DDU 显卡驱动清理工具，5.8 MB，重装驱动或换显卡前用来清掉旧驱动残留。"
 categories: ["软件工具"]
 tags: ["夸克"]
 item_count: "1 个文件 · 5.8 MB"
 pan_url: "https://pan.quark.cn/s/75e467e8b1ab"
 share_id: "f9b23edc27244533803e6a3dd8eddbb4"
 size: "5.8 MB"
-# 想加截图：把图片放进 static/screenshots/，然后取消注释并填 src
-# screenshots:
-#   - caption: "截图说明"
-#     src: "screenshots/xxx.png"
-screenshots:
-  - caption: "文件夹截图（待补充）"
-    src: ""
 ---
 
-来自夸克网盘的分享，点击上方按钮打开。
+Display Driver Uninstaller 的简称，作用是彻底清掉显卡驱动和残留文件，约 5.8 MB。换卡、升级驱动后花屏或者装不上新驱动时，进安全模式跑一遍往往能解决问题。

@@ -2,20 +2,13 @@
 title: "比特彗星安卓版下载"
 date: 2026-04-13
 description: "夸克网盘分享 · 软件工具"
-summary: "软件工具与安装包，来自夸克网盘分享。 体积 26.8 MB。"
+summary: "比特彗星的安卓客户端，手机端也能挂种子下载和做种，体积不到 30 MB。"
 categories: ["软件工具"]
 tags: ["夸克"]
 item_count: "1 个文件 · 26.8 MB"
 pan_url: "https://pan.quark.cn/s/c77546eea4e7"
 share_id: "719cf3a72be9482a975ca9a26867b91f"
 size: "26.8 MB"
-# 想加截图：把图片放进 static/screenshots/，然后取消注释并填 src
-# screenshots:
-#   - caption: "截图说明"
-#     src: "screenshots/xxx.png"
-screenshots:
-  - caption: "文件夹截图（待补充）"
-    src: ""
 ---
 
-来自夸克网盘的分享，点击上方按钮打开。
+平时在电脑上用比特彗星的人，可以在手机上装同款，继续查看 BT 任务和下载进度。适合常下大文件、又不想专门开电脑的用户，安装包轻巧，对存储空间的占用很小。

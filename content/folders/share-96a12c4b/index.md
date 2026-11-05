@@ -2,20 +2,13 @@
 title: "识质存在修改"
 date: 2026-04-22
 description: "夸克网盘分享 · 其他"
-summary: "网盘分享资源，来自夸克网盘。 体积 23.3 MB。"
+summary: "某款游戏的修改工具，约 23 MB，对应的是哪一款游戏、版本是否匹配需自行核对。"
 categories: ["其他"]
 tags: ["夸克"]
 item_count: "1 个文件 · 23.3 MB"
 pan_url: "https://pan.quark.cn/s/fe30d6b81260"
 share_id: "96a12c4b5391467380ba2fad63f842b3"
 size: "23.3 MB"
-# 想加截图：把图片放进 static/screenshots/，然后取消注释并填 src
-# screenshots:
-#   - caption: "截图说明"
-#     src: "screenshots/xxx.png"
-screenshots:
-  - caption: "文件夹截图（待补充）"
-    src: ""
 ---
 
-来自夸克网盘的分享，点击上方按钮打开。
+没有附带更多说明，只能推测是给同名游戏准备的修改文件，体积 23.3 MB 落在常见修改器的范围内。建议先弄清楚对应的是哪一款游戏、版本是否匹配，再决定要不要装。

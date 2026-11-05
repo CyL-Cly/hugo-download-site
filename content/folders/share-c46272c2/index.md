@@ -2,20 +2,13 @@
 title: "野草助手"
 date: 2026-05-24
 description: "夸克网盘分享 · 其他"
-summary: "网盘分享资源，来自夸克网盘。 体积 未知。"
+summary: "名为「野草助手」的一份分享，体积未标注，具体用途要打开后自行判断。"
 categories: ["其他"]
 tags: ["夸克"]
 item_count: "1 个文件 · 未知"
 pan_url: "https://pan.quark.cn/s/853a5bb44564"
 share_id: "c46272c2a17941e5937c3fb99a1510a3"
 size: "未知"
-# 想加截图：把图片放进 static/screenshots/，然后取消注释并填 src
-# screenshots:
-#   - caption: "截图说明"
-#     src: "screenshots/xxx.png"
-screenshots:
-  - caption: "文件夹截图（待补充）"
-    src: ""
 ---
 
-来自夸克网盘的分享，点击上方按钮打开。
+从名字看像是一个辅助类的小工具，但没有大小、版本这些信息，判断不出它的功能范围。适合先存下来试装，运行前留意来源和权限请求，不确定的话别急着授予敏感权限。

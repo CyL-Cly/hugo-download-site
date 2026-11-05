@@ -2,20 +2,13 @@
 title: "3DMark"
 date: 2026-04-25
 description: "夸克网盘分享 · 软件工具"
-summary: "软件工具与安装包，来自夸克网盘分享。 体积 183.2 MB。"
+summary: "3DMark 显卡性能基准测试工具，183 MB 的安装包，装机后验证显卡、对比跑分时常用。"
 categories: ["软件工具"]
 tags: ["夸克"]
 item_count: "1 个文件 · 183.2 MB"
 pan_url: "https://pan.quark.cn/s/41a13da12fba"
 share_id: "5ada8768a2d44a1ba6d65f77a09eef19"
 size: "183.2 MB"
-# 想加截图：把图片放进 static/screenshots/，然后取消注释并填 src
-# screenshots:
-#   - caption: "截图说明"
-#     src: "screenshots/xxx.png"
-screenshots:
-  - caption: "文件夹截图（待补充）"
-    src: ""
 ---
 
-来自夸克网盘的分享，点击上方按钮打开。
+3DMark 是常用的图形性能基准测试软件，这份安装包约 183 MB。装机后想验证显卡是否发挥正常，或者换散热、超频前后做对比，都可以用它跑一遍固定场景看分数变化。

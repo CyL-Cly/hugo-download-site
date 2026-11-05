@@ -2,20 +2,13 @@
 title: "Obsidian 1.15.0"
 date: 2026-11-02
 description: "夸克网盘分享 · 软件工具"
-summary: "软件工具与安装包，来自夸克网盘分享。 体积 323.9 MB。"
+summary: "Obsidian 1.15.0 本地笔记软件，323 MB 的安装包，用双链和标签把零散笔记串成知识网"
 categories: ["软件工具"]
 tags: ["夸克"]
 item_count: "1 个文件 · 323.9 MB"
 pan_url: "https://pan.quark.cn/s/7c354ad2eb4b"
 share_id: "d52f2709ea07488786da6beeed3c2580"
 size: "323.9 MB"
-# 想加截图：把图片放进 static/screenshots/，然后取消注释并填 src
-# screenshots:
-#   - caption: "截图说明"
-#     src: "screenshots/xxx.png"
-screenshots:
-  - caption: "文件夹截图（待补充）"
-    src: ""
 ---
 
-来自夸克网盘的分享，点击上方按钮打开。
+Obsidian 把笔记存成 Markdown 文件放在本地，靠双链和标签把零散内容串成知识网。1.15.0 是版本号，323 MB 大致是桌面端安装包，适合想长期积累资料、又在意数据留在自己手上的人。

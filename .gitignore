@@ -3,4 +3,7 @@ resources/_gen/
 .tools/
 .tmp-*.json
 .tmp-*.err
+.tmp-gentest/
+tools/intros/
+tools/__pycache__/
 .DS_Store

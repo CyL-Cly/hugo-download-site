@@ -2,20 +2,13 @@
 title: "哔哩哔哩国际版"
 date: 2026-08-25
 description: "夸克网盘分享 · 软件工具"
-summary: "软件工具与安装包，来自夸克网盘分享。 体积 385.2 MB。"
+summary: "哔哩哔哩面向海外用户的国际版客户端，界面与内容分区跟国内版略有不同。"
 categories: ["软件工具"]
 tags: ["夸克"]
 item_count: "1 个文件 · 385.2 MB"
 pan_url: "https://pan.quark.cn/s/d00856867e2d"
 share_id: "66e0c06842944292b29bb40aa7f8a8cf"
 size: "385.2 MB"
-# 想加截图：把图片放进 static/screenshots/，然后取消注释并填 src
-# screenshots:
-#   - caption: "截图说明"
-#     src: "screenshots/xxx.png"
-screenshots:
-  - caption: "文件夹截图（待补充）"
-    src: ""
 ---
 
-来自夸克网盘的分享，点击上方按钮打开。
+装好之后照样能刷视频、看番剧和进直播间，国际版在账号体系和内容推荐上与国内版存在差别。接近 400 MB 的安装包在同类应用里算中等，适合想在手机上换个版本使用的用户。

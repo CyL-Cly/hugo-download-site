@@ -16,7 +16,7 @@
       </nav>
 
       <header class="folder__head">
-        <p class="folder__eyebrow mono">FOLDER / {{ range (.GetTerms "categories") }}{{ .Title }}{{ end }}</p>
+        {{ with .Params.categories }}<p class="folder__eyebrow mono">FOLDER / {{ delimit . " / " }}</p>{{ end }}
         <h1 class="folder__title">{{ .Title }}</h1>
         {{ with .Params.summary }}<p class="folder__summary">{{ . }}</p>{{ end }}
         <div class="folder__meta">
@@ -35,30 +35,22 @@
       <article class="prose">{{ . }}</article>
       {{ end }}
 
+      {{ $real := where (.Params.screenshots | default slice) "src" "!=" "" }}
+      {{ with $real }}
       <section class="shots" aria-labelledby="shots-title">
         <h2 class="section__title" id="shots-title">截图</h2>
-        {{ if .Params.screenshots }}
         <div class="shots__grid">
-          {{ range $i, $s := .Params.screenshots }}
+          {{ range $s := . }}
           <figure class="shot">
-            {{ with $s.src }}
-            <a class="shot__link" href="{{ . | relURL }}" target="_blank" rel="noopener noreferrer" aria-label="查看大图：{{ $s.caption }}">
-              <img class="shot__img" src="{{ . | relURL }}" alt="{{ $s.caption }}" loading="lazy">
+            <a class="shot__link" href="{{ $s.src | relURL }}" target="_blank" rel="noopener noreferrer" aria-label="查看大图{{ with $s.caption }}：{{ . }}{{ end }}">
+              <img class="shot__img" src="{{ $s.src | relURL }}" alt="{{ $s.caption }}" loading="lazy">
             </a>
-            {{ else }}
-            <div class="shot__placeholder" role="img" aria-label="截图占位：{{ $s.caption }}">
-              <span class="shot__placeholder-mark mono">SCREENSHOT / {{ add $i 1 }}</span>
-              <span class="shot__placeholder-hint">把图片放到 static/screenshots/ 并填写 src</span>
-            </div>
-            {{ end }}
-            <figcaption class="shot__cap">{{ $s.caption }}</figcaption>
+            {{ with $s.caption }}<figcaption class="shot__cap">{{ . }}</figcaption>{{ end }}
           </figure>
           {{ end }}
         </div>
-        {{ else }}
-        <p class="shots__empty">暂无截图条目。在下方 <code>screenshots</code> 里加一项即可留出位置。</p>
-        {{ end }}
       </section>
+      {{ end }}
     </main>
     {{ partial "foot.html" . }}
   </div>

@@ -18,6 +18,10 @@ import datetime
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 CATEGORY_RULES = os.path.join(ROOT, "tools", "category-rules.json")
 OUT_DIR = os.path.join(ROOT, "content", "folders")
+INTROS = os.path.join(ROOT, "tools", "intros.json")
+
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from apply_intros import real_screenshots  # noqa: E402
 
 CATEGORIES = ["软件工具", "设备与固件", "游戏与修改器", "学习资料", "影音媒体", "其他"]
 
@@ -53,7 +57,8 @@ def iso_date(ms):
     if not ms:
         return "2026-01-01"
     try:
-        return datetime.datetime.utcfromtimestamp(ms / 1000).strftime("%Y-%m-%d")
+        return datetime.datetime.fromtimestamp(
+            ms / 1000, datetime.timezone.utc).strftime("%Y-%m-%d")
     except (ValueError, OSError, OverflowError):
         return "2026-01-01"
 
@@ -93,10 +98,19 @@ def summary_for(it, cat, size):
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--input", required=True)
+    ap.add_argument("--out", default=OUT_DIR, help="target dir (default: content/folders)")
     ap.add_argument("--active-only", action="store_true", default=True)
     args = ap.parse_args()
+    out_dir = args.out
 
     rules = load_rules()
+    intro_map = {}
+    if os.path.exists(INTROS):
+        with open(INTROS, "r", encoding="utf-8") as f:
+            intro_map = json.load(f)
+        print("loaded %d intros from tools/intros.json" % len(intro_map))
+    else:
+        print("WARNING: tools/intros.json not found, falling back to generic text")
     with open(args.input, "rb") as f:
         data = f.read()
     if data.startswith(b"\xff\xfe") or data.startswith(b"\xfe\xff"):
@@ -119,14 +133,14 @@ def main():
     uniq = list(seen.values())
     uniq.sort(key=lambda x: x.get("created", 0), reverse=True)
 
-    if os.path.isdir(OUT_DIR):
-        for name in os.listdir(OUT_DIR):
-            p = os.path.join(OUT_DIR, name)
+    if os.path.isdir(out_dir):
+        for name in os.listdir(out_dir):
+            p = os.path.join(out_dir, name)
             if os.path.isdir(p):
                 for f in os.listdir(p):
                     os.remove(os.path.join(p, f))
                 os.rmdir(p)
-    os.makedirs(OUT_DIR, exist_ok=True)
+    os.makedirs(out_dir, exist_ok=True)
 
     counts = {}
     for it in uniq:
@@ -134,19 +148,27 @@ def main():
         cat = categorize(title, rules)
         size = human_size(it.get("size", 0))
         slug = slugify(title, it.get("shareId", ""))
-        folder = os.path.join(OUT_DIR, slug)
+        folder = os.path.join(out_dir, slug)
         os.makedirs(folder, exist_ok=True)
         existing = os.path.join(folder, "index.md")
         custom_summary = ""
-        custom_screenshots = None
+        custom_shots = []
         if os.path.exists(existing):
             txt = open(existing, "r", encoding="utf-8").read()
             m = re.search(r"^summary:\s*(.+)$", txt, re.M)
             if m:
                 custom_summary = m.group(1).strip().strip('"')
-            m2 = re.search(r"^# screenshots:\n((?:\s+.*\n)+)", txt, re.M)
-            # screenshots are kept as-is by default (placeholders)
-        summary = custom_summary or summary_for(it, cat, size)
+            custom_shots = real_screenshots(txt)
+        preset = (intro_map.get(it.get("shareId", "")) or {})
+        default_summary = summary_for(it, cat, size)
+        preset_summary = preset.get("summary", "")
+        # A summary that differs from both the generator default and the copy in
+        # intros.json was edited by hand -> keep it.
+        if custom_summary and custom_summary not in (default_summary, preset_summary):
+            summary = custom_summary
+        else:
+            summary = preset_summary or default_summary
+        body = preset.get("intro") or summary
         date = iso_date(it.get("created"))
         url = it.get("url", "")
         file_num = it.get("fileNum", 1)
@@ -162,18 +184,13 @@ def main():
             "pan_url: %s" % yaml_str(url),
             "share_id: %s" % yaml_str(it.get("shareId", "")),
             "size: %s" % yaml_str(size),
-            "# 想加截图：把图片放进 static/screenshots/，然后取消注释并填 src",
-            "# screenshots:",
-            "#   - caption: \"截图说明\"",
-            "#     src: \"screenshots/xxx.png\"",
-            "screenshots:",
-            "  - caption: \"文件夹截图（待补充）\"",
-            "    src: \"\"",
-            "---",
-            "",
-            "来自夸克网盘的分享，点击上方按钮打开。",
-            "",
         ]
+        if custom_shots:
+            lines.append("screenshots:")
+            for s in custom_shots:
+                lines.append("  - caption: %s" % yaml_str(s.get("caption", "")))
+                lines.append("    src: %s" % yaml_str(s["src"]))
+        lines += ["---", "", body.strip(), ""]
         with open(os.path.join(folder, "index.md"), "w", encoding="utf-8", newline="\n") as f:
             f.write("\n".join(lines))
         counts[cat] = counts.get(cat, 0) + 1

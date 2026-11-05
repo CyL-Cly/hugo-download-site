@@ -2,20 +2,13 @@
 title: "Motrix"
 date: 2026-04-12
 description: "夸克网盘分享 · 软件工具"
-summary: "软件工具与安装包，来自夸克网盘分享。 体积 303.8 MB。"
+summary: "Motrix 是开源下载管理器，能同时跑 HTTP、BT 种子和磁力任务，界面干净不弹广告"
 categories: ["软件工具"]
 tags: ["夸克"]
 item_count: "1 个文件 · 303.8 MB"
 pan_url: "https://pan.quark.cn/s/3a111e5a10b0"
 share_id: "8e0fe20ce1da458ca208f0e3862b2037"
 size: "303.8 MB"
-# 想加截图：把图片放进 static/screenshots/，然后取消注释并填 src
-# screenshots:
-#   - caption: "截图说明"
-#     src: "screenshots/xxx.png"
-screenshots:
-  - caption: "文件夹截图（待补充）"
-    src: ""
 ---
 
-来自夸克网盘的分享，点击上方按钮打开。
+Motrix 是开源的下载管理器，界面干净，能同时处理 HTTP、FTP、BT 种子和磁力任务。303 MB 的体积在下载器里算大，可能是带了 Electron 运行环境的完整包，适合不喜欢广告弹窗的人。

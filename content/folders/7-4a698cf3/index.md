@@ -2,20 +2,13 @@
 title: "一加7"
 date: 2026-10-19
 description: "夸克网盘分享 · 设备与固件"
-summary: "设备相关资源（固件 / 刷机包 / 系统镜像），来自夸克网盘分享。 体积 8.7 GB。"
+summary: "一加 7 的系统固件资源，单个文件 8.7 GB，从体积看应该是完整的刷机包。"
 categories: ["设备与固件"]
 tags: ["夸克"]
 item_count: "1 个文件 · 8.7 GB"
 pan_url: "https://pan.quark.cn/s/a48a8f39d886"
 share_id: "4a698cf338d14610945610366eb2226f"
 size: "8.7 GB"
-# 想加截图：把图片放进 static/screenshots/，然后取消注释并填 src
-# screenshots:
-#   - caption: "截图说明"
-#     src: "screenshots/xxx.png"
-screenshots:
-  - caption: "文件夹截图（待补充）"
-    src: ""
 ---
 
-来自夸克网盘的分享，点击上方按钮打开。
+以一加 7 为标题的固件分享，文件体积 8.7 GB，按这个大小判断大概率是整包系统镜像而非增量更新。适合需要重装系统、或者想把手机回退到官方版本的用户，刷之前务必确认机型代号对得上。

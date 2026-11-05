@@ -2,20 +2,13 @@
 title: "Juicessh"
 date: 2026-04-27
 description: "夸克网盘分享 · 其他"
-summary: "网盘分享资源，来自夸克网盘。 体积 80.9 MB。"
+summary: "JuiceSSH 是安卓手机上的 SSH 与终端客户端，80.9 MB 的包，能连服务器敲命令、传文件"
 categories: ["其他"]
 tags: ["夸克"]
 item_count: "1 个文件 · 80.9 MB"
 pan_url: "https://pan.quark.cn/s/01c9f71229b8"
 share_id: "95485ad3c1594c01b150ea6f8f8908f4"
 size: "80.9 MB"
-# 想加截图：把图片放进 static/screenshots/，然后取消注释并填 src
-# screenshots:
-#   - caption: "截图说明"
-#     src: "screenshots/xxx.png"
-screenshots:
-  - caption: "文件夹截图（待补充）"
-    src: ""
 ---
 
-来自夸克网盘的分享，点击上方按钮打开。
+JuiceSSH 是安卓平台常用的 SSH 工具，能连服务器敲命令、传文件，也支持密钥认证。80.9 MB 的安装包在终端类应用里不算小，适合需要随时随地登上 VPS 处理事情的运维和开发者。

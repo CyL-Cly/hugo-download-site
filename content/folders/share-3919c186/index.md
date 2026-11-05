@@ -2,20 +2,13 @@
 title: "电视"
 date: 2026-05-05
 description: "夸克网盘分享 · 其他"
-summary: "网盘分享资源，来自夸克网盘。 体积 523.9 MB。"
+summary: "标注为「电视」的 523.9 MB 分享，可能是电视端应用，也可能是影视资源，需看文件才能确定。"
 categories: ["其他"]
 tags: ["夸克"]
 item_count: "1 个文件 · 523.9 MB"
 pan_url: "https://pan.quark.cn/s/d0bf83391c78"
 share_id: "3919c186b97e4ef3944c79f847e6d09d"
 size: "523.9 MB"
-# 想加截图：把图片放进 static/screenshots/，然后取消注释并填 src
-# screenshots:
-#   - caption: "截图说明"
-#     src: "screenshots/xxx.png"
-screenshots:
-  - caption: "文件夹截图（待补充）"
-    src: ""
 ---
 
-来自夸克网盘的分享，点击上方按钮打开。
+原始标题就两个字：电视。523.9 MB 的体积，既可能是电视端应用的安装包，也可能是影视资源，线索太少不好判断。拿到文件之后先看看扩展名和名称，再决定怎么用。

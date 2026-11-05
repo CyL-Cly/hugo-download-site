@@ -2,20 +2,13 @@
 title: "文档工具"
 date: 2026-10-27
 description: "夸克网盘分享 · 软件工具"
-summary: "软件工具与安装包，来自夸克网盘分享。 体积 未知。"
+summary: "文档处理类软件，体积未知，具体是哪一款要打开文件才知道。"
 categories: ["软件工具"]
 tags: ["夸克"]
 item_count: "1 个文件 · 未知"
 pan_url: "https://pan.quark.cn/s/8b5699e02638"
 share_id: "5531117a3eb54b59b0a748d27925997d"
 size: "未知"
-# 想加截图：把图片放进 static/screenshots/，然后取消注释并填 src
-# screenshots:
-#   - caption: "截图说明"
-#     src: "screenshots/xxx.png"
-screenshots:
-  - caption: "文件夹截图（待补充）"
-    src: ""
 ---
 
-来自夸克网盘的分享，点击上方按钮打开。
+分享的标题只写了文档工具，没有给出具体软件名，体积也显示未知。按分类推测，应该和文档的编辑、转换或者阅读有关，用之前先打开看看是哪款程序，再做判断。

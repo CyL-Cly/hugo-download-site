@@ -22,8 +22,11 @@
           </div>
           <div class="filters" role="group" aria-label="分类筛选">
             <button class="chip is-active" type="button" data-filter="all">全部</button>
-            {{ range $name, $taxonomy := .Site.Taxonomies.categories }}
-            <button class="chip" type="button" data-filter="{{ $name }}">{{ $name }}</button>
+            {{ $all := where .Site.RegularPages "Section" "folders" }}
+            {{ $cats := slice }}
+            {{ range $all }}{{ range .Params.categories }}{{ $cats = $cats | append . }}{{ end }}{{ end }}
+            {{ range sort (uniq $cats) }}
+            <button class="chip" type="button" data-filter="{{ . }}">{{ . }}</button>
             {{ end }}
           </div>
         </div>
@@ -39,15 +42,15 @@
         </div>
         <ul class="list" id="list">
           {{ range (where .Site.RegularPages "Section" "folders").ByDate.Reverse }}
-          <li class="row" data-category="{{ range (.GetTerms "categories") }}{{ .Title }} {{ end }}" data-search="{{ .Title }} {{ .Description }} {{ with .Params.summary }}{{ . }}{{ end }} {{ range (.GetTerms "categories") }}{{ .Title }} {{ end }} {{ delimit .Params.tags " " }}">
+          <li class="row" data-category="{{ delimit .Params.categories " " }}" data-search="{{ .Title }} {{ .Description }} {{ with .Params.summary }}{{ . }}{{ end }} {{ delimit .Params.categories " " }} {{ delimit .Params.tags " " }}">
             <div class="row__main">
               <div class="row__titleline">
                 <a class="row__name" href="{{ .RelPermalink }}">{{ .Title }}</a>
-                {{ range (.GetTerms "categories") }}<span class="tag">{{ .Title }}</span>{{ end }}
+                {{ range .Params.categories }}<span class="tag">{{ . }}</span>{{ end }}
               </div>
               <p class="row__desc">{{ with .Params.summary }}{{ . }}{{ else }}{{ .Description }}{{ end }}</p>
             </div>
-            <div class="row__cat">{{ range (.GetTerms "categories") }}{{ .Title }}{{ end }}</div>
+            <div class="row__cat">{{ delimit .Params.categories " / " }}</div>
             <div class="row__meta">
               {{ with .Params.item_count }}<span class="row__size">{{ . }}</span>{{ end }}
             </div>

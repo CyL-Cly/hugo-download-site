@@ -2,20 +2,13 @@
 title: "电子课本下载工具"
 date: 2026-09-27
 description: "夸克网盘分享 · 学习资料"
-summary: "学习资料与文档合集，来自夸克网盘分享。 体积 24.4 MB。"
+summary: "电子课本下载工具，24.4 MB，把中小学教材的电子版存到本地看。"
 categories: ["学习资料"]
 tags: ["夸克"]
 item_count: "1 个文件 · 24.4 MB"
 pan_url: "https://pan.quark.cn/s/b0a35d22c89a"
 share_id: "1e060b1d878948b0a6d1bd9eac5ab162"
 size: "24.4 MB"
-# 想加截图：把图片放进 static/screenshots/，然后取消注释并填 src
-# screenshots:
-#   - caption: "截图说明"
-#     src: "screenshots/xxx.png"
-screenshots:
-  - caption: "文件夹截图（待补充）"
-    src: ""
 ---
 
-来自夸克网盘的分享，点击上方按钮打开。
+一个专门用来下载电子课本的小工具，24.4 MB，中小学各科教材的电子版可以借助它存下来。给孩子预习复习，或者老师备课找教材的时候都比较省事。

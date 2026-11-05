@@ -2,20 +2,13 @@
 title: "Putty"
 date: 2026-04-13
 description: "夸克网盘分享 · 软件工具"
-summary: "软件工具与安装包，来自夸克网盘分享。 体积 81.8 MB。"
+summary: "PuTTY 终端工具安装包，81.8 MB，用来连 SSH、开串口调设备。"
 categories: ["软件工具"]
 tags: ["夸克"]
 item_count: "1 个文件 · 81.8 MB"
 pan_url: "https://pan.quark.cn/s/92e9ae321727"
 share_id: "ce1591b0414e4d9eb06902122dcaf3ef"
 size: "81.8 MB"
-# 想加截图：把图片放进 static/screenshots/，然后取消注释并填 src
-# screenshots:
-#   - caption: "截图说明"
-#     src: "screenshots/xxx.png"
-screenshots:
-  - caption: "文件夹截图（待补充）"
-    src: ""
 ---
 
-来自夸克网盘的分享，点击上方按钮打开。
+PuTTY 是 Windows 上常见的 SSH、Telnet 和串口客户端，连服务器、调路由器和开发板都靠它。这个包 81.8 MB，比单个可执行文件大，应该是带上了配套组件的版本。

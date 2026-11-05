@@ -2,20 +2,13 @@
 title: "一加OnePlus Pad Pro"
 date: 2026-10-19
 description: "夸克网盘分享 · 设备与固件"
-summary: "设备相关资源（固件 / 刷机包 / 系统镜像），来自夸克网盘分享。 体积 380.7 GB。"
+summary: "一加 Pad Pro 的固件合集，380.7 GB 集中在一个文件里，属于典型的大体积资源。"
 categories: ["设备与固件"]
 tags: ["夸克"]
 item_count: "1 个文件 · 380.7 GB"
 pan_url: "https://pan.quark.cn/s/a186f8a6bb03"
 share_id: "eb8bfd1314bd48dfb90ff43e44f5b232"
 size: "380.7 GB"
-# 想加截图：把图片放进 static/screenshots/，然后取消注释并填 src
-# screenshots:
-#   - caption: "截图说明"
-#     src: "screenshots/xxx.png"
-screenshots:
-  - caption: "文件夹截图（待补充）"
-    src: ""
 ---
 
-来自夸克网盘的分享，点击上方按钮打开。
+一加 Pad Pro 对应的固件内容，380.7 GB 装在同一个文件里。体积摆在这，下载之前先看看硬盘余量和网速够不够用，适合需要完整系统资源的平板用户。

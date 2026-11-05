@@ -2,20 +2,13 @@
 title: "一加OnePlus Open"
 date: 2026-10-19
 description: "夸克网盘分享 · 设备与固件"
-summary: "设备相关资源（固件 / 刷机包 / 系统镜像），来自夸克网盘分享。 体积 106.0 GB。"
+summary: "折叠屏机型 OnePlus Open 的固件包，106.0 GB 单个文件，重装系统或修复故障时取用。"
 categories: ["设备与固件"]
 tags: ["夸克"]
 item_count: "1 个文件 · 106.0 GB"
 pan_url: "https://pan.quark.cn/s/762d85af9c38"
 share_id: "322893b027264f09974063ed037b81c0"
 size: "106.0 GB"
-# 想加截图：把图片放进 static/screenshots/，然后取消注释并填 src
-# screenshots:
-#   - caption: "截图说明"
-#     src: "screenshots/xxx.png"
-screenshots:
-  - caption: "文件夹截图（待补充）"
-    src: ""
 ---
 
-来自夸克网盘的分享，点击上方按钮打开。
+OnePlus Open 是一加的折叠屏机型，这份固件单文件 106.0 GB。折叠屏刷机风险相对高一些，操作前把资料备份好，确认固件和机型、版本都对得上再动手。

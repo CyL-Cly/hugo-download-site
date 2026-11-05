@@ -2,20 +2,13 @@
 title: "smart dock安卓"
 date: 2026-05-03
 description: "夸克网盘分享 · 软件工具"
-summary: "软件工具与安装包，来自夸克网盘分享。 体积 11.8 MB。"
+summary: "Smart Dock 安卓版，把手机接上外接屏后切换成桌面式的操作界面。"
 categories: ["软件工具"]
 tags: ["夸克"]
 item_count: "1 个文件 · 11.8 MB"
 pan_url: "https://pan.quark.cn/s/7ef77a69d1a7"
 share_id: "3dc7f592d6d04ff5b5ba8f9722247f13"
 size: "11.8 MB"
-# 想加截图：把图片放进 static/screenshots/，然后取消注释并填 src
-# screenshots:
-#   - caption: "截图说明"
-#     src: "screenshots/xxx.png"
-screenshots:
-  - caption: "文件夹截图（待补充）"
-    src: ""
 ---
 
-来自夸克网盘的分享，点击上方按钮打开。
+连上显示器和键鼠，手机就能当一台轻办公用的小主机，窗口可以并排摆放。适合出差只带手机、临时要处理文档的人，实际顺不顺畅要看机型对外接视频输出的支持。

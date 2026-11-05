@@ -2,20 +2,13 @@
 title: "魔法门之英雄无敌：上古纪元修改器"
 date: 2026-05-08
 description: "夸克网盘分享 · 游戏与修改器"
-summary: "游戏本体、补丁与修改器资源，来自夸克网盘分享。 体积 10.2 MB。"
+summary: "《魔法门之英雄无敌：上古纪元》修改器，10.2 MB，用来调整游戏内数值。"
 categories: ["游戏与修改器"]
 tags: ["夸克"]
 item_count: "1 个文件 · 10.2 MB"
 pan_url: "https://pan.quark.cn/s/d70b7127d5b5"
 share_id: "57e2cdc45a3745c69d0741a7f1b54384"
 size: "10.2 MB"
-# 想加截图：把图片放进 static/screenshots/，然后取消注释并填 src
-# screenshots:
-#   - caption: "截图说明"
-#     src: "screenshots/xxx.png"
-screenshots:
-  - caption: "文件夹截图（待补充）"
-    src: ""
 ---
 
-来自夸克网盘的分享，点击上方按钮打开。
+给《魔法门之英雄无敌：上古纪元》准备的修改器，10.2 MB，属于独立小程序，进游戏之后再启动它。回合策略游戏节奏偏慢，想快点推图或者只是想看看后期内容，调一下会轻松许多。

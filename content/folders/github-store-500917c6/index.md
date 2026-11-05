@@ -2,20 +2,13 @@
 title: "GitHub Store"
 date: 2026-05-25
 description: "夸克网盘分享 · 其他"
-summary: "网盘分享资源，来自夸克网盘。 体积 325.9 MB。"
+summary: "GitHub Store 把 GitHub 上的开源应用整理成商店，搜到就能直接装，省去翻页找包"
 categories: ["其他"]
 tags: ["夸克"]
 item_count: "1 个文件 · 325.9 MB"
 pan_url: "https://pan.quark.cn/s/e2097ec6d056"
 share_id: "500917c6c0954261a992ded762def1bb"
 size: "325.9 MB"
-# 想加截图：把图片放进 static/screenshots/，然后取消注释并填 src
-# screenshots:
-#   - caption: "截图说明"
-#     src: "screenshots/xxx.png"
-screenshots:
-  - caption: "文件夹截图（待补充）"
-    src: ""
 ---
 
-来自夸克网盘的分享，点击上方按钮打开。
+GitHub Store 把 GitHub 上的开源应用整理成应用商店的样子，搜到就能装，省去自己翻 release 页的步骤。325 MB 的包里应该包含运行依赖，适合喜欢试用各类开源小工具的人。

@@ -2,20 +2,13 @@
 title: "Sam Helper"
 date: 2026-04-14
 description: "夸克网盘分享 · 软件工具"
-summary: "软件工具与安装包，来自夸克网盘分享。 体积 3.3 MB。"
+summary: "只有 3.3 MB 的 Sam Helper 小工具，一般和三星手机的系统调节有关。"
 categories: ["软件工具"]
 tags: ["夸克"]
 item_count: "1 个文件 · 3.3 MB"
 pan_url: "https://pan.quark.cn/s/d3bef594e510"
 share_id: "3b245a43143a45c886fc407f2a4e5bf6"
 size: "3.3 MB"
-# 想加截图：把图片放进 static/screenshots/，然后取消注释并填 src
-# screenshots:
-#   - caption: "截图说明"
-#     src: "screenshots/xxx.png"
-screenshots:
-  - caption: "文件夹截图（待补充）"
-    src: ""
 ---
 
-来自夸克网盘的分享，点击上方按钮打开。
+体积 3.3 MB 的小工具，名字带 Sam，社区里通常把它和三星手机联系在一起，用来调一些系统里没直接放出来的选项。装完几乎不占地方，具体能改什么以应用内页面为准。

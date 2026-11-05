@@ -2,20 +2,13 @@
 title: "LocalSend"
 date: 2026-04-28
 description: "夸克网盘分享 · 其他"
-summary: "网盘分享资源，来自夸克网盘。 体积 73.0 MB。"
+summary: "LocalSend 靠同一 Wi-Fi 下的设备直连传文件，不经过服务器、不用登录，也不压缩画质"
 categories: ["其他"]
 tags: ["夸克"]
 item_count: "1 个文件 · 73.0 MB"
 pan_url: "https://pan.quark.cn/s/999e80af50ba"
 share_id: "5ee21b9375af47b7aa8be216cb717566"
 size: "73.0 MB"
-# 想加截图：把图片放进 static/screenshots/，然后取消注释并填 src
-# screenshots:
-#   - caption: "截图说明"
-#     src: "screenshots/xxx.png"
-screenshots:
-  - caption: "文件夹截图（待补充）"
-    src: ""
 ---
 
-来自夸克网盘的分享，点击上方按钮打开。
+LocalSend 走同一 Wi-Fi 下的直连，手机和电脑之间传文件不用经过服务器，也不会压缩画质。73 MB 的安装包支持多平台，适合经常在几台设备之间来回倒照片和文档的人。

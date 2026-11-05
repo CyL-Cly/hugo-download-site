@@ -2,20 +2,13 @@
 title: "夸克快传"
 date: 2026-05-18
 description: "夸克网盘分享 · 其他"
-summary: "网盘分享资源，来自夸克网盘。 体积 10.9 GB。"
+summary: "以「夸克快传」为名的一份分享，体积达 10.9 GB，看起来是整批转存的文件。"
 categories: ["其他"]
 tags: ["夸克"]
 item_count: "1 个文件 · 10.9 GB"
 pan_url: "https://pan.quark.cn/s/fe1862bb2df6"
 share_id: "7d98f821e1f94a0eacd7087302471fd7"
 size: "10.9 GB"
-# 想加截图：把图片放进 static/screenshots/，然后取消注释并填 src
-# screenshots:
-#   - caption: "截图说明"
-#     src: "screenshots/xxx.png"
-screenshots:
-  - caption: "文件夹截图（待补充）"
-    src: ""
 ---
 
-来自夸克网盘的分享，点击上方按钮打开。
+标题没有写明具体内容，10.9 GB 的体量说明里面不止一两个小文件，更像一次批量转存形成的合集。适合先转存到自己的空间再慢慢挑，至于到底是视频、软件还是资料，得打开才能确定。
