@@ -185,6 +185,25 @@ code { font-family: var(--font-mono); font-size: .9em; color: var(--accent); }
 .shot__img { display: block; width: 100%; height: auto; aspect-ratio: 16 / 10; object-fit: cover; }
 .shot__cap { padding: var(--sp-1) var(--sp-2); color: var(--paper-dim); font-size: var(--fs-xs); font-family: var(--font-mono); }
 
+/* ---------- qr dialog ---------- */
+.qrdlg {
+  border: 1px solid var(--line); border-radius: var(--r-lg);
+  background: var(--bg-soft); color: var(--paper);
+  padding: 0; max-width: 92vw;
+}
+.qrdlg::backdrop { background: rgba(0, 0, 0, .62); }
+.qrdlg__body {
+  display: flex; flex-direction: column; align-items: center; gap: var(--sp-3);
+  padding: var(--sp-4) var(--sp-5);
+  text-align: center;
+}
+.qrdlg__title { margin: 0; color: var(--paper); letter-spacing: .1em; font-size: var(--fs-sm); }
+.qrdlg__img {
+  display: block; width: 240px; height: 240px;
+  background: #fff; border-radius: var(--r-md); padding: var(--sp-1);
+}
+.qrdlg__hint { margin: 0; max-width: 30ch; color: var(--paper-dim); font-size: var(--fs-sm); }
+
 /* ---------- footer ---------- */
 .foot {
   display: flex; justify-content: space-between; gap: var(--sp-2); flex-wrap: wrap;

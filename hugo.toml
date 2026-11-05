@@ -1,5 +1,5 @@
-baseURL = "/"
-relativeURLs = true
+baseURL = "https://public.dagongren.tech/"
+# 必须真实域名：sitemap.xml 要输出绝对地址，IndexNow 提交依赖它
 locale = "zh-CN"
 title = "DL / INDEX"
 enableRobotsTXT = true

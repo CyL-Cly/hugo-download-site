@@ -24,8 +24,14 @@
           <span class="mono">更新 {{ .Date.Format "2006-01-02" }}</span>
           {{ range .Params.tags }}<span class="tag">{{ . }}</span>{{ end }}
         </div>
-        {{ with .Params.pan_url }}
-        <a class="btn btn--pan" href="{{ . }}" target="_blank" rel="noopener noreferrer">打开网盘文件夹 ↗</a>
+        {{ $isMobileApp := false }}
+        {{ with site.Data.mobile_apps }}{{ $isMobileApp = in .ids $.Params.share_id }}{{ end }}
+        {{ if .Params.pan_url }}
+          {{ if $isMobileApp }}
+          <button class="btn js-qr" type="button" data-qr="{{ printf "qr/%s.svg" .Params.share_id | relURL }}">下载（扫码获取）</button>
+          {{ else }}
+          <a class="btn btn--pan" href="{{ .Params.pan_url }}" target="_blank" rel="noopener noreferrer">打开网盘文件夹 ↗</a>
+          {{ end }}
         {{ else }}
         <span class="btn btn--disabled" aria-disabled="true">网盘链接未配置</span>
         {{ end }}
@@ -54,5 +60,19 @@
     </main>
     {{ partial "foot.html" . }}
   </div>
+
+  {{ $isMobileApp := false }}
+  {{ with site.Data.mobile_apps }}{{ $isMobileApp = in .ids $.Params.share_id }}{{ end }}
+  {{ if and $isMobileApp .Params.pan_url }}
+  <dialog class="qrdlg" id="qrdlg" aria-labelledby="qrdlg-title">
+    <div class="qrdlg__body">
+      <p class="qrdlg__title mono" id="qrdlg-title">扫码打开网盘</p>
+      <img class="qrdlg__img" id="qrdlg-img" alt="下载二维码" width="240" height="240">
+      <p class="qrdlg__hint">手机版软件不提供直接链接，用手机扫码即可打开网盘文件夹。</p>
+      <form method="dialog"><button class="btn" type="submit">关闭</button></form>
+    </div>
+  </dialog>
+  <script src="{{ "js/folder.js" | relURL }}" defer></script>
+  {{ end }}
 </body>
 </html>

@@ -16,8 +16,21 @@
 
 - 标题、简介、分类 / 体积 / 文件数 / 分享日期
 - 「打开网盘文件夹 ↗」按钮 → 指向该条分享的真实夸克链接
+- **手机版软件例外**：安卓 App / APK 这类资源页面不输出任何网盘链接，按钮变成「下载（扫码获取）」，点击弹二维码
 - 正文介绍（来自 `tools/intros.json`）
 - **截图**：只有真正配了图片才会出现「截图」区；没有图片时整块不渲染，不会留空占位
+
+### 手机版软件 / 二维码
+
+哪些资源算「手机版软件」写在 **`data/mobile_apps.json`** 的 `ids` 里（按 `share_id`）：
+
+```json
+{ "ids": ["<share_id>", "<share_id>"] }
+```
+
+这些页面在构建时不会把 `pan_url` 写进 HTML，只留一个二维码按钮。二维码由 `tools/gen_qr.py`
+在构建前根据 `pan_url` 生成到 `static/qr/<share_id>.svg`，所以**增删列表后必须重新构建**，链接才会真正消失。
+未列入的资源（Windows 软件、固件、游戏等）照常显示网盘链接，手机浏览器访问也不改变行为。
 
 ### 文字介绍从哪来
 
@@ -98,8 +111,29 @@ git commit -m "update site"
 git push
 ```
 
-`build.bat` 调用 `.tools\hugo\hugo.exe` 重新生成 `public/`；push 后 ESA 自动更新，不需要云端构建。
+`build.bat` 三步：
+
+1. `tools/gen_qr.py` — 给手机版软件生成二维码到 `static/qr/`
+2. `.tools\hugo\hugo.exe` — 重新生成 `public/`
+3. `tools/indexnow.py` — 读取 `public/sitemap.xml` 的绝对地址，提交给 Bing 的 IndexNow
+
 `.tools/` 与 `.tmp-shares.json` 已在 `.gitignore`，二进制和凭据不进仓库。
+
+## 搜索引擎收录（IndexNow）
+
+站点域名写在 `hugo.toml` 的 `baseURL`，IndexNow 的 host / key 写在 `tools/indexnow.json`。
+验证文件是 `static/<key>.txt`，构建后即出现在站点根目录。
+
+IndexNow 要求域名下能访问到验证文件，所以**第一次部署（或换域名）后**提交会返回
+`403 SiteVerificationNotCompleted`。等 ESA 部署完成再补交一次即可：
+
+```bat
+python tools\indexnow.py
+```
+
+日常改了内容，`build.bat` 会自动提交；提交失败只打印 WARN，不会中断构建。
+`sitemap.xml` 与 `robots.txt` 都由 Hugo 生成，`robots.txt` 里已指向 sitemap。
+
 
 ## ESA Pages 接入（控制台做一次）
 
@@ -116,15 +150,23 @@ content/index/_index.md   资源目录页（驱动 /index/）
 content/folders/<slug>/   215 个文件夹页（每条分享一个）
 layouts/index.html        首页模板（纯介绍）
 layouts/dirlist/list.html 资源目录模板
-layouts/folders/single.html 文件夹页模板（截图区按需渲染）
+layouts/folders/single.html 文件夹页模板（截图区按需渲染、手机版软件走二维码）
+layouts/robots.txt        robots（含 sitemap 地址）
 layouts/partials/         head / foot
+data/mobile_apps.json     手机版软件名单（这些资源不显示链接）
 static/css/main.css       样式
 static/js/main.js         搜索筛选
+static/js/folder.js       二维码弹窗
+static/qr/                构建生成的二维码（gen_qr.py 产出）
+static/<key>.txt          IndexNow 域名验证文件
 static/screenshots/       放截图（自行放入）
 tools/intros.json         215 条资源的简介与正文（文案源）
 tools/apply_intros.py     把 intros.json 写回页面
 tools/merge_intros.py     合并分批文案并校验
 tools/build_intro_batches.py  切分批次的输入文件
+tools/gen_qr.py           生成手机版软件的二维码
+tools/indexnow.py         提交 URL 给 Bing IndexNow
+tools/indexnow.json       IndexNow 的 host / key 配置
 tools/gen_folders.py      从 qsave JSON 生成页面
 tools/category-rules.json 分类关键词
 esa.jsonc                 ESA Pages 配置

@@ -1,1 +1,4 @@
 User-agent: *
+Allow: /
+
+Sitemap: https://public.dagongren.tech/sitemap.xml
