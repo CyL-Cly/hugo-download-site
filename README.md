@@ -153,12 +153,17 @@ git push
 - `gen_geo.py` 给所有 `.txt` / `.md` 产物写了 UTF-8 BOM，浏览器据此自动按 UTF-8 解码（push 部署后即生效）。BOM 只影响浏览器嗅探，**不改变 HTTP 响应头**。
 - 要让所有客户端（尤其是按 `Content-Type` 解码的 LLM 抓取器）都正确，需在 ESA 控制台配一次「修改响应头」：**站点管理 → 规则 → 转换规则 → 修改响应头 → ESA到客户端 → 新增规则**。
 
-| 规则 | 匹配条件（表达式） | 操作 | 响应头名称 | 响应头值 |
-| --- | --- | --- | --- | --- |
-| 1 | `(http.request.uri.path.extension in {"txt"})` | 添加（静态） | `Content-Type` | `text/plain; charset=utf-8` |
-| 2 | `(http.request.uri.path.extension in {"md"})` | 添加（静态） | `Content-Type` | `text/markdown; charset=utf-8` |
+- 要让所有客户端（尤其是严格按 `Content-Type` 解码的抓取器）都正确，需在 ESA 控制台配一次「修改响应头」：**站点管理 → 规则 → 转换规则 → 修改响应头 → ESA到客户端 → 新增规则**。共两条规则，用控制台图形化控件选择「URI 路径」按后缀匹配即可（也可点「编辑表达式」手写，字段名以控制台下拉为准）：
 
-若套餐不支持 `extension` 字段，用「URI 路径 与正则表达式匹配」：`(?i)\.txt$` / `(?i)\.md$`，即 `(http.request.uri.path matches "\.txt$")`。配置生效后用 `curl -I https://<域名>/llms.txt` 应看到 `Content-Type: text/plain; charset=utf-8`。
+| 规则 | 匹配条件 | 操作 | 响应头名称 | 响应头值 |
+| --- | --- | --- | --- | --- |
+| 1 | URI 路径以 `.txt` 结尾 | 添加（静态） | `Content-Type` | `text/plain; charset=utf-8` |
+| 2 | URI 路径以 `.md` 结尾 | 添加（静态） | `Content-Type` | `text/markdown; charset=utf-8` |
+
+可选表达式写法（ESA 规则引擎为 Wirefilter 风格，若字段名不同以控制台为准）：
+`(http.request.uri.path matches "\\.txt$")` / `(http.request.uri.path matches "\\.md$")`，
+或 `(http.request.uri.path.extension in {"txt"})` / `(http.request.uri.path.extension in {"md"})`。
+配置生效后用 `curl -I https://<域名>/llms.txt` 应看到 `Content-Type: text/plain; charset=utf-8`。
 
 IndexNow 读取 `sitemap.xml` + `sitemap-md.xml`，把 HTML 页与 Markdown 镜像一起去重后提交给 Bing。验证文件要求域名下可访问，所以**第一次部署（或换域名）后**提交会返回
 `403 SiteVerificationNotCompleted`。等 ESA 部署完成再补交一次即可：
