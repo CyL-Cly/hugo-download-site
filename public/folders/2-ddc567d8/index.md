@@ -1,0 +1,35 @@
+---
+title: "生化危机2重制版修改"
+date: 2026-04-16
+description: "夸克网盘分享 · 游戏与修改器"
+summary: "《生化危机2 重制版》的修改文件，约 2.2 MB，标题只写了「修改」，当作修改器理解。"
+categories: ["游戏与修改器"]
+tags: ["夸克"]
+item_count: "1 个文件 · 2.2 MB"
+canonical: https://public.dagongren.tech/folders/2-ddc567d8/
+markdown: https://public.dagongren.tech/folders/2-ddc567d8/index.md
+---
+
+# 生化危机2重制版修改
+
+《生化危机2 重制版》的修改文件，约 2.2 MB，标题只写了「修改」，当作修改器理解。
+
+针对《生化危机2 重制版》的一份修改资源，2.2 MB 左右，标题省略了后缀，从分类看应为修改器。适合想压低难度、专心体验剧情和探索的玩家，建议离线模式下使用并提前备份存档。
+
+## 页面信息
+
+- 分类：[游戏与修改器](https://public.dagongren.tech/sitemap/)
+- 内容：1 个文件 · 2.2 MB
+- 更新日期：2026-04-16
+- 规范页面（HTML）：[https://public.dagongren.tech/folders/2-ddc567d8/](https://public.dagongren.tech/folders/2-ddc567d8/)
+- Markdown 镜像：[https://public.dagongren.tech/folders/2-ddc567d8/index.md](https://public.dagongren.tech/folders/2-ddc567d8/index.md)
+- 所属目录：[资源目录](https://public.dagongren.tech/index/) · [目录 Markdown](https://public.dagongren.tech/index/index.md)
+- 全站地图：[HTML](https://public.dagongren.tech/sitemap/) · [Markdown](https://public.dagongren.tech/sitemap.md) · [llms.txt](https://public.dagongren.tech/llms.txt)
+
+网盘入口：[打开网盘文件夹 ↗](https://pan.quark.cn/s/d41d6ba93249)
+
+## 同类资源
+
+- [安卓手机游戏《密教模拟器v3.6.1》\[完整版+DLC\]Steam移植.apk](https://public.dagongren.tech/folders/v3-6-1-dlc-steam-apk-b4af9862/) · [Markdown](https://public.dagongren.tech/folders/v3-6-1-dlc-steam-apk-b4af9862/index.md)
+- [【电脑游戏+手机游戏】宝可梦：肉鸽](https://public.dagongren.tech/folders/share-2699cb0a/) · [Markdown](https://public.dagongren.tech/folders/share-2699cb0a/index.md)
+- [Switch模拟器](https://public.dagongren.tech/folders/switch-1fdb04e5/) · [Markdown](https://public.dagongren.tech/folders/switch-1fdb04e5/index.md)

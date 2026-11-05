@@ -2,3 +2,10 @@ User-agent: *
 Allow: /
 
 Sitemap: https://public.dagongren.tech/sitemap.xml
+Sitemap: https://public.dagongren.tech/sitemap-md.xml
+
+# LLM / GEO discovery hints
+# llms.txt        https://public.dagongren.tech/llms.txt
+# llms-full.txt   https://public.dagongren.tech/llms-full.txt
+# sitemap.md      https://public.dagongren.tech/sitemap.md
+# sitemap.html    https://public.dagongren.tech/sitemap/

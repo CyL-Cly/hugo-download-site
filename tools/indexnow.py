@@ -1,8 +1,9 @@
 # -*- coding: utf-8 -*-
 """Submit the built site's URLs to IndexNow (Bing / Yandex / Seznam / Naver).
 
-Reads absolute <loc> values from public/sitemap.xml and POSTs them to the
-IndexNow endpoint in batches. The key file must already be published at
+Reads absolute <loc> values from public/sitemap.xml and public/sitemap-md.xml
+(HTML pages + their Markdown mirrors) and POSTs them to the IndexNow endpoint
+in batches. The key file must already be published at
 https://<host>/<key>.txt, so run this *after* the deploy when possible; the
 script only reports the response and never fails the build.
 
@@ -22,14 +23,15 @@ import xml.etree.ElementTree as ET
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 CONFIG = os.path.join(ROOT, "tools", "indexnow.json")
 SITEMAP = os.path.join(ROOT, "public", "sitemap.xml")
+MD_SITEMAP = os.path.join(ROOT, "public", "sitemap-md.xml")
 BATCH = 10000
 
 
-def load_urls(host):
-    if not os.path.exists(SITEMAP):
+def load_urls(host, path):
+    if not os.path.exists(path):
         return []
     ns = {"s": "http://www.sitemaps.org/schemas/sitemap/0.9"}
-    tree = ET.parse(SITEMAP)
+    tree = ET.parse(path)
     urls = []
     for loc in tree.getroot().findall(".//s:url/s:loc", ns):
         u = (loc.text or "").strip()
@@ -67,7 +69,13 @@ def main():
         print("ERROR: %s not found" % CONFIG)
         return 1
     cfg = json.load(open(CONFIG, encoding="utf-8"))
-    urls = load_urls(cfg["host"])
+    urls = []
+    seen = set()
+    for sitemap in (SITEMAP, MD_SITEMAP):
+        for u in load_urls(cfg["host"], sitemap):
+            if u not in seen:
+                seen.add(u)
+                urls.append(u)
     if args.limit:
         urls = urls[: args.limit]
     if not urls:

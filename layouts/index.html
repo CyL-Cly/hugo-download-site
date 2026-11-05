@@ -5,6 +5,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>{{ .Site.Title }}</title>
   <meta name="description" content="{{ .Site.Params.description }}">
+  <link rel="canonical" href="{{ .Permalink }}">
+  <link rel="alternate" type="text/markdown" href="{{ "index.md" | absURL }}" title="Markdown 版首页">
+  <link rel="alternate" type="text/plain" href="{{ "llms.txt" | absURL }}" title="llms.txt">
   <link rel="stylesheet" href="{{ "css/main.css" | relURL }}">
 </head>
 <body>
@@ -15,7 +18,9 @@
         <h1 class="intro__title" id="intro-title">资源<span class="intro__slash">/</span>分享站</h1>
         <p class="intro__lead">这里收录整理自网盘的公开分享资源，按文件夹归档：软件工具、设备与固件、游戏、学习资料、影音媒体等。每条资源附有简介、分类与网盘链接，方便检索与取用。</p>
         <p class="intro__lead">资源仅供学习与交流使用，请在下载后及时删除；如涉及版权问题，请联系移除。</p>
+        <p class="mono sitemap__hint">机器可读：<a href="{{ "llms.txt" | relURL }}">llms.txt</a> · <a href="{{ "llms-full.txt" | relURL }}">llms-full.txt</a> · <a href="{{ "sitemap.md" | relURL }}">sitemap.md</a> · <a href="{{ "sitemap.xml" | relURL }}">sitemap.xml</a></p>
         <a class="btn" href="{{ "/index/" | relURL }}">浏览资源目录 →</a>
+        <a class="btn btn--ghost" href="{{ "/sitemap/" | relURL }}">全站地图 →</a>
       </section>
     </main>
     {{ partial "foot.html" . }}

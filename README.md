@@ -12,6 +12,10 @@
 
 **资源目录** `/index/`：215 个文件夹列表（搜索、分类筛选）。列表模板在 `layouts/dirlist/list.html`。
 
+**全站地图** `/sitemap/`：列出全站页面（含每个资源页的 `.md` 镜像链接）；另有 `/sitemap.md`（纯 Markdown 超链接）、`/sitemap.xml` 与 `/sitemap-md.xml`。
+
+**机器可读索引** `/llms.txt`、`/llms-full.txt`：站点级 Markdown 链接索引与全文镜像；首页/目录/每个资源页都提供同名 `.md` 镜像（`rel=alternate` 指向）。
+
 **每个文件夹页面** `/folders/<slug>/`：
 
 - 标题、简介、分类 / 体积 / 文件数 / 分享日期
@@ -76,6 +80,7 @@ screenshots:
 | 站点名、站点描述 | `hugo.toml`（`title` / `params.description`） |
 | 分类关键词规则 | `tools/category-rules.json` |
 | 目录列表布局、卡片字段 | `layouts/dirlist/list.html` |
+| 全站地图、GEO 产物 | `content/sitemap/_index.md` + `layouts/sitemap/list.html` + `tools/gen_geo.py` |
 | 文件夹页布局 | `layouts/folders/single.html` |
 | 配色 / 字体 / 间距 | `static/css/main.css`（`:root` 设计令牌） |
 | 搜索筛选逻辑 | `static/js/main.js` |
@@ -111,20 +116,37 @@ git commit -m "update site"
 git push
 ```
 
-`build.bat` 三步：
+`build.bat` 四步：
 
 1. `tools/gen_qr.py` — 给手机版软件生成二维码到 `static/qr/`
 2. `.tools\hugo\hugo.exe` — 重新生成 `public/`
-3. `tools/indexnow.py` — 读取 `public/sitemap.xml` 的绝对地址，提交给 Bing 的 IndexNow
+3. `tools/gen_geo.py` — 生成 `llms.txt` / `sitemap.md` / 全站 `.md` 镜像（见下节）
+4. `tools/indexnow.py` — 读取 `public/sitemap.xml` 与 `public/sitemap-md.xml` 的绝对地址，提交给 Bing 的 IndexNow
 
 `.tools/` 与 `.tmp-shares.json` 已在 `.gitignore`，二进制和凭据不进仓库。
 
-## 搜索引擎收录（IndexNow）
+## 搜索引擎收录（IndexNow / GEO）
 
 站点域名写在 `hugo.toml` 的 `baseURL`，IndexNow 的 host / key 写在 `tools/indexnow.json`。
 验证文件是 `static/<key>.txt`，构建后即出现在站点根目录。
 
-IndexNow 要求域名下能访问到验证文件，所以**第一次部署（或换域名）后**提交会返回
+面向搜索引擎与大模型（GEO）的索引产物，`build.bat` 第 3 步由 `tools/gen_geo.py` 在 Hugo 构建后生成（Hugo 用了 `--cleanDestinationDir`，必须先构建再生成）：
+
+| 文件 | 内容 |
+| --- | --- |
+| `llms.txt` | llmstxt.org 风格的站点索引，全部为 Markdown 超链接（首页、目录、全站地图、215 条资源及各自镜像） |
+| `llms-full.txt` | 全部资源页正文的纯文本/链接合集 |
+| `sitemap.md` | 全站页面清单，纯 Markdown 超链接 |
+| `sitemap/` | 人可读的全站地图 HTML，含每个资源页的 `.md` 镜像链接 |
+| `index.md`、`index/index.md` | 首页与资源目录的 Markdown 镜像 |
+| `folders/<slug>/index.md` | 215 个资源页各自的 Markdown 镜像（front matter + 正文 + 规范链接 + 同类资源） |
+| `sitemap-md.xml` | 所有 Markdown 镜像 URL 的 XML sitemap |
+
+每个 HTML 页 `<head>` 都带 `rel=canonical`、`rel=alternate type="text/markdown"`（指向本页镜像）与 `llms.txt`；页脚有全站地图入口。`robots.txt` 里同时列出两份 sitemap 与 GEO 发现提示。
+
+**隐私一致性**：`data/mobile_apps.json` 里的手机版软件在 HTML 页只给二维码；`gen_geo.py` 同样不会把 `pan_url` 写进任何 Markdown 镜像或 `llms-full.txt`。
+
+IndexNow 读取 `sitemap.xml` + `sitemap-md.xml`，把 HTML 页与 Markdown 镜像一起去重后提交给 Bing。验证文件要求域名下可访问，所以**第一次部署（或换域名）后**提交会返回
 `403 SiteVerificationNotCompleted`。等 ESA 部署完成再补交一次即可：
 
 ```bat
@@ -132,7 +154,7 @@ python tools\indexnow.py
 ```
 
 日常改了内容，`build.bat` 会自动提交；提交失败只打印 WARN，不会中断构建。
-`sitemap.xml` 与 `robots.txt` 都由 Hugo 生成，`robots.txt` 里已指向 sitemap。
+`sitemap.xml` 与 `robots.txt` 都由 Hugo 生成，`sitemap-md.xml` 由 `gen_geo.py` 生成。
 
 
 ## ESA Pages 接入（控制台做一次）
@@ -150,8 +172,9 @@ content/index/_index.md   资源目录页（驱动 /index/）
 content/folders/<slug>/   215 个文件夹页（每条分享一个）
 layouts/index.html        首页模板（纯介绍）
 layouts/dirlist/list.html 资源目录模板
+layouts/sitemap/list.html 全站地图 HTML（含 .md 镜像链接）
 layouts/folders/single.html 文件夹页模板（截图区按需渲染、手机版软件走二维码）
-layouts/robots.txt        robots（含 sitemap 地址）
+layouts/robots.txt        robots（含两份 sitemap 与 GEO 提示）
 layouts/partials/         head / foot
 data/mobile_apps.json     手机版软件名单（这些资源不显示链接）
 static/css/main.css       样式
@@ -166,6 +189,7 @@ tools/merge_intros.py     合并分批文案并校验
 tools/build_intro_batches.py  切分批次的输入文件
 tools/gen_qr.py           生成手机版软件的二维码
 tools/indexnow.py         提交 URL 给 Bing IndexNow
+tools/gen_geo.py          构建后生成 llms.txt / sitemap.md / 全站 Markdown 镜像 / sitemap-md.xml
 tools/indexnow.json       IndexNow 的 host / key 配置
 tools/gen_folders.py      从 qsave JSON 生成页面
 tools/category-rules.json 分类关键词

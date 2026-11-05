@@ -2,3 +2,10 @@ User-agent: *
 Allow: /
 
 Sitemap: {{ "sitemap.xml" | absURL }}
+Sitemap: {{ "sitemap-md.xml" | absURL }}
+
+# LLM / GEO discovery hints
+# llms.txt        {{ "llms.txt" | absURL }}
+# llms-full.txt   {{ "llms-full.txt" | absURL }}
+# sitemap.md      {{ "sitemap.md" | absURL }}
+# sitemap.html    {{ "/sitemap/" | absURL }}

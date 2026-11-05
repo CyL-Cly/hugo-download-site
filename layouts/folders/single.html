@@ -1,10 +1,13 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="{{ .Site.Language.Locale }}">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>{{ .Title }} — {{ .Site.Title }}</title>
   <meta name="description" content="{{ with .Params.summary }}{{ . }}{{ else }}{{ .Description }}{{ end }}">
+  <link rel="canonical" href="{{ .Permalink }}">
+  <link rel="alternate" type="text/markdown" href="{{ .Permalink }}index.md" title="Markdown 版页面">
+  <link rel="alternate" type="text/plain" href="{{ "llms.txt" | absURL }}" title="llms.txt">
   <link rel="stylesheet" href="{{ "css/main.css" | relURL }}">
 </head>
 <body>
@@ -13,6 +16,8 @@
     <main class="folder">
       <nav class="crumb" aria-label="面包屑">
         <a href="{{ "/index/" | relURL }}">目录</a><span aria-hidden="true"> / </span><span>{{ .Title }}</span>
+        <span aria-hidden="true"> · </span><a href="{{ .RelPermalink }}index.md" aria-label="本页 Markdown 镜像">Markdown ↗</a>
+        <span aria-hidden="true"> · </span><a href="{{ "/sitemap/" | relURL }}">全站地图</a>
       </nav>
 
       <header class="folder__head">
@@ -25,7 +30,7 @@
           {{ range .Params.tags }}<span class="tag">{{ . }}</span>{{ end }}
         </div>
         {{ $isMobileApp := false }}
-        {{ with site.Data.mobile_apps }}{{ $isMobileApp = in .ids $.Params.share_id }}{{ end }}
+        {{ with hugo.Data.mobile_apps }}{{ $isMobileApp = in .ids $.Params.share_id }}{{ end }}
         {{ if .Params.pan_url }}
           {{ if $isMobileApp }}
           <button class="btn js-qr" type="button" data-qr="{{ printf "qr/%s.svg" .Params.share_id | relURL }}">下载（扫码获取）</button>
@@ -62,7 +67,7 @@
   </div>
 
   {{ $isMobileApp := false }}
-  {{ with site.Data.mobile_apps }}{{ $isMobileApp = in .ids $.Params.share_id }}{{ end }}
+  {{ with hugo.Data.mobile_apps }}{{ $isMobileApp = in .ids $.Params.share_id }}{{ end }}
   {{ if and $isMobileApp .Params.pan_url }}
   <dialog class="qrdlg" id="qrdlg" aria-labelledby="qrdlg-title">
     <div class="qrdlg__body">

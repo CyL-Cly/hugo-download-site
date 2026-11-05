@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.Language.Locale }}">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>全站地图 — {{ .Site.Title }}</title>
+  <meta name="description" content="DL / INDEX 全站页面清单，含全部资源页及其 Markdown 镜像超链接。">
+  <link rel="canonical" href="{{ .Permalink }}">
+  <link rel="alternate" type="text/markdown" href="{{ "sitemap.md" | absURL }}" title="Markdown 版全站地图">
+  <link rel="stylesheet" href="{{ "css/main.css" | relURL }}">
+</head>
+<body>
+  <div class="frame">
+    {{ partial "head.html" . }}
+    <main class="sitemap">
+      <nav class="crumb" aria-label="面包屑">
+        <a href="{{ "/" | relURL }}">首页</a><span aria-hidden="true"> / </span><span>全站地图</span>
+      </nav>
+      {{ $all := where .Site.RegularPages "Section" "folders" }}
+      {{ $cats := slice }}
+      {{ range $all }}{{ range .Params.categories }}{{ $cats = $cats | append . }}{{ end }}{{ end }}
+      <header class="sitemap__head">
+        <p class="folder__eyebrow mono">SITEMAP / ALL PAGES</p>
+        <h1 class="intro__title">全站<span class="intro__slash">/</span>地图</h1>
+        <p class="intro__lead">共 {{ len $all }} 个资源页，外加首页、资源目录与全站地图。每个资源页都配有一个 <code>index.md</code> 纯 Markdown 镜像，方便搜索引擎与大模型直接读取；也可查看 <a href="{{ "sitemap.md" | relURL }}">Markdown 版全站地图</a>、<a href="{{ "llms.txt" | relURL }}">llms.txt</a> 与 <a href="{{ "llms-full.txt" | relURL }}">llms-full.txt</a>。</p>
+      </header>
+
+      <section class="sitemap__block" aria-labelledby="sitemap-main">
+        <h2 class="section__title" id="sitemap-main">主要页面</h2>
+        <ul class="sitemap__list">
+          <li><a href="{{ "/" | relURL }}">首页</a> · <a href="{{ "index.md" | relURL }}">Markdown ↗</a></li>
+          <li><a href="{{ "/index/" | relURL }}">资源目录</a> · <a href="{{ "index/index.md" | relURL }}">Markdown ↗</a></li>
+          <li><a href="{{ "/sitemap/" | relURL }}">全站地图（HTML）</a> · <a href="{{ "sitemap.md" | relURL }}">Markdown ↗</a></li>
+          <li><a href="{{ "sitemap.xml" | relURL }}">Sitemap.xml</a> · <a href="{{ "sitemap-md.xml" | relURL }}">Sitemap（Markdown 镜像）</a></li>
+          <li><a href="{{ "llms.txt" | relURL }}">llms.txt</a> · <a href="{{ "llms-full.txt" | relURL }}">llms-full.txt</a></li>
+        </ul>
+      </section>
+
+      {{ range $cat := sort (uniq $cats) }}
+      <section class="sitemap__block" aria-labelledby="cat-{{ $cat }}">
+        <h2 class="section__title" id="cat-{{ $cat }}">{{ $cat }}</h2>
+        <ul class="sitemap__grid">
+          {{ range $all.ByDate.Reverse }}
+          {{ if in .Params.categories $cat }}
+          <li>
+            <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+            <span class="sitemap__meta">{{ .Date.Format "2006-01-02" }}</span>
+            <a class="sitemap__md" href="{{ .RelPermalink }}index.md" aria-label="{{ .Title }} 的 Markdown 镜像">.md ↗</a>
+          </li>
+          {{ end }}
+          {{ end }}
+        </ul>
+      </section>
+      {{ end }}
+    </main>
+    {{ partial "foot.html" . }}
+  </div>
+</body>
+</html>
