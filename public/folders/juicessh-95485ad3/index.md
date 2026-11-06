@@ -19,6 +19,7 @@ JuiceSSH 是安卓平台常用的 SSH 工具，能连服务器敲命令、传文
 ## 页面信息
 
 - 分类：[其他](https://public.dagongren.tech/sitemap/)
+- 说明：手机版软件，HTML 页为扫码获取；本镜像提供直链。
 - 内容：1 个文件 · 80.9 MB
 - 更新日期：2026-04-27
 - 规范页面（HTML）：[https://public.dagongren.tech/folders/juicessh-95485ad3/](https://public.dagongren.tech/folders/juicessh-95485ad3/)
@@ -26,7 +27,7 @@ JuiceSSH 是安卓平台常用的 SSH 工具，能连服务器敲命令、传文
 - 所属目录：[资源目录](https://public.dagongren.tech/index/) · [目录 Markdown](https://public.dagongren.tech/index/index.md)
 - 全站地图：[HTML](https://public.dagongren.tech/sitemap/) · [Markdown](https://public.dagongren.tech/sitemap.md) · [llms.txt](https://public.dagongren.tech/llms.txt)
 
-网盘入口：手机版软件按站点策略不直接提供链接，请在规范页面扫码获取。
+网盘入口：[打开网盘文件夹 ↗](https://pan.quark.cn/s/01c9f71229b8)
 
 ## 同类资源
 

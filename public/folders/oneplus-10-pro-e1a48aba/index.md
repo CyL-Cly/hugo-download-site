@@ -19,6 +19,9 @@ markdown: https://public.dagongren.tech/folders/oneplus-10-pro-e1a48aba/index.md
 ## 页面信息
 
 - 分类：[设备与固件](https://public.dagongren.tech/sitemap/)
+- 品牌：一加
+- 机型：10 Pro
+- 类型：手机
 - 内容：1 个文件 · 701.1 GB
 - 更新日期：2026-10-19
 - 规范页面（HTML）：[https://public.dagongren.tech/folders/oneplus-10-pro-e1a48aba/](https://public.dagongren.tech/folders/oneplus-10-pro-e1a48aba/)

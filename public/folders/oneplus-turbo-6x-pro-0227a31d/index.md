@@ -19,6 +19,9 @@ Pro 版不能拿普通版顶替，这份 31.2 GB 的固件对应一加 Turbo 6X 
 ## 页面信息
 
 - 分类：[设备与固件](https://public.dagongren.tech/sitemap/)
+- 品牌：一加
+- 机型：Turbo 6X Pro
+- 类型：手机
 - 内容：1 个文件 · 31.2 GB
 - 更新日期：2026-10-19
 - 规范页面（HTML）：[https://public.dagongren.tech/folders/oneplus-turbo-6x-pro-0227a31d/](https://public.dagongren.tech/folders/oneplus-turbo-6x-pro-0227a31d/)

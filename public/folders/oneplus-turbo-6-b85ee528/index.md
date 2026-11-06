@@ -19,6 +19,9 @@ markdown: https://public.dagongren.tech/folders/oneplus-turbo-6-b85ee528/index.m
 ## 页面信息
 
 - 分类：[设备与固件](https://public.dagongren.tech/sitemap/)
+- 品牌：一加
+- 机型：Turbo 6
+- 类型：手机
 - 内容：1 个文件 · 53.1 GB
 - 更新日期：2026-10-19
 - 规范页面（HTML）：[https://public.dagongren.tech/folders/oneplus-turbo-6-b85ee528/](https://public.dagongren.tech/folders/oneplus-turbo-6-b85ee528/)

@@ -19,6 +19,9 @@ Windows 11 的系统镜像文件，5.4 GB，可用于全新安装或者重装系
 ## 页面信息
 
 - 分类：[设备与固件](https://public.dagongren.tech/sitemap/)
+- 品牌：微软
+- 机型：Windows 11
+- 类型：系统镜像
 - 内容：1 个文件 · 5.4 GB
 - 更新日期：2026-11-01
 - 规范页面（HTML）：[https://public.dagongren.tech/folders/windows11-585d2a44/](https://public.dagongren.tech/folders/windows11-585d2a44/)

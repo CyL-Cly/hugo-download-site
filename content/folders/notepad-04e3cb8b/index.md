@@ -1,9 +1,9 @@
 ---
 title: "Notepad++"
 date: 2026-04-11
-description: "夸克网盘分享 · 设备与固件"
+description: "夸克网盘分享 · 软件工具"
 summary: "Notepad++ 是老牌的 Windows 文本编辑器，23 MB 体积很轻，支持语法高亮和正则替换，打开大日志也不卡"
-categories: ["设备与固件"]
+categories: ["软件工具"]
 tags: ["夸克"]
 item_count: "1 个文件 · 23.0 MB"
 pan_url: "https://pan.quark.cn/s/45143a7e9b8e"

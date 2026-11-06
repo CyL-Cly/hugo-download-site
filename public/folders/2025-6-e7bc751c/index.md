@@ -5,7 +5,7 @@ description: "夸克网盘分享 · 学习资料"
 summary: "2025 年 6 月英语四级三套真题，含答案和听力音频，一次拿全整套资料。"
 categories: ["学习资料"]
 tags: ["夸克"]
-item_count: "1 个文件 · 未知"
+item_count: "1 个文件"
 canonical: https://public.dagongren.tech/folders/2025-6-e7bc751c/
 markdown: https://public.dagongren.tech/folders/2025-6-e7bc751c/index.md
 ---
@@ -19,7 +19,7 @@ markdown: https://public.dagongren.tech/folders/2025-6-e7bc751c/index.md
 ## 页面信息
 
 - 分类：[学习资料](https://public.dagongren.tech/sitemap/)
-- 内容：1 个文件 · 未知
+- 内容：1 个文件
 - 更新日期：2026-05-25
 - 规范页面（HTML）：[https://public.dagongren.tech/folders/2025-6-e7bc751c/](https://public.dagongren.tech/folders/2025-6-e7bc751c/)
 - Markdown 镜像：[https://public.dagongren.tech/folders/2025-6-e7bc751c/index.md](https://public.dagongren.tech/folders/2025-6-e7bc751c/index.md)

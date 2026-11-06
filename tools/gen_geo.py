@@ -38,6 +38,7 @@ CONTENT = os.path.join(ROOT, "content", "folders")
 PUBLIC = os.path.join(ROOT, "public")
 CONFIG = os.path.join(ROOT, "hugo.toml")
 MOBILE_APPS = os.path.join(ROOT, "data", "mobile_apps.json")
+DEVICE_META = os.path.join(ROOT, "data", "device_meta.json")
 
 CAT_ORDER = ["软件工具", "设备与固件", "游戏与修改器", "学习资料", "影音媒体", "其他"]
 CAT_DESC = {
@@ -105,11 +106,24 @@ def meta_suffix(page):
     return "（%s）" % " · ".join(parts) if parts else ""
 
 
+def device_suffix(page):
+    dev = page.get("device") or {}
+    bits = [dev.get("brand"), dev.get("model"), dev.get("type")]
+    bits = [b for b in bits if b]
+    return " · " + " ".join(bits) if bits else ""
+
+
 def load_pages(base):
     mobile = set()
     if os.path.exists(MOBILE_APPS):
         with open(MOBILE_APPS, "r", encoding="utf-8") as f:
             mobile = set(json.load(f).get("ids", []))
+
+    device = {}
+    if os.path.exists(DEVICE_META):
+        with open(DEVICE_META, "r", encoding="utf-8") as f:
+            device = json.load(f)
+        device.pop("_comment", None)
 
     pages = []
     for slug in sorted(os.listdir(CONTENT)):
@@ -140,7 +154,11 @@ def load_pages(base):
             "category": cats[0] if cats else "其他",
             "tags_raw": field(fm, "tags"),
             "item_count": field(fm, "item_count"),
-            "pan_url": "" if share_id in mobile else field(fm, "pan_url"),
+            # Mirrors always carry the pan link, mobile apps included: the QR-only
+            # rule stays an HTML-side policy, and machine users need the real URL.
+            "pan_url": field(fm, "pan_url"),
+            "is_mobile": share_id in mobile,
+            "device": device.get(share_id, {}),
             "share_id": share_id,
             "body": body.strip(),
             "screenshots": real_screenshots(fm),
@@ -224,7 +242,9 @@ def build_llms_txt(base, pages):
         "## 说明",
         "",
         "- 每条资源页另有同路径的 `index.md` 镜像（即 `<资源页 URL>index.md`），供 LLM 直接抓取；HTML 页为人工阅读版本。",
-        "- 手机版软件（安卓 App / APK）按站点策略不输出网盘链接，只在 HTML 页提供扫码获取。",
+        "- 手机版软件（安卓 App / APK）在 HTML 页只提供扫码，但在 Markdown 镜像与 llms-full.txt 中给出网盘直链。",
+        "- 设备与固件页提供品牌、机型、类型字段（`data/device_meta.json`）；具体系统版本分享标题未标注，页面已注明需自行核对。",
+        "- 简介只陈述可核实信息（标题、分类、体积、文件数、分享日期）；标题未说明的部分不加推测。",
         "- 内容由 `tools/gen_folders.py` 从 `qsave share ls --json` 生成，文案源为 `tools/intros.json`，slug 稳定不变。",
         "- 资源仅供学习与交流使用，下载后请及时删除；如涉及版权问题请联系移除。",
         "",
@@ -234,10 +254,11 @@ def build_llms_txt(base, pages):
     for cat, group in grouped(pages):
         L += ["### %s（%d）" % (cat, len(group)), "", CAT_DESC.get(cat, ""), ""]
         for p in group:
-            L.append("- %s: %s%s · %s" % (
+            L.append("- %s: %s%s%s · %s" % (
                 link(p["title"], p["url"]),
                 md_text(p["summary"]),
                 meta_suffix(p),
+                device_suffix(p),
                 link("Markdown", p["md_url"]),
             ))
         L.append("")
@@ -273,6 +294,12 @@ def build_llms_full(base, pages):
         ]
         if p["item_count"]:
             L.append("- 内容：" + p["item_count"])
+        dev = p.get("device") or {}
+        for label, key in (("品牌", "brand"), ("机型", "model"), ("类型", "type"), ("标注", "note")):
+            if dev.get(key):
+                L.append("- %s：%s" % (label, dev[key]))
+        if p.get("is_mobile"):
+            L.append("- 说明：手机版软件，HTML 页为扫码获取；此处提供直链。")
         if p["date"]:
             L.append("- 更新日期：" + p["date"])
         L += ["", "简介：" + md_text(p["summary"]), ""]
@@ -371,11 +398,12 @@ def build_dir_md(base, pages):
     for cat, group in grouped(pages):
         D += ["## %s（%d）" % (cat, len(group)), ""]
         for p in group:
-            D.append("- %s — %s · %s%s" % (
+            D.append("- %s — %s · %s%s%s" % (
                 link(p["title"], p["url"]),
                 md_text(p["summary"]),
                 link("Markdown", p["md_url"]),
                 meta_suffix(p),
+                device_suffix(p),
             ))
         D.append("")
     return D
@@ -407,6 +435,17 @@ def build_page_md(base, page, related):
         "",
         "- 分类：" + link(page["category"], base + "sitemap/"),
     ]
+    dev = page.get("device") or {}
+    if dev.get("brand"):
+        B.append("- 品牌：" + dev["brand"])
+    if dev.get("model"):
+        B.append("- 机型：" + dev["model"])
+    if dev.get("type"):
+        B.append("- 类型：" + dev["type"])
+    if dev.get("note"):
+        B.append("- 标注：" + dev["note"])
+    if page.get("is_mobile"):
+        B.append("- 说明：手机版软件，HTML 页为扫码获取；本镜像提供直链。")
     if page["item_count"]:
         B.append("- 内容：" + page["item_count"])
     B += [
@@ -420,7 +459,7 @@ def build_page_md(base, page, related):
     if page["pan_url"]:
         B += ["网盘入口：" + link("打开网盘文件夹 ↗", page["pan_url"]), ""]
     else:
-        B += ["网盘入口：手机版软件按站点策略不直接提供链接，请在规范页面扫码获取。", ""]
+        B += ["网盘入口：该分享未记录网盘地址。", ""]
     if page["screenshots"]:
         B += ["## 截图", ""]
         for s in page["screenshots"]:

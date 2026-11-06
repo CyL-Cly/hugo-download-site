@@ -14,7 +14,7 @@ markdown: https://public.dagongren.tech/folders/geek-exe-70708d99/index.md
 
 Geek Uninstaller 的便携版主程序，6.3 MB 单文件，用来彻底卸载 Windows 软件并清理残留。
 
-标题只写了 geek.exe，从 6.3 MB 的体积和软件分类看，应该就是 Geek Uninstaller 的主程序。它用来彻底卸载 Windows 软件，顺带清理注册表和残留目录，不想装完整套工具的人拿单文件就能跑。
+分享内共 1 个文件，分享日期 2026-04-12。标题未标注具体版本号与更多说明，以网盘内文件名与版本为准。
 
 ## 页面信息
 

@@ -2,7 +2,7 @@
 title: "一加OnePlus 13"
 date: 2026-10-19
 description: "夸克网盘分享 · 设备与固件"
-summary: "一加 13 的固件与工具合集，734.7 GB 的容量在单机型上很足，标题外没更多说明"
+summary: "一加 13 手机相关资源，体积 734.7 GB，分享于 2026-10-19。"
 categories: ["设备与固件"]
 tags: ["夸克"]
 item_count: "1 个文件 · 734.7 GB"
@@ -12,13 +12,16 @@ markdown: https://public.dagongren.tech/folders/oneplus-13-fcde2d51/index.md
 
 # 一加OnePlus 13
 
-一加 13 的固件与工具合集，734.7 GB 的容量在单机型上很足，标题外没更多说明
+一加 13 手机相关资源，体积 734.7 GB，分享于 2026-10-19。
 
-这份分享的名字就是一加 13，没有更多说明，734.7 GB 的容量放在单个机型上算是很足。想给手机换系统、回退版本的话可以当作资料库，具体有哪些包得进去看目录。
+分享内共 1 个文件，体积 734.7 GB，分享日期 2026-10-19。标题只给出机型（一加 13），未标注系统版本、适用区域与刷机方式。下载后请先打开文件夹核对版本与机型，确认无误再动手。
 
 ## 页面信息
 
 - 分类：[设备与固件](https://public.dagongren.tech/sitemap/)
+- 品牌：一加
+- 机型：13
+- 类型：手机
 - 内容：1 个文件 · 734.7 GB
 - 更新日期：2026-10-19
 - 规范页面（HTML）：[https://public.dagongren.tech/folders/oneplus-13-fcde2d51/](https://public.dagongren.tech/folders/oneplus-13-fcde2d51/)

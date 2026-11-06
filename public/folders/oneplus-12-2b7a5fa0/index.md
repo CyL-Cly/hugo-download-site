@@ -2,7 +2,7 @@
 title: "一加OnePlus 12"
 date: 2026-10-19
 description: "夸克网盘分享 · 设备与固件"
-summary: "一加 12 的固件与工具归档，容量达 1.0 TB，推测把历次系统版本都收了进去"
+summary: "一加 12 手机相关资源，体积 1.0 TB，分享于 2026-10-19。"
 categories: ["设备与固件"]
 tags: ["夸克"]
 item_count: "1 个文件 · 1.0 TB"
@@ -12,13 +12,16 @@ markdown: https://public.dagongren.tech/folders/oneplus-12-2b7a5fa0/index.md
 
 # 一加OnePlus 12
 
-一加 12 的固件与工具归档，容量达 1.0 TB，推测把历次系统版本都收了进去
+一加 12 手机相关资源，体积 1.0 TB，分享于 2026-10-19。
 
-容量到 1.0 TB 的机型分享并不常见，从大小推测是一加 12 的全套固件和工具长期累积下来的存档。这类资源适合需要反复刷机、留档对比不同版本的人，普通用户挑自己需要的部分即可。
+分享内共 1 个文件，体积 1.0 TB，分享日期 2026-10-19。标题只给出机型（一加 12），未标注系统版本、适用区域与刷机方式。下载后请先打开文件夹核对版本与机型，确认无误再动手。
 
 ## 页面信息
 
 - 分类：[设备与固件](https://public.dagongren.tech/sitemap/)
+- 品牌：一加
+- 机型：12
+- 类型：手机
 - 内容：1 个文件 · 1.0 TB
 - 更新日期：2026-10-19
 - 规范页面（HTML）：[https://public.dagongren.tech/folders/oneplus-12-2b7a5fa0/](https://public.dagongren.tech/folders/oneplus-12-2b7a5fa0/)

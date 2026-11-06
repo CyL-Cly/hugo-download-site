@@ -5,7 +5,7 @@ description: "夸克网盘分享 · 软件工具"
 summary: "R 语言和 RStudio 的安装资源，体积未知，统计分析入门常见的组合。"
 categories: ["软件工具"]
 tags: ["夸克"]
-item_count: "1 个文件 · 未知"
+item_count: "1 个文件"
 canonical: https://public.dagongren.tech/folders/r-rstudio-b2f640d7/
 markdown: https://public.dagongren.tech/folders/r-rstudio-b2f640d7/index.md
 ---
@@ -19,7 +19,7 @@ R 语言和 RStudio 的安装资源，体积未知，统计分析入门常见的
 ## 页面信息
 
 - 分类：[软件工具](https://public.dagongren.tech/sitemap/)
-- 内容：1 个文件 · 未知
+- 内容：1 个文件
 - 更新日期：2026-07-11
 - 规范页面（HTML）：[https://public.dagongren.tech/folders/r-rstudio-b2f640d7/](https://public.dagongren.tech/folders/r-rstudio-b2f640d7/)
 - Markdown 镜像：[https://public.dagongren.tech/folders/r-rstudio-b2f640d7/index.md](https://public.dagongren.tech/folders/r-rstudio-b2f640d7/index.md)

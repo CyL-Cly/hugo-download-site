@@ -19,6 +19,7 @@ Smart Dock 安卓版，把手机接上外接屏后切换成桌面式的操作界
 ## 页面信息
 
 - 分类：[软件工具](https://public.dagongren.tech/sitemap/)
+- 说明：手机版软件，HTML 页为扫码获取；本镜像提供直链。
 - 内容：1 个文件 · 11.8 MB
 - 更新日期：2026-05-03
 - 规范页面（HTML）：[https://public.dagongren.tech/folders/smart-dock-3dc7f592/](https://public.dagongren.tech/folders/smart-dock-3dc7f592/)
@@ -26,7 +27,7 @@ Smart Dock 安卓版，把手机接上外接屏后切换成桌面式的操作界
 - 所属目录：[资源目录](https://public.dagongren.tech/index/) · [目录 Markdown](https://public.dagongren.tech/index/index.md)
 - 全站地图：[HTML](https://public.dagongren.tech/sitemap/) · [Markdown](https://public.dagongren.tech/sitemap.md) · [llms.txt](https://public.dagongren.tech/llms.txt)
 
-网盘入口：手机版软件按站点策略不直接提供链接，请在规范页面扫码获取。
+网盘入口：[打开网盘文件夹 ↗](https://pan.quark.cn/s/7ef77a69d1a7)
 
 ## 同类资源
 

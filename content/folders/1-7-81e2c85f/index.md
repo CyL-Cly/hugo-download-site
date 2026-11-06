@@ -5,10 +5,10 @@ description: "夸克网盘分享 · 影音媒体"
 summary: "《哈利·波特》七部曲有声书打包分享，一次收齐全套朗读内容，适合通勤或睡前听。"
 categories: ["影音媒体"]
 tags: ["夸克"]
-item_count: "1 个文件 · 未知"
+item_count: "1 个文件"
 pan_url: "https://pan.quark.cn/s/53070e76b28d"
 share_id: "81e2c85f92b846319cabfb732f37fce6"
-size: "未知"
+size: ""
 ---
 
 收录《哈利·波特》第 1 到第 7 部的有声书，按书目顺序整理，一个文件即可取走整套。适合想重温原著的书迷、通勤路上听书的人，也可以当作孩子睡前的故事内容播放。

@@ -19,6 +19,9 @@ markdown: https://public.dagongren.tech/folders/oneplus-ace-2-pro-f6d83dde/index
 ## 页面信息
 
 - 分类：[设备与固件](https://public.dagongren.tech/sitemap/)
+- 品牌：一加
+- 机型：Ace 2 Pro
+- 类型：手机
 - 内容：1 个文件 · 282.7 GB
 - 更新日期：2026-10-19
 - 规范页面（HTML）：[https://public.dagongren.tech/folders/oneplus-ace-2-pro-f6d83dde/](https://public.dagongren.tech/folders/oneplus-ace-2-pro-f6d83dde/)

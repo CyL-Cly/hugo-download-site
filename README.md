@@ -19,8 +19,9 @@
 **每个文件夹页面** `/folders/<slug>/`：
 
 - 标题、简介、分类 / 体积 / 文件数 / 分享日期
+- 固件类资源额外显示 **品牌 / 机型 / 类型**，并给出「版本」——分享标题未标注时明确写成需自行核对
 - 「打开网盘文件夹 ↗」按钮 → 指向该条分享的真实夸克链接
-- **手机版软件例外**：安卓 App / APK 这类资源页面不输出任何网盘链接，按钮变成「下载（扫码获取）」，点击弹二维码
+- **手机版软件例外**：安卓 App / APK 这类资源页面不输出任何网盘链接，按钮变成「下载（扫码获取）」，点击弹二维码；但 **Markdown 镜像与 `llms-full.txt` 中仍给出直链**，方便复制与机器读取
 - 正文介绍（来自 `tools/intros.json`）
 - **截图**：只有真正配了图片才会出现「截图」区；没有图片时整块不渲染，不会留空占位
 
@@ -54,6 +55,29 @@
 
 改文案就改这个文件，然后 `python tools/apply_intros.py && build.bat`。
 `gen_folders.py` 重新生成页面时也会读它，不会把文案冲掉。
+
+**只写能核实的**：`qsave share ls --json` 不返回分享内的文件名，所以版本号、具体软件名这类信息无法自动取得。
+文案只陈述标题、分类、体积、文件数、分享日期这些确定项；标题没写的部分直接说明「未标注，需打开文件夹核对」，不写推测。
+`tools/polish_copy.py` 会把含「可能 / 应该 / 从名字看 / 推测」等措辞的条目重建成事实陈述：
+
+```bat
+python tools\polish_copy.py --report report.txt   # 先看 diff
+python tools\polish_copy.py --write               # 写回 intros.json
+python tools\apply_intros.py
+```
+
+### 设备与固件：品牌 / 机型字段
+
+`data/device_meta.json` 按 `share_id` 记录固件页的结构化字段，页面据此显示「品牌 / 机型 / 类型 / 版本」并支持按品牌筛选（`/index/?brand=一加`）：
+
+```json
+{
+  "<share_id>": { "brand": "一加", "model": "11", "type": "手机", "note": "标题含 OpenWrt 25" }
+}
+```
+
+`note` 只放标题里确实写了的额外信息。**版本号不在其中**：分享标题普遍不写系统版本，页面统一标注「分享标题未标注，请打开文件夹核对」。
+文件可手工修正，`python tools/gen_device_meta.py --write` 只补缺失项并清理已离开该分类的条目，不会覆盖你改过的值。
 
 ### 怎么加截图
 
@@ -144,7 +168,7 @@ git push
 
 每个 HTML 页 `<head>` 都带 `rel=canonical`、`rel=alternate type="text/markdown"`（指向本页镜像）与 `llms.txt`；页脚有全站地图入口。`robots.txt` 里同时列出两份 sitemap 与 GEO 发现提示。
 
-**隐私一致性**：`data/mobile_apps.json` 里的手机版软件在 HTML 页只给二维码；`gen_geo.py` 同样不会把 `pan_url` 写进任何 Markdown 镜像或 `llms-full.txt`。
+**手机版软件的两种呈现**：`data/mobile_apps.json` 里的资源，HTML 页只给二维码、不输出链接；Markdown 镜像与 `llms-full.txt` 则给出网盘直链，并在条目里注明「HTML 页为扫码获取，本镜像提供直链」。这样保持人读页面干净，同时让复制与机器抓取不受阻。
 
 ### 中文编码 / Content-Type（ESA 控制台需配一次）
 
@@ -195,14 +219,17 @@ layouts/sitemap/list.html 全站地图 HTML（含 .md 镜像链接）
 layouts/folders/single.html 文件夹页模板（截图区按需渲染、手机版软件走二维码）
 layouts/robots.txt        robots（含两份 sitemap 与 GEO 提示）
 layouts/partials/         head / foot
-data/mobile_apps.json     手机版软件名单（这些资源不显示链接）
+data/mobile_apps.json     手机版软件名单（HTML 页这些资源不显示链接，只给二维码）
+data/device_meta.json     固件页的品牌 / 机型 / 类型字段（可手改）
 static/css/main.css       样式
-static/js/main.js         搜索筛选
+static/js/main.js         搜索与分类 / 品牌筛选
 static/js/folder.js       二维码弹窗
 static/qr/                构建生成的二维码（gen_qr.py 产出）
 static/<key>.txt          IndexNow 域名验证文件
 static/screenshots/       放截图（自行放入）
 tools/intros.json         215 条资源的简介与正文（文案源）
+tools/polish_copy.py      把含推测措辞的文案重建成事实陈述
+tools/gen_device_meta.py  从标题推断固件页品牌 / 机型，写入 data/device_meta.json
 tools/apply_intros.py     把 intros.json 写回页面
 tools/merge_intros.py     合并分批文案并校验
 tools/build_intro_batches.py  切分批次的输入文件

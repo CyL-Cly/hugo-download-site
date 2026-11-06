@@ -2,7 +2,7 @@
 title: "RAX3000M编译oenwrt25"
 date: 2026-03-29
 description: "夸克网盘分享 · 设备与固件"
-summary: "按 OpenWrt 25 为 RAX3000M 编译的固件，465.5 MB，想换路由器系统可以看。"
+summary: "Netgear RAX3000M 路由器相关资源，体积 465.5 MB，分享于 2026-03-29。"
 categories: ["设备与固件"]
 tags: ["夸克"]
 item_count: "1 个文件 · 465.5 MB"
@@ -12,13 +12,17 @@ markdown: https://public.dagongren.tech/folders/rax3000m-oenwrt25-d0b01223/index
 
 # RAX3000M编译oenwrt25
 
-按 OpenWrt 25 为 RAX3000M 编译的固件，465.5 MB，想换路由器系统可以看。
+Netgear RAX3000M 路由器相关资源，体积 465.5 MB，分享于 2026-03-29。
 
-作者针对 RAX3000M 编译的一份 OpenWrt 25 固件，465.5 MB。体积比一般固件大，可能连编译产物一起打了包；想给路由器换系统、加插件的人可以看看，动手前务必备份原厂固件。
+分享内共 1 个文件，体积 465.5 MB，分享日期 2026-03-29。标题只给出机型（Netgear RAX3000M），未标注系统版本、适用区域与刷机方式。下载后请先打开文件夹核对版本与机型，确认无误再动手。
 
 ## 页面信息
 
 - 分类：[设备与固件](https://public.dagongren.tech/sitemap/)
+- 品牌：网件
+- 机型：RAX3000M
+- 类型：路由器
+- 标注：标题含 OpenWrt 25
 - 内容：1 个文件 · 465.5 MB
 - 更新日期：2026-03-29
 - 规范页面（HTML）：[https://public.dagongren.tech/folders/rax3000m-oenwrt25-d0b01223/](https://public.dagongren.tech/folders/rax3000m-oenwrt25-d0b01223/)

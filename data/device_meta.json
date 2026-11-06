@@ -1,0 +1,220 @@
+{
+  "_comment": "设备与固件页的结构化字段（品牌/机型/类型），按 share_id。只填标题能确证的信息；版本号无法从分享列表取得，页面会提示自行核对。可手工修正，重跑 gen_device_meta.py 只补缺失项。",
+  "0227a31d44ad4c9099cea9135ad76959": {
+    "brand": "一加",
+    "model": "Turbo 6X Pro",
+    "type": "手机"
+  },
+  "09d005c66982461884afdf0ff5053ef7": {
+    "brand": "一加",
+    "model": "15T",
+    "type": "手机"
+  },
+  "0bc1f48ea12543d1b35c881eb6b7e21a": {
+    "brand": "一加",
+    "model": "Ace",
+    "type": "手机"
+  },
+  "0ccc74921ce447f892a9b2789aa84b4b": {
+    "brand": "一加",
+    "model": "Ace 2",
+    "type": "手机"
+  },
+  "137aa649d2bd488abd25a04207735336": {
+    "brand": "一加",
+    "model": "Ace 6",
+    "type": "手机"
+  },
+  "1f1a12d714fb4687b8768f7718ae2a39": {
+    "brand": "网件",
+    "model": "RAX3000M",
+    "type": "路由器",
+    "note": "标题含 Nikki"
+  },
+  "207ef7aafdbd4807a67daf2acff36cdf": {
+    "brand": "一加",
+    "model": "Ace Pro",
+    "type": "手机"
+  },
+  "2631a20abdc34084a9efbdc1fb0ac7c4": {
+    "brand": "一加",
+    "model": "Ace 5 Pro",
+    "type": "手机"
+  },
+  "2968671622924c429dccddea32fa930d": {
+    "brand": "一加",
+    "model": "Ace 6 至尊版",
+    "type": "手机"
+  },
+  "2b7a5fa098024f95b4ded404c39b0acd": {
+    "brand": "一加",
+    "model": "12",
+    "type": "手机"
+  },
+  "322893b027264f09974063ed037b81c0": {
+    "brand": "一加",
+    "model": "Open",
+    "type": "手机"
+  },
+  "324301d7aef84c68877c45e91ad51799": {
+    "brand": "一加",
+    "model": "Pad 2 Pro",
+    "type": "平板"
+  },
+  "3b9d9e3f04604b75855b46a1c6e53854": {
+    "brand": "一加",
+    "model": "16",
+    "type": "手机"
+  },
+  "3df5671093ef4a92a452da84601a2845": {
+    "brand": "一加",
+    "model": "ACE 6T",
+    "type": "手机"
+  },
+  "4822924734bd46299c65c77ca48a613b": {
+    "brand": "一加",
+    "model": "Ace 5 至尊版",
+    "type": "手机"
+  },
+  "4a698cf338d14610945610366eb2226f": {
+    "brand": "一加",
+    "model": "7",
+    "type": "手机"
+  },
+  "569ca80b24bc41b19b1bb0352ac03cf0": {
+    "brand": "一加",
+    "model": "8",
+    "type": "手机"
+  },
+  "585d2a4404c54343b2d5aa350df129f8": {
+    "brand": "微软",
+    "model": "Windows 11",
+    "type": "系统镜像"
+  },
+  "5a1f36ae96454f0eb6454f3ab2e8a909": {
+    "brand": "一加",
+    "model": "Ace 3V",
+    "type": "手机"
+  },
+  "5a2636c6c2fd4f369766fb65eb0f02b5": {
+    "brand": "一加",
+    "model": "Ace 3",
+    "type": "手机"
+  },
+  "5de3de5e1b2a421a83d6c657b1c9bfb7": {
+    "brand": "一加",
+    "model": "Pad 2",
+    "type": "平板"
+  },
+  "63c2dd605ba9419f9473b71c9f6519ba": {
+    "brand": "一加",
+    "model": "Pad 3 Pro",
+    "type": "平板"
+  },
+  "6616411e314a45439ee31d961e72b7ad": {
+    "brand": "一加",
+    "model": "Ace 5",
+    "type": "手机"
+  },
+  "67305b34b21a42acb5d256e34d6d3b7a": {
+    "brand": "一加",
+    "model": "Pad",
+    "type": "平板"
+  },
+  "85fa7231146945b2952b571faaa491d9": {
+    "brand": "一加",
+    "model": "Turbo 6V",
+    "type": "手机"
+  },
+  "86f1505ce9bd4952b1fbb1545bcdc520": {
+    "brand": "一加",
+    "model": "Ace 2V",
+    "type": "手机"
+  },
+  "8ff3a37510e54207a0c96955afa89ee7": {
+    "brand": "一加",
+    "model": "Ace 5 竞速版",
+    "type": "手机"
+  },
+  "92bfb7740a3e4b0b9b6dce62fbce7f14": {
+    "brand": "一加",
+    "model": "7T Pro",
+    "type": "手机"
+  },
+  "a459d18bf717467799f31fe309df86ab": {
+    "brand": "一加",
+    "model": "15",
+    "type": "手机"
+  },
+  "a4922c0f70304ebc847a774ebc0445bf": {
+    "brand": "一加",
+    "model": "11",
+    "type": "手机"
+  },
+  "b85ee528977b4cb7ac0e2bffe447ebdb": {
+    "brand": "一加",
+    "model": "Turbo 6",
+    "type": "手机"
+  },
+  "bed8bb54b32a4a43962f7aef7b5f6628": {
+    "brand": "一加",
+    "model": "7 Pro",
+    "type": "手机"
+  },
+  "bfce7119fc3b48c982898cf414919ef8": {
+    "brand": "一加",
+    "model": "7T",
+    "type": "手机"
+  },
+  "cc3b775cc70343968cc1f203da1b5fc1": {
+    "brand": "一加",
+    "model": "13T",
+    "type": "手机"
+  },
+  "d0b0122309514284bd79dd4e1f88b0af": {
+    "brand": "网件",
+    "model": "RAX3000M",
+    "type": "路由器",
+    "note": "标题含 OpenWrt 25"
+  },
+  "d0ffec30777243c28c1de476ba083b1c": {
+    "brand": "一加",
+    "model": "Turbo 6X",
+    "type": "手机"
+  },
+  "dcae49a081534b2b95a26f48857f8fe3": {
+    "brand": "一加",
+    "model": "Ace 3 Pro",
+    "type": "手机"
+  },
+  "e1a48aba836f40eba108becee9a1fc99": {
+    "brand": "一加",
+    "model": "10 Pro",
+    "type": "手机"
+  },
+  "eb8bfd1314bd48dfb90ff43e44f5b232": {
+    "brand": "一加",
+    "model": "Pad Pro",
+    "type": "平板"
+  },
+  "eecfb7969d944e53bc1669f41696a889": {
+    "brand": "一加",
+    "model": "8 Pro",
+    "type": "手机"
+  },
+  "f6d83dde2ce94741b286aec7a2ef28b9": {
+    "brand": "一加",
+    "model": "Ace 2 Pro",
+    "type": "手机"
+  },
+  "fc3746b16d5b4e9caac077c1988af107": {
+    "brand": "一加",
+    "model": "Ace 竞速版",
+    "type": "手机"
+  },
+  "fcde2d5196f04a849ed9e0a54beb48ac": {
+    "brand": "一加",
+    "model": "13",
+    "type": "手机"
+  }
+}

@@ -19,6 +19,10 @@ markdown: https://public.dagongren.tech/folders/rax3000m-nikki-1f1a12d7/index.md
 ## 页面信息
 
 - 分类：[设备与固件](https://public.dagongren.tech/sitemap/)
+- 品牌：网件
+- 机型：RAX3000M
+- 类型：路由器
+- 标注：标题含 Nikki
 - 内容：1 个文件 · 30.9 MB
 - 更新日期：2026-03-28
 - 规范页面（HTML）：[https://public.dagongren.tech/folders/rax3000m-nikki-1f1a12d7/](https://public.dagongren.tech/folders/rax3000m-nikki-1f1a12d7/)

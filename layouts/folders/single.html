@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="{{ .Site.Language.Locale }}">
 <head>
   <meta charset="utf-8">
@@ -24,8 +24,18 @@
         {{ with .Params.categories }}<p class="folder__eyebrow mono">FOLDER / {{ delimit . " / " }}</p>{{ end }}
         <h1 class="folder__title">{{ .Title }}</h1>
         {{ with .Params.summary }}<p class="folder__summary">{{ . }}</p>{{ end }}
+        {{ $dm := index (hugo.Data.device_meta | default dict) .Params.share_id }}
+        {{ with $dm }}
+        <dl class="specs">
+          {{ with .brand }}<div class="specs__item"><dt>品牌</dt><dd><a href="{{ "/index/" | relURL }}?brand={{ . }}">{{ . }}</a></dd></div>{{ end }}
+          {{ with .model }}<div class="specs__item"><dt>机型</dt><dd>{{ . }}</dd></div>{{ end }}
+          {{ with .type }}<div class="specs__item"><dt>类型</dt><dd>{{ . }}</dd></div>{{ end }}
+          {{ with .note }}<div class="specs__item"><dt>标注</dt><dd>{{ . }}</dd></div>{{ end }}
+          <div class="specs__item"><dt>版本</dt><dd class="specs__unknown">分享标题未标注，请打开文件夹核对</dd></div>
+        </dl>
+        {{ end }}
         <div class="folder__meta">
-          {{ with .Params.item_count }}<span class="mono">{{ . }}</span>{{ end }}
+          {{ with .Params.item_count }}<span class="mono">{{ . }}</span>{{ else }}<span class="mono">体积信息未提供</span>{{ end }}
           <span class="mono">更新 {{ .Date.Format "2006-01-02" }}</span>
           {{ range .Params.tags }}<span class="tag">{{ . }}</span>{{ end }}
         </div>

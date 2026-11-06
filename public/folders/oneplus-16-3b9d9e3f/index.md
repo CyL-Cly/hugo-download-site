@@ -19,6 +19,9 @@ markdown: https://public.dagongren.tech/folders/oneplus-16-3b9d9e3f/index.md
 ## 页面信息
 
 - 分类：[设备与固件](https://public.dagongren.tech/sitemap/)
+- 品牌：一加
+- 机型：16
+- 类型：手机
 - 内容：1 个文件 · 18.4 GB
 - 更新日期：2026-10-19
 - 规范页面（HTML）：[https://public.dagongren.tech/folders/oneplus-16-3b9d9e3f/](https://public.dagongren.tech/folders/oneplus-16-3b9d9e3f/)

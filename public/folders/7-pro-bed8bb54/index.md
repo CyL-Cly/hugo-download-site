@@ -19,6 +19,9 @@ markdown: https://public.dagongren.tech/folders/7-pro-bed8bb54/index.md
 ## 页面信息
 
 - 分类：[设备与固件](https://public.dagongren.tech/sitemap/)
+- 品牌：一加
+- 机型：7 Pro
+- 类型：手机
 - 内容：1 个文件 · 13.7 GB
 - 更新日期：2026-10-19
 - 规范页面（HTML）：[https://public.dagongren.tech/folders/7-pro-bed8bb54/](https://public.dagongren.tech/folders/7-pro-bed8bb54/)

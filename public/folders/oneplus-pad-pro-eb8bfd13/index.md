@@ -19,6 +19,9 @@ markdown: https://public.dagongren.tech/folders/oneplus-pad-pro-eb8bfd13/index.m
 ## 页面信息
 
 - 分类：[设备与固件](https://public.dagongren.tech/sitemap/)
+- 品牌：一加
+- 机型：Pad Pro
+- 类型：平板
 - 内容：1 个文件 · 380.7 GB
 - 更新日期：2026-10-19
 - 规范页面（HTML）：[https://public.dagongren.tech/folders/oneplus-pad-pro-eb8bfd13/](https://public.dagongren.tech/folders/oneplus-pad-pro-eb8bfd13/)

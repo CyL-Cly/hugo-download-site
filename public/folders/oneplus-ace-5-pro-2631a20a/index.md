@@ -19,6 +19,9 @@ markdown: https://public.dagongren.tech/folders/oneplus-ace-5-pro-2631a20a/index
 ## 页面信息
 
 - 分类：[设备与固件](https://public.dagongren.tech/sitemap/)
+- 品牌：一加
+- 机型：Ace 5 Pro
+- 类型：手机
 - 内容：1 个文件 · 206.0 GB
 - 更新日期：2026-10-19
 - 规范页面（HTML）：[https://public.dagongren.tech/folders/oneplus-ace-5-pro-2631a20a/](https://public.dagongren.tech/folders/oneplus-ace-5-pro-2631a20a/)

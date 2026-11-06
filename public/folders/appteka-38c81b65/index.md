@@ -14,11 +14,12 @@ markdown: https://public.dagongren.tech/folders/appteka-38c81b65/index.md
 
 安卓第三方应用商店客户端 Appteka，3.6 MB 的安装包，版本与来源没有额外说明。
 
-Appteka 这个标题指向安卓上的第三方应用商店客户端，这份分享只有一个 3.6 MB 的文件，大概率是它的安装包。具体版本与来源没有额外说明，下载后可以自行确认。
+分享内共 1 个文件，分享日期 2026-04-29。标题未标注具体版本号与更多说明，以网盘内文件名与版本为准。
 
 ## 页面信息
 
 - 分类：[其他](https://public.dagongren.tech/sitemap/)
+- 说明：手机版软件，HTML 页为扫码获取；本镜像提供直链。
 - 内容：1 个文件 · 3.6 MB
 - 更新日期：2026-04-29
 - 规范页面（HTML）：[https://public.dagongren.tech/folders/appteka-38c81b65/](https://public.dagongren.tech/folders/appteka-38c81b65/)
@@ -26,7 +27,7 @@ Appteka 这个标题指向安卓上的第三方应用商店客户端，这份分
 - 所属目录：[资源目录](https://public.dagongren.tech/index/) · [目录 Markdown](https://public.dagongren.tech/index/index.md)
 - 全站地图：[HTML](https://public.dagongren.tech/sitemap/) · [Markdown](https://public.dagongren.tech/sitemap.md) · [llms.txt](https://public.dagongren.tech/llms.txt)
 
-网盘入口：手机版软件按站点策略不直接提供链接，请在规范页面扫码获取。
+网盘入口：[打开网盘文件夹 ↗](https://pan.quark.cn/s/5ecf5f426337)
 
 ## 同类资源
 

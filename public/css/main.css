@@ -202,6 +202,31 @@ code { font-family: var(--font-mono); font-size: .9em; color: var(--accent); }
 .sitemap__md { font-family: var(--font-mono); font-size: var(--fs-xs); white-space: nowrap; }
 @media (max-width: 480px) { .sitemap__meta { display: none; } }
 
+/* ---------- device specs / brand filter ---------- */
+.specs {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, max-content));
+  gap: var(--sp-1) var(--sp-4);
+  margin: 0 0 var(--sp-3);
+  padding: var(--sp-2) var(--sp-3);
+  border: 1px solid var(--line);
+  border-left: 2px solid var(--accent);
+  border-radius: var(--r-md);
+  background: var(--bg-soft);
+}
+.specs__item { display: flex; align-items: baseline; gap: var(--sp-2); }
+.specs dt {
+  color: var(--paper-dim); font-size: var(--fs-xs);
+  font-family: var(--font-mono); letter-spacing: .06em;
+}
+.specs dd { margin: 0; font-size: var(--fs-sm); color: var(--paper); }
+.specs dd a { text-decoration: none; }
+.specs__unknown { color: var(--paper-dim); }
+.filters--brand { margin-top: var(--sp-2); align-items: center; }
+.filters__label { color: var(--paper-dim); font-size: var(--fs-xs); letter-spacing: .08em; }
+.chip--sm { height: 30px; padding: 0 var(--sp-2); font-size: 0.7rem; }
+.tag--meta { color: var(--accent); border-color: var(--accent); }
+
 /* ---------- qr dialog ---------- */
 .qrdlg {
   border: 1px solid var(--line); border-radius: var(--r-lg);

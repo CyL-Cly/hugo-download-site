@@ -2,7 +2,7 @@
 title: "一加OnePlus Ace 5 竞速版"
 date: 2026-10-19
 description: "夸克网盘分享 · 设备与固件"
-summary: "一加 Ace 5 竞速版的整机固件资源，单个文件约 148.3 GB，刷机救砖都能用上。"
+summary: "一加 Ace 5 竞速版 手机相关资源，体积 148.3 GB，分享于 2026-10-19。"
 categories: ["设备与固件"]
 tags: ["夸克"]
 item_count: "1 个文件 · 148.3 GB"
@@ -12,13 +12,16 @@ markdown: https://public.dagongren.tech/folders/oneplus-ace-5-8ff3a375/index.md
 
 # 一加OnePlus Ace 5 竞速版
 
-一加 Ace 5 竞速版的整机固件资源，单个文件约 148.3 GB，刷机救砖都能用上。
+一加 Ace 5 竞速版 手机相关资源，体积 148.3 GB，分享于 2026-10-19。
 
-按机型归档的一加 Ace 5 竞速版固件，只有一个文件，体积 148.3 GB，从体量看应该是完整的系统镜像或整机备份。需要重装系统、修复无法开机这类状况时，可以拿它来解决。
+分享内共 1 个文件，体积 148.3 GB，分享日期 2026-10-19。标题只给出机型（一加 Ace 5 竞速版），未标注系统版本、适用区域与刷机方式。下载后请先打开文件夹核对版本与机型，确认无误再动手。
 
 ## 页面信息
 
 - 分类：[设备与固件](https://public.dagongren.tech/sitemap/)
+- 品牌：一加
+- 机型：Ace 5 竞速版
+- 类型：手机
 - 内容：1 个文件 · 148.3 GB
 - 更新日期：2026-10-19
 - 规范页面（HTML）：[https://public.dagongren.tech/folders/oneplus-ace-5-8ff3a375/](https://public.dagongren.tech/folders/oneplus-ace-5-8ff3a375/)

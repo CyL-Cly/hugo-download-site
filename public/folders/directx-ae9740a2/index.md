@@ -2,7 +2,7 @@
 title: "DirectX"
 date: 2026-04-10
 description: "夸克网盘分享 · 软件工具"
-summary: "以 DirectX 为名的运行库资源，839.3 MB，体量比常规安装包大出不少，可能是合集。"
+summary: "「DirectX」（软件工具），体积 839.3 MB，分享于 2026-04-10。"
 categories: ["软件工具"]
 tags: ["夸克"]
 item_count: "1 个文件 · 839.3 MB"
@@ -12,9 +12,9 @@ markdown: https://public.dagongren.tech/folders/directx-ae9740a2/index.md
 
 # DirectX
 
-以 DirectX 为名的运行库资源，839.3 MB，体量比常规安装包大出不少，可能是合集。
+「DirectX」（软件工具），体积 839.3 MB，分享于 2026-04-10。
 
-单个文件约 839 MB，比微软常规的 DirectX 安装包大很多，可能是把多个版本的运行库和修复工具打在一起。老游戏提示缺少组件、或者重装系统后想补齐运行环境的用户会需要它。
+分享内共 1 个文件，分享日期 2026-04-10。标题未标注具体版本号与更多说明，以网盘内文件名与版本为准。
 
 ## 页面信息
 

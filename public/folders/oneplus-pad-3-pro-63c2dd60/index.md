@@ -19,6 +19,9 @@ markdown: https://public.dagongren.tech/folders/oneplus-pad-3-pro-63c2dd60/index
 ## 页面信息
 
 - 分类：[设备与固件](https://public.dagongren.tech/sitemap/)
+- 品牌：一加
+- 机型：Pad 3 Pro
+- 类型：平板
 - 内容：1 个文件 · 82.6 GB
 - 更新日期：2026-10-19
 - 规范页面（HTML）：[https://public.dagongren.tech/folders/oneplus-pad-3-pro-63c2dd60/](https://public.dagongren.tech/folders/oneplus-pad-3-pro-63c2dd60/)

@@ -5,7 +5,7 @@ description: "夸克网盘分享 · 游戏与修改器"
 summary: "《星露谷物语》安卓手机版安装包，体积未知，随手种田经营的那种玩法。"
 categories: ["游戏与修改器"]
 tags: ["夸克"]
-item_count: "1 个文件 · 未知"
+item_count: "1 个文件"
 canonical: https://public.dagongren.tech/folders/share-2bd95619/
 markdown: https://public.dagongren.tech/folders/share-2bd95619/index.md
 ---
@@ -19,14 +19,15 @@ markdown: https://public.dagongren.tech/folders/share-2bd95619/index.md
 ## 页面信息
 
 - 分类：[游戏与修改器](https://public.dagongren.tech/sitemap/)
-- 内容：1 个文件 · 未知
+- 说明：手机版软件，HTML 页为扫码获取；本镜像提供直链。
+- 内容：1 个文件
 - 更新日期：2026-04-09
 - 规范页面（HTML）：[https://public.dagongren.tech/folders/share-2bd95619/](https://public.dagongren.tech/folders/share-2bd95619/)
 - Markdown 镜像：[https://public.dagongren.tech/folders/share-2bd95619/index.md](https://public.dagongren.tech/folders/share-2bd95619/index.md)
 - 所属目录：[资源目录](https://public.dagongren.tech/index/) · [目录 Markdown](https://public.dagongren.tech/index/index.md)
 - 全站地图：[HTML](https://public.dagongren.tech/sitemap/) · [Markdown](https://public.dagongren.tech/sitemap.md) · [llms.txt](https://public.dagongren.tech/llms.txt)
 
-网盘入口：手机版软件按站点策略不直接提供链接，请在规范页面扫码获取。
+网盘入口：[打开网盘文件夹 ↗](https://pan.quark.cn/s/227555b5947a)
 
 ## 同类资源
 

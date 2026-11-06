@@ -19,6 +19,9 @@ markdown: https://public.dagongren.tech/folders/oneplus-pad-67305b34/index.md
 ## 页面信息
 
 - 分类：[设备与固件](https://public.dagongren.tech/sitemap/)
+- 品牌：一加
+- 机型：Pad
+- 类型：平板
 - 内容：1 个文件 · 102.0 GB
 - 更新日期：2026-10-19
 - 规范页面（HTML）：[https://public.dagongren.tech/folders/oneplus-pad-67305b34/](https://public.dagongren.tech/folders/oneplus-pad-67305b34/)

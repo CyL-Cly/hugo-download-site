@@ -19,6 +19,9 @@ markdown: https://public.dagongren.tech/folders/oneplus-turbo-6x-d0ffec30/index.
 ## 页面信息
 
 - 分类：[设备与固件](https://public.dagongren.tech/sitemap/)
+- 品牌：一加
+- 机型：Turbo 6X
+- 类型：手机
 - 内容：1 个文件 · 31.7 GB
 - 更新日期：2026-10-19
 - 规范页面（HTML）：[https://public.dagongren.tech/folders/oneplus-turbo-6x-d0ffec30/](https://public.dagongren.tech/folders/oneplus-turbo-6x-d0ffec30/)

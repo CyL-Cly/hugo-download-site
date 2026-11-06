@@ -5,7 +5,7 @@ description: "夸克网盘分享 · 软件工具"
 summary: "Visual Studio Code 的安装包，微软出品的免费代码编辑器，体积未标注。"
 categories: ["软件工具"]
 tags: ["夸克"]
-item_count: "1 个文件 · 未知"
+item_count: "1 个文件"
 canonical: https://public.dagongren.tech/folders/vscode-e39aeec8/
 markdown: https://public.dagongren.tech/folders/vscode-e39aeec8/index.md
 ---
@@ -19,7 +19,7 @@ Visual Studio Code 的安装包，微软出品的免费代码编辑器，体积�
 ## 页面信息
 
 - 分类：[软件工具](https://public.dagongren.tech/sitemap/)
-- 内容：1 个文件 · 未知
+- 内容：1 个文件
 - 更新日期：2026-04-12
 - 规范页面（HTML）：[https://public.dagongren.tech/folders/vscode-e39aeec8/](https://public.dagongren.tech/folders/vscode-e39aeec8/)
 - Markdown 镜像：[https://public.dagongren.tech/folders/vscode-e39aeec8/index.md](https://public.dagongren.tech/folders/vscode-e39aeec8/index.md)

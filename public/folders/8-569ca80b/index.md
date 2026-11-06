@@ -19,6 +19,9 @@ markdown: https://public.dagongren.tech/folders/8-569ca80b/index.md
 ## 页面信息
 
 - 分类：[设备与固件](https://public.dagongren.tech/sitemap/)
+- 品牌：一加
+- 机型：8
+- 类型：手机
 - 内容：1 个文件 · 14.6 GB
 - 更新日期：2026-10-19
 - 规范页面（HTML）：[https://public.dagongren.tech/folders/8-569ca80b/](https://public.dagongren.tech/folders/8-569ca80b/)

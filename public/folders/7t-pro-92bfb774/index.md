@@ -19,6 +19,9 @@ markdown: https://public.dagongren.tech/folders/7t-pro-92bfb774/index.md
 ## 页面信息
 
 - 分类：[设备与固件](https://public.dagongren.tech/sitemap/)
+- 品牌：一加
+- 机型：7T Pro
+- 类型：手机
 - 内容：1 个文件 · 6.6 GB
 - 更新日期：2026-10-19
 - 规范页面（HTML）：[https://public.dagongren.tech/folders/7t-pro-92bfb774/](https://public.dagongren.tech/folders/7t-pro-92bfb774/)

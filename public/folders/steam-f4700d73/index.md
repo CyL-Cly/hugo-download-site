@@ -5,7 +5,7 @@ description: "夸克网盘分享 · 其他"
 summary: "与 Steam 加速相关的一份分享，体积未标注，具体形式需要打开确认。"
 categories: ["其他"]
 tags: ["夸克"]
-item_count: "1 个文件 · 未知"
+item_count: "1 个文件"
 canonical: https://public.dagongren.tech/folders/steam-f4700d73/
 markdown: https://public.dagongren.tech/folders/steam-f4700d73/index.md
 ---
@@ -14,12 +14,12 @@ markdown: https://public.dagongren.tech/folders/steam-f4700d73/index.md
 
 与 Steam 加速相关的一份分享，体积未标注，具体形式需要打开确认。
 
-标题提到免费加速，可能是加速器客户端，也可能是相关配置，但文件大小为空，判断不出是安装包还是别的。适合常遇到商店打不开、下载速度慢的玩家先存一份看看。
+分享内共 1 个文件，分享未提供体积，分享日期 2026-05-15。标题未标注具体版本号与更多说明，以网盘内文件名与版本为准。
 
 ## 页面信息
 
 - 分类：[其他](https://public.dagongren.tech/sitemap/)
-- 内容：1 个文件 · 未知
+- 内容：1 个文件
 - 更新日期：2026-05-15
 - 规范页面（HTML）：[https://public.dagongren.tech/folders/steam-f4700d73/](https://public.dagongren.tech/folders/steam-f4700d73/)
 - Markdown 镜像：[https://public.dagongren.tech/folders/steam-f4700d73/index.md](https://public.dagongren.tech/folders/steam-f4700d73/index.md)

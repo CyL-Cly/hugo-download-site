@@ -42,8 +42,14 @@ def slugify(title, share_id):
 
 
 def human_size(n):
+    """Empty string when the share does not report a size.
+
+    The API returns size=0 for a few shares. Printing "未知" reads like a defect
+    on the page, so callers omit the field instead and say the size was not
+    provided.
+    """
     if not n or n <= 0:
-        return "未知"
+        return ""
     units = ["B", "KB", "MB", "GB", "TB"]
     i = 0
     v = float(n)
@@ -92,7 +98,7 @@ def summary_for(it, cat, size):
         "影音媒体": "音视频与媒体资源，来自夸克网盘分享。",
         "其他": "网盘分享资源，来自夸克网盘。",
     }[cat]
-    return "%s 体积 %s。" % (base, size)
+    return "%s 体积 %s。" % (base, size) if size else "%s 该分享未提供体积。" % base
 
 
 def main():
@@ -180,7 +186,8 @@ def main():
             "summary: %s" % yaml_str(summary),
             "categories: [%s]" % yaml_str(cat),
             "tags: [%s]" % yaml_str("夸克"),
-            "item_count: %s" % yaml_str("%d 个文件 · %s" % (file_num, size)),
+            "item_count: %s" % yaml_str(
+                "%d 个文件 · %s" % (file_num, size) if size else "%d 个文件" % file_num),
             "pan_url: %s" % yaml_str(url),
             "share_id: %s" % yaml_str(it.get("shareId", "")),
             "size: %s" % yaml_str(size),

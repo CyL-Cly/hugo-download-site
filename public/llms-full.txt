@@ -24,7 +24,7 @@
 
 简介：安卓端的环境隐藏工具，约 33 MB，2.2 版本，用于让应用检测不到某些运行环境。
 
-只有单个约 33 MB 的文件，标题原样保留了「悲伤一键隐藏环境_2.2版本」，没有附带使用说明。按名称推测是针对安卓系统的环境隐藏工具，常见于需要让应用检测不到某些环境的场景，实际效果和兼容性得自己验证。
+分享内共 1 个文件，分享日期 2026-11-05。标题未标注具体版本号与更多说明，以网盘内文件名与版本为准。
 
 网盘入口：[打开网盘文件夹](https://pan.quark.cn/s/589b2346450a)
 
@@ -36,11 +36,14 @@
 - Markdown 镜像：[https://public.dagongren.tech/folders/share-e16ee550/index.md](https://public.dagongren.tech/folders/share-e16ee550/index.md)
 - 分类：软件工具
 - 内容：1 个文件 · 9.9 MB
+- 说明：手机版软件，HTML 页为扫码获取；此处提供直链。
 - 更新日期：2026-11-04
 
 简介：蓝河工具箱，vivo 与 iQOO 机型可用的玩机辅助工具，体积不到 10 MB。
 
 针对蓝厂系统做的一些调校和管理功能，装完能查设备状态、处理系统应用一类的操作。适合愿意折腾手机的学生和玩机用户，动手之前先弄清楚每项功能到底改了什么。
+
+网盘入口：[打开网盘文件夹](https://pan.quark.cn/s/eccfef281081)
 
 ---
 
@@ -50,11 +53,14 @@
 - Markdown 镜像：[https://public.dagongren.tech/folders/share-90093d94/index.md](https://public.dagongren.tech/folders/share-90093d94/index.md)
 - 分类：软件工具
 - 内容：1 个文件 · 20.6 MB
+- 说明：手机版软件，HTML 页为扫码获取；此处提供直链。
 - 更新日期：2026-11-04
 
 简介：欢太工具箱，面向 OPPO、一加等机型的玩机辅助工具，体积约 20 MB。
 
 主要给用 ColorOS 的用户折腾手机用，能查看设备信息、处理系统应用一类的事情。适合想清理预装、调校系统的玩机党，动手前把每项功能的说明看一遍再操作。
+
+网盘入口：[打开网盘文件夹](https://pan.quark.cn/s/5336187cf4ef)
 
 ---
 
@@ -64,11 +70,14 @@
 - Markdown 镜像：[https://public.dagongren.tech/folders/share-2d27d005/index.md](https://public.dagongren.tech/folders/share-2d27d005/index.md)
 - 分类：软件工具
 - 内容：1 个文件 · 15.9 MB
+- 说明：手机版软件，HTML 页为扫码获取；此处提供直链。
 - 更新日期：2026-11-04
 
-简介：名为玄戒工具箱的应用，15.9 MB，从名字看是套设备端的工具合集。
+简介：「玄戒工具箱」（软件工具），体积 15.9 MB，分享于 2026-11-04。
 
-标题是玄戒工具箱，15.9 MB，看名字应该是围绕玄戒平台设备做的功能合集。这类工具箱一般把若干系统选项收在一处，具体能调什么，以应用里显示的内容为准。
+分享内共 1 个文件，分享日期 2026-11-04。标题未标注具体版本号与更多说明，以网盘内文件名与版本为准。
+
+网盘入口：[打开网盘文件夹](https://pan.quark.cn/s/3c4ffb3168db)
 
 ---
 
@@ -158,6 +167,9 @@ OBS Studio 用来录屏和推流，能自由拼接场景、混音、加摄像头
 - Markdown 镜像：[https://public.dagongren.tech/folders/windows11-585d2a44/index.md](https://public.dagongren.tech/folders/windows11-585d2a44/index.md)
 - 分类：设备与固件
 - 内容：1 个文件 · 5.4 GB
+- 品牌：微软
+- 机型：Windows 11
+- 类型：系统镜像
 - 更新日期：2026-11-01
 
 简介：Windows 11 的系统镜像文件，5.4 GB，可用于全新安装或者重装系统。
@@ -192,9 +204,9 @@ Lively Wallpaper 是开源动态壁纸软件，能把本地视频、GIF 甚至�
 - 内容：3 个文件 · 2.3 GB
 - 更新日期：2026-11-01
 
-简介：以 claude code haha 为标题的分享，3 个文件合计 2.3 GB，从命名判断应是 Claude Code 相关的安装资源。
+简介：「claude code haha」（其他），体积 2.3 GB，分享于 2026-11-01。
 
-标题写着 claude code haha，包含 3 个文件、合计 2.3 GB，从名字和体积看应该是 Claude Code 命令行工具相关的安装包或配套环境，具体包含哪些内容需要解压后确认。
+分享内共 3 个文件，分享日期 2026-11-01。标题未标注具体版本号与更多说明，以网盘内文件名与版本为准。
 
 网盘入口：[打开网盘文件夹](https://pan.quark.cn/s/ac4e4901180d)
 
@@ -205,12 +217,12 @@ Lively Wallpaper 是开源动态壁纸软件，能把本地视频、GIF 甚至�
 - 规范页面：[https://public.dagongren.tech/folders/share-5531117a/](https://public.dagongren.tech/folders/share-5531117a/)
 - Markdown 镜像：[https://public.dagongren.tech/folders/share-5531117a/index.md](https://public.dagongren.tech/folders/share-5531117a/index.md)
 - 分类：软件工具
-- 内容：1 个文件 · 未知
+- 内容：1 个文件
 - 更新日期：2026-10-27
 
 简介：文档处理类软件，体积未知，具体是哪一款要打开文件才知道。
 
-分享的标题只写了文档工具，没有给出具体软件名，体积也显示未知。按分类推测，应该和文档的编辑、转换或者阅读有关，用之前先打开看看是哪款程序，再做判断。
+分享内共 1 个文件，分享未提供体积，分享日期 2026-10-27。标题未标注具体版本号与更多说明，以网盘内文件名与版本为准。
 
 网盘入口：[打开网盘文件夹](https://pan.quark.cn/s/8b5699e02638)
 
@@ -222,6 +234,9 @@ Lively Wallpaper 是开源动态壁纸软件，能把本地视频、GIF 甚至�
 - Markdown 镜像：[https://public.dagongren.tech/folders/oneplus-turbo-6x-pro-0227a31d/index.md](https://public.dagongren.tech/folders/oneplus-turbo-6x-pro-0227a31d/index.md)
 - 分类：设备与固件
 - 内容：1 个文件 · 31.2 GB
+- 品牌：一加
+- 机型：Turbo 6X Pro
+- 类型：手机
 - 更新日期：2026-10-19
 
 简介：Pro 版不能拿普通版顶替，这份 31.2 GB 的固件对应一加 Turbo 6X Pro。
@@ -238,6 +253,9 @@ Lively Wallpaper 是开源动态壁纸软件，能把本地视频、GIF 甚至�
 - Markdown 镜像：[https://public.dagongren.tech/folders/oneplus-turbo-6x-d0ffec30/index.md](https://public.dagongren.tech/folders/oneplus-turbo-6x-d0ffec30/index.md)
 - 分类：设备与固件
 - 内容：1 个文件 · 31.7 GB
+- 品牌：一加
+- 机型：Turbo 6X
+- 类型：手机
 - 更新日期：2026-10-19
 
 简介：31.7 GB 的一加 Turbo 6X 固件，体积在同类机型里算轻的，重刷与救砖都用得上。
@@ -254,6 +272,9 @@ Lively Wallpaper 是开源动态壁纸软件，能把本地视频、GIF 甚至�
 - Markdown 镜像：[https://public.dagongren.tech/folders/oneplus-turbo-6v-85fa7231/index.md](https://public.dagongren.tech/folders/oneplus-turbo-6v-85fa7231/index.md)
 - 分类：设备与固件
 - 内容：1 个文件 · 57.5 GB
+- 品牌：一加
+- 机型：Turbo 6V
+- 类型：手机
 - 更新日期：2026-10-19
 
 简介：带 V 后缀的一加 Turbo 6V 固件，57.5 GB 的整机文件，重装系统时调出来就能用。
@@ -270,6 +291,9 @@ Lively Wallpaper 是开源动态壁纸软件，能把本地视频、GIF 甚至�
 - Markdown 镜像：[https://public.dagongren.tech/folders/oneplus-turbo-6-b85ee528/index.md](https://public.dagongren.tech/folders/oneplus-turbo-6-b85ee528/index.md)
 - 分类：设备与固件
 - 内容：1 个文件 · 53.1 GB
+- 品牌：一加
+- 机型：Turbo 6
+- 类型：手机
 - 更新日期：2026-10-19
 
 简介：一加 Turbo 6 的固件分享，单个文件约 53.1 GB，能满足日常刷机与系统恢复的需要。
@@ -286,6 +310,9 @@ Lively Wallpaper 是开源动态壁纸软件，能把本地视频、GIF 甚至�
 - Markdown 镜像：[https://public.dagongren.tech/folders/oneplus-pad-pro-eb8bfd13/index.md](https://public.dagongren.tech/folders/oneplus-pad-pro-eb8bfd13/index.md)
 - 分类：设备与固件
 - 内容：1 个文件 · 380.7 GB
+- 品牌：一加
+- 机型：Pad Pro
+- 类型：平板
 - 更新日期：2026-10-19
 
 简介：一加 Pad Pro 的固件合集，380.7 GB 集中在一个文件里，属于典型的大体积资源。
@@ -302,6 +329,9 @@ Lively Wallpaper 是开源动态壁纸软件，能把本地视频、GIF 甚至�
 - Markdown 镜像：[https://public.dagongren.tech/folders/oneplus-pad-67305b34/index.md](https://public.dagongren.tech/folders/oneplus-pad-67305b34/index.md)
 - 分类：设备与固件
 - 内容：1 个文件 · 102.0 GB
+- 品牌：一加
+- 机型：Pad
+- 类型：平板
 - 更新日期：2026-10-19
 
 简介：初代一加 Pad 的固件资源，单个文件 102.0 GB，用于刷机和系统修复这类场景。
@@ -318,6 +348,9 @@ Lively Wallpaper 是开源动态壁纸软件，能把本地视频、GIF 甚至�
 - Markdown 镜像：[https://public.dagongren.tech/folders/oneplus-pad-3-pro-63c2dd60/index.md](https://public.dagongren.tech/folders/oneplus-pad-3-pro-63c2dd60/index.md)
 - 分类：设备与固件
 - 内容：1 个文件 · 82.6 GB
+- 品牌：一加
+- 机型：Pad 3 Pro
+- 类型：平板
 - 更新日期：2026-10-19
 
 简介：给一加 Pad 3 Pro 平板留的一份固件文件，82.6 GB 单文件，供重装系统与日常维护时用。
@@ -334,6 +367,9 @@ Lively Wallpaper 是开源动态壁纸软件，能把本地视频、GIF 甚至�
 - Markdown 镜像：[https://public.dagongren.tech/folders/oneplus-pad-2-pro-324301d7/index.md](https://public.dagongren.tech/folders/oneplus-pad-2-pro-324301d7/index.md)
 - 分类：设备与固件
 - 内容：1 个文件 · 221.5 GB
+- 品牌：一加
+- 机型：Pad 2 Pro
+- 类型：平板
 - 更新日期：2026-10-19
 
 简介：221.5 GB 的一加 Pad 2 Pro 固件，体积在平板资源里算偏大的，适合做整机恢复。
@@ -350,6 +386,9 @@ Lively Wallpaper 是开源动态壁纸软件，能把本地视频、GIF 甚至�
 - Markdown 镜像：[https://public.dagongren.tech/folders/oneplus-pad-2-5de3de5e/index.md](https://public.dagongren.tech/folders/oneplus-pad-2-5de3de5e/index.md)
 - 分类：设备与固件
 - 内容：1 个文件 · 61.9 GB
+- 品牌：一加
+- 机型：Pad 2
+- 类型：平板
 - 更新日期：2026-10-19
 
 简介：一加 Pad 2 平板的固件包，61.9 GB 的单个文件，重装系统或修复故障时都能用。
@@ -366,6 +405,9 @@ Lively Wallpaper 是开源动态壁纸软件，能把本地视频、GIF 甚至�
 - Markdown 镜像：[https://public.dagongren.tech/folders/oneplus-open-322893b0/index.md](https://public.dagongren.tech/folders/oneplus-open-322893b0/index.md)
 - 分类：设备与固件
 - 内容：1 个文件 · 106.0 GB
+- 品牌：一加
+- 机型：Open
+- 类型：手机
 - 更新日期：2026-10-19
 
 简介：折叠屏机型 OnePlus Open 的固件包，106.0 GB 单个文件，重装系统或修复故障时取用。
@@ -382,6 +424,9 @@ OnePlus Open 是一加的折叠屏机型，这份固件单文件 106.0 GB。折�
 - Markdown 镜像：[https://public.dagongren.tech/folders/oneplus-ace-pro-207ef7aa/index.md](https://public.dagongren.tech/folders/oneplus-ace-pro-207ef7aa/index.md)
 - 分类：设备与固件
 - 内容：1 个文件 · 901.2 GB
+- 品牌：一加
+- 机型：Ace Pro
+- 类型：手机
 - 更新日期：2026-10-19
 
 简介：本批里体积最大的一个，901.2 GB，来自一加 Ace Pro 的整机固件资源。
@@ -398,6 +443,9 @@ OnePlus Open 是一加的折叠屏机型，这份固件单文件 106.0 GB。折�
 - Markdown 镜像：[https://public.dagongren.tech/folders/oneplus-ace-fc3746b1/index.md](https://public.dagongren.tech/folders/oneplus-ace-fc3746b1/index.md)
 - 分类：设备与固件
 - 内容：1 个文件 · 249.2 GB
+- 品牌：一加
+- 机型：Ace 竞速版
+- 类型：手机
 - 更新日期：2026-10-19
 
 简介：需要整机重做或者长期留底的话，这份 249.2 GB 的一加 Ace 竞速版固件可以备着。
@@ -413,12 +461,15 @@ OnePlus Open 是一加的折叠屏机型，这份固件单文件 106.0 GB。折�
 - 规范页面：[https://public.dagongren.tech/folders/oneplus-ace-6t-3df56710/](https://public.dagongren.tech/folders/oneplus-ace-6t-3df56710/)
 - Markdown 镜像：[https://public.dagongren.tech/folders/oneplus-ace-6t-3df56710/index.md](https://public.dagongren.tech/folders/oneplus-ace-6t-3df56710/index.md)
 - 分类：设备与固件
-- 内容：1 个文件 · 未知
+- 内容：1 个文件
+- 品牌：一加
+- 机型：ACE 6T
+- 类型：手机
 - 更新日期：2026-10-19
 
-简介：一加 ACE 6T 机型相关资源，体积未知，按分类看应属系统固件或刷机资料。
+简介：一加 ACE 6T 手机相关资源，分享未提供体积，分享于 2026-10-19。
 
-这条分享的标题就是一加 ACE 6T 这个机型名，没有更多说明，文件体积也显示为未知。结合设备与固件这个分类来看，大概率是系统固件或刷机相关的东西，具体内容建议拿到文件之后再做确认。
+分享内共 1 个文件，分享未提供体积，分享日期 2026-10-19。标题只给出机型（一加 ACE 6T），未标注系统版本、适用区域与刷机方式。下载后请先打开文件夹核对版本与机型，确认无误再动手。
 
 网盘入口：[打开网盘文件夹](https://pan.quark.cn/s/451e5b5647e2)
 
@@ -430,6 +481,9 @@ OnePlus Open 是一加的折叠屏机型，这份固件单文件 106.0 GB。折�
 - Markdown 镜像：[https://public.dagongren.tech/folders/oneplus-ace-6-29686716/index.md](https://public.dagongren.tech/folders/oneplus-ace-6-29686716/index.md)
 - 分类：设备与固件
 - 内容：1 个文件 · 67.4 GB
+- 品牌：一加
+- 机型：Ace 6 至尊版
+- 类型：手机
 - 更新日期：2026-10-19
 
 简介：想给一加 Ace 6 至尊版重刷系统的话，这份 67.4 GB 的固件正好对得上机型。
@@ -446,6 +500,9 @@ OnePlus Open 是一加的折叠屏机型，这份固件单文件 106.0 GB。折�
 - Markdown 镜像：[https://public.dagongren.tech/folders/oneplus-ace-6-137aa649/index.md](https://public.dagongren.tech/folders/oneplus-ace-6-137aa649/index.md)
 - 分类：设备与固件
 - 内容：1 个文件 · 126.6 GB
+- 品牌：一加
+- 机型：Ace 6
+- 类型：手机
 - 更新日期：2026-10-19
 
 简介：给一加 Ace 6 准备的一份固件资料，单个文件约 126.6 GB，用于刷机和系统恢复。
@@ -462,6 +519,9 @@ OnePlus Open 是一加的折叠屏机型，这份固件单文件 106.0 GB。折�
 - Markdown 镜像：[https://public.dagongren.tech/folders/oneplus-ace-5-pro-2631a20a/index.md](https://public.dagongren.tech/folders/oneplus-ace-5-pro-2631a20a/index.md)
 - 分类：设备与固件
 - 内容：1 个文件 · 206.0 GB
+- 品牌：一加
+- 机型：Ace 5 Pro
+- 类型：手机
 - 更新日期：2026-10-19
 
 简介：体积 206.0 GB 的单文件固件，对应一加 Ace 5 Pro，重装系统或修复故障时都用得上。
@@ -478,11 +538,14 @@ OnePlus Open 是一加的折叠屏机型，这份固件单文件 106.0 GB。折�
 - Markdown 镜像：[https://public.dagongren.tech/folders/oneplus-ace-5-8ff3a375/index.md](https://public.dagongren.tech/folders/oneplus-ace-5-8ff3a375/index.md)
 - 分类：设备与固件
 - 内容：1 个文件 · 148.3 GB
+- 品牌：一加
+- 机型：Ace 5 竞速版
+- 类型：手机
 - 更新日期：2026-10-19
 
-简介：一加 Ace 5 竞速版的整机固件资源，单个文件约 148.3 GB，刷机救砖都能用上。
+简介：一加 Ace 5 竞速版 手机相关资源，体积 148.3 GB，分享于 2026-10-19。
 
-按机型归档的一加 Ace 5 竞速版固件，只有一个文件，体积 148.3 GB，从体量看应该是完整的系统镜像或整机备份。需要重装系统、修复无法开机这类状况时，可以拿它来解决。
+分享内共 1 个文件，体积 148.3 GB，分享日期 2026-10-19。标题只给出机型（一加 Ace 5 竞速版），未标注系统版本、适用区域与刷机方式。下载后请先打开文件夹核对版本与机型，确认无误再动手。
 
 网盘入口：[打开网盘文件夹](https://pan.quark.cn/s/94b406055cc4)
 
@@ -494,11 +557,14 @@ OnePlus Open 是一加的折叠屏机型，这份固件单文件 106.0 GB。折�
 - Markdown 镜像：[https://public.dagongren.tech/folders/oneplus-ace-5-6616411e/index.md](https://public.dagongren.tech/folders/oneplus-ace-5-6616411e/index.md)
 - 分类：设备与固件
 - 内容：1 个文件 · 458.5 GB
+- 品牌：一加
+- 机型：Ace 5
+- 类型：手机
 - 更新日期：2026-10-19
 
-简介：一加 Ace 5 的固件与刷机资源，458.5 GB，容量在同系列里排中上，估计按版本分包
+简介：一加 Ace 5 手机相关资源，体积 458.5 GB，分享于 2026-10-19。
 
-最后这份是一加 Ace 5，458.5 GB 的容量在同系列里排中上，估计按版本分了不少包。需要重刷系统、找回旧版本或者帮别人救机时，有这么一份本地归档会方便很多。
+分享内共 1 个文件，体积 458.5 GB，分享日期 2026-10-19。标题只给出机型（一加 Ace 5），未标注系统版本、适用区域与刷机方式。下载后请先打开文件夹核对版本与机型，确认无误再动手。
 
 网盘入口：[打开网盘文件夹](https://pan.quark.cn/s/1bac8d1cafb8)
 
@@ -510,6 +576,9 @@ OnePlus Open 是一加的折叠屏机型，这份固件单文件 106.0 GB。折�
 - Markdown 镜像：[https://public.dagongren.tech/folders/oneplus-ace-5-48229247/index.md](https://public.dagongren.tech/folders/oneplus-ace-5-48229247/index.md)
 - 分类：设备与固件
 - 内容：1 个文件 · 139.6 GB
+- 品牌：一加
+- 机型：Ace 5 至尊版
+- 类型：手机
 - 更新日期：2026-10-19
 
 简介：一加 Ace 5 至尊版的固件分享，139.6 GB，从体积看是固件与刷机工具的组合
@@ -526,6 +595,9 @@ OnePlus Open 是一加的折叠屏机型，这份固件单文件 106.0 GB。折�
 - Markdown 镜像：[https://public.dagongren.tech/folders/oneplus-ace-3v-5a1f36ae/index.md](https://public.dagongren.tech/folders/oneplus-ace-3v-5a1f36ae/index.md)
 - 分类：设备与固件
 - 内容：1 个文件 · 320.1 GB
+- 品牌：一加
+- 机型：Ace 3V
+- 类型：手机
 - 更新日期：2026-10-19
 
 简介：一加 Ace 3V 的机型资源，320.1 GB，中端机型的刷机资料相对不好找，算是个现成的入口
@@ -542,6 +614,9 @@ OnePlus Open 是一加的折叠屏机型，这份固件单文件 106.0 GB。折�
 - Markdown 镜像：[https://public.dagongren.tech/folders/oneplus-ace-3-pro-dcae49a0/index.md](https://public.dagongren.tech/folders/oneplus-ace-3-pro-dcae49a0/index.md)
 - 分类：设备与固件
 - 内容：1 个文件 · 246.1 GB
+- 品牌：一加
+- 机型：Ace 3 Pro
+- 类型：手机
 - 更新日期：2026-10-19
 
 简介：一加 Ace 3 Pro 的固件资源，246.1 GB，更像精选过的固件加工具组合而非全量镜像
@@ -558,11 +633,14 @@ OnePlus Open 是一加的折叠屏机型，这份固件单文件 106.0 GB。折�
 - Markdown 镜像：[https://public.dagongren.tech/folders/oneplus-ace-3-5a2636c6/index.md](https://public.dagongren.tech/folders/oneplus-ace-3-5a2636c6/index.md)
 - 分类：设备与固件
 - 内容：1 个文件 · 690.5 GB
+- 品牌：一加
+- 机型：Ace 3
+- 类型：手机
 - 更新日期：2026-10-19
 
-简介：一加 Ace 3 的固件合集，690.5 GB 的体量，从早期版本到近期更新应该收得比较全
+简介：一加 Ace 3 手机相关资源，体积 690.5 GB，分享于 2026-10-19。
 
-这份分享以机型命名，690.5 GB 的体量说明收录得比较全，从早期版本到近期更新可能都在。适合习惯自己掌控系统版本的一加 Ace 3 用户，日常使用则没必要整包下载。
+分享内共 1 个文件，体积 690.5 GB，分享日期 2026-10-19。标题只给出机型（一加 Ace 3），未标注系统版本、适用区域与刷机方式。下载后请先打开文件夹核对版本与机型，确认无误再动手。
 
 网盘入口：[打开网盘文件夹](https://pan.quark.cn/s/b2600d8db3bd)
 
@@ -574,6 +652,9 @@ OnePlus Open 是一加的折叠屏机型，这份固件单文件 106.0 GB。折�
 - Markdown 镜像：[https://public.dagongren.tech/folders/oneplus-ace-2v-86f1505c/index.md](https://public.dagongren.tech/folders/oneplus-ace-2v-86f1505c/index.md)
 - 分类：设备与固件
 - 内容：1 个文件 · 378.4 GB
+- 品牌：一加
+- 机型：Ace 2V
+- 类型：手机
 - 更新日期：2026-10-19
 
 简介：一加 Ace 2V 的固件归档，378.4 GB，看起来是按型号和版本整理好的，天玑平台刷机更挑包
@@ -590,6 +671,9 @@ OnePlus Open 是一加的折叠屏机型，这份固件单文件 106.0 GB。折�
 - Markdown 镜像：[https://public.dagongren.tech/folders/oneplus-ace-2-pro-f6d83dde/index.md](https://public.dagongren.tech/folders/oneplus-ace-2-pro-f6d83dde/index.md)
 - 分类：设备与固件
 - 内容：1 个文件 · 282.7 GB
+- 品牌：一加
+- 机型：Ace 2 Pro
+- 类型：手机
 - 更新日期：2026-10-19
 
 简介：一加 Ace 2 Pro 的固件资源包，282.7 GB，容量在同类机型分享里中等偏上。
@@ -606,11 +690,14 @@ OnePlus Open 是一加的折叠屏机型，这份固件单文件 106.0 GB。折�
 - Markdown 镜像：[https://public.dagongren.tech/folders/oneplus-ace-2-0ccc7492/index.md](https://public.dagongren.tech/folders/oneplus-ace-2-0ccc7492/index.md)
 - 分类：设备与固件
 - 内容：1 个文件 · 671.7 GB
+- 品牌：一加
+- 机型：Ace 2
+- 类型：手机
 - 更新日期：2026-10-19
 
-简介：一加 Ace 2 的固件与刷机资源，671.7 GB，推测里面的目录按系统版本分好了
+简介：一加 Ace 2 手机相关资源，体积 671.7 GB，分享于 2026-10-19。
 
-671.7 GB 对一台手机来说是大数目，推测里面按版本分了不少目录。一加 Ace 2 用户如果要降级、救砖或者试试不同系统，可以从这份归档里挑对应的包来用。
+分享内共 1 个文件，体积 671.7 GB，分享日期 2026-10-19。标题只给出机型（一加 Ace 2），未标注系统版本、适用区域与刷机方式。下载后请先打开文件夹核对版本与机型，确认无误再动手。
 
 网盘入口：[打开网盘文件夹](https://pan.quark.cn/s/9b2d5df6e7eb)
 
@@ -622,11 +709,14 @@ OnePlus Open 是一加的折叠屏机型，这份固件单文件 106.0 GB。折�
 - Markdown 镜像：[https://public.dagongren.tech/folders/oneplus-ace-0bc1f48e/index.md](https://public.dagongren.tech/folders/oneplus-ace-0bc1f48e/index.md)
 - 分类：设备与固件
 - 内容：1 个文件 · 431.1 GB
+- 品牌：一加
+- 机型：Ace
+- 类型：手机
 - 更新日期：2026-10-19
 
-简介：一加 Ace 初代机型的固件合集，431.1 GB，多半是这几年的版本与工具累积
+简介：一加 Ace 手机相关资源，体积 431.1 GB，分享于 2026-10-19。
 
-一加 Ace 上市有几年了，这份 431.1 GB 的分享大概是这些年攒下来的各版本固件与工具。老机器想重装系统、或者留作备用机需要恢复环境时，这类归档挺实用。
+分享内共 1 个文件，体积 431.1 GB，分享日期 2026-10-19。标题只给出机型（一加 Ace），未标注系统版本、适用区域与刷机方式。下载后请先打开文件夹核对版本与机型，确认无误再动手。
 
 网盘入口：[打开网盘文件夹](https://pan.quark.cn/s/11a9c8f69054)
 
@@ -638,6 +728,9 @@ OnePlus Open 是一加的折叠屏机型，这份固件单文件 106.0 GB。折�
 - Markdown 镜像：[https://public.dagongren.tech/folders/oneplus-16-3b9d9e3f/index.md](https://public.dagongren.tech/folders/oneplus-16-3b9d9e3f/index.md)
 - 分类：设备与固件
 - 内容：1 个文件 · 18.4 GB
+- 品牌：一加
+- 机型：16
+- 类型：手机
 - 更新日期：2026-10-19
 
 简介：一加 16 机型相关资源，18.4 GB 的小分享，接近单个完整固件包加配套工具的体量
@@ -654,11 +747,14 @@ OnePlus Open 是一加的折叠屏机型，这份固件单文件 106.0 GB。折�
 - Markdown 镜像：[https://public.dagongren.tech/folders/oneplus-15t-09d005c6/index.md](https://public.dagongren.tech/folders/oneplus-15t-09d005c6/index.md)
 - 分类：设备与固件
 - 内容：1 个文件 · 87.4 GB
+- 品牌：一加
+- 机型：15T
+- 类型：手机
 - 更新日期：2026-10-19
 
-简介：一加 15T 的固件分享，87.4 GB，在同批机型里体量相对精简，可能只收主流版本
+简介：一加 15T 手机相关资源，体积 87.4 GB，分享于 2026-10-19。
 
-同批一加机型里，这份 87.4 GB 算小的，可能只收了当前主流版本的固件和必要工具。给一加 15T 做系统恢复或者第一次刷机时，这种精简的包反而更好找东西。
+分享内共 1 个文件，体积 87.4 GB，分享日期 2026-10-19。标题只给出机型（一加 15T），未标注系统版本、适用区域与刷机方式。下载后请先打开文件夹核对版本与机型，确认无误再动手。
 
 网盘入口：[打开网盘文件夹](https://pan.quark.cn/s/49c163d95e0f)
 
@@ -670,6 +766,9 @@ OnePlus Open 是一加的折叠屏机型，这份固件单文件 106.0 GB。折�
 - Markdown 镜像：[https://public.dagongren.tech/folders/oneplus-15-a459d18b/index.md](https://public.dagongren.tech/folders/oneplus-15-a459d18b/index.md)
 - 分类：设备与固件
 - 内容：1 个文件 · 540.5 GB
+- 品牌：一加
+- 机型：15
+- 类型：手机
 - 更新日期：2026-10-19
 
 简介：一加 15 的固件归档，540.5 GB，这个体积说明里面不止一两个安装包。
@@ -686,11 +785,14 @@ OnePlus Open 是一加的折叠屏机型，这份固件单文件 106.0 GB。折�
 - Markdown 镜像：[https://public.dagongren.tech/folders/oneplus-13t-cc3b775c/index.md](https://public.dagongren.tech/folders/oneplus-13t-cc3b775c/index.md)
 - 分类：设备与固件
 - 内容：1 个文件 · 284.0 GB
+- 品牌：一加
+- 机型：13T
+- 类型：手机
 - 更新日期：2026-10-19
 
-简介：一加 13T 的固件与刷机工具集合，284.0 GB 的分享，小屏机型玩机时留着备查
+简介：一加 13T 手机相关资源，体积 284.0 GB，分享于 2026-10-19。
 
-一加 13T 是小屏定位的机型，这份 284 GB 的分享从体量看应该是固件加刷机工具的集合。玩机的人遇到系统异常、或者想换回旧版本时，本地有份存档会比临时找链接踏实。
+分享内共 1 个文件，体积 284.0 GB，分享日期 2026-10-19。标题只给出机型（一加 13T），未标注系统版本、适用区域与刷机方式。下载后请先打开文件夹核对版本与机型，确认无误再动手。
 
 网盘入口：[打开网盘文件夹](https://pan.quark.cn/s/ab13bc26e0de)
 
@@ -702,11 +804,14 @@ OnePlus Open 是一加的折叠屏机型，这份固件单文件 106.0 GB。折�
 - Markdown 镜像：[https://public.dagongren.tech/folders/oneplus-13-fcde2d51/index.md](https://public.dagongren.tech/folders/oneplus-13-fcde2d51/index.md)
 - 分类：设备与固件
 - 内容：1 个文件 · 734.7 GB
+- 品牌：一加
+- 机型：13
+- 类型：手机
 - 更新日期：2026-10-19
 
-简介：一加 13 的固件与工具合集，734.7 GB 的容量在单机型上很足，标题外没更多说明
+简介：一加 13 手机相关资源，体积 734.7 GB，分享于 2026-10-19。
 
-这份分享的名字就是一加 13，没有更多说明，734.7 GB 的容量放在单个机型上算是很足。想给手机换系统、回退版本的话可以当作资料库，具体有哪些包得进去看目录。
+分享内共 1 个文件，体积 734.7 GB，分享日期 2026-10-19。标题只给出机型（一加 13），未标注系统版本、适用区域与刷机方式。下载后请先打开文件夹核对版本与机型，确认无误再动手。
 
 网盘入口：[打开网盘文件夹](https://pan.quark.cn/s/29f434f907df)
 
@@ -718,11 +823,14 @@ OnePlus Open 是一加的折叠屏机型，这份固件单文件 106.0 GB。折�
 - Markdown 镜像：[https://public.dagongren.tech/folders/oneplus-12-2b7a5fa0/index.md](https://public.dagongren.tech/folders/oneplus-12-2b7a5fa0/index.md)
 - 分类：设备与固件
 - 内容：1 个文件 · 1.0 TB
+- 品牌：一加
+- 机型：12
+- 类型：手机
 - 更新日期：2026-10-19
 
-简介：一加 12 的固件与工具归档，容量达 1.0 TB，推测把历次系统版本都收了进去
+简介：一加 12 手机相关资源，体积 1.0 TB，分享于 2026-10-19。
 
-容量到 1.0 TB 的机型分享并不常见，从大小推测是一加 12 的全套固件和工具长期累积下来的存档。这类资源适合需要反复刷机、留档对比不同版本的人，普通用户挑自己需要的部分即可。
+分享内共 1 个文件，体积 1.0 TB，分享日期 2026-10-19。标题只给出机型（一加 12），未标注系统版本、适用区域与刷机方式。下载后请先打开文件夹核对版本与机型，确认无误再动手。
 
 网盘入口：[打开网盘文件夹](https://pan.quark.cn/s/ee5df6da9850)
 
@@ -734,11 +842,14 @@ OnePlus Open 是一加的折叠屏机型，这份固件单文件 106.0 GB。折�
 - Markdown 镜像：[https://public.dagongren.tech/folders/oneplus-11-a4922c0f/index.md](https://public.dagongren.tech/folders/oneplus-11-a4922c0f/index.md)
 - 分类：设备与固件
 - 内容：1 个文件 · 776.2 GB
+- 品牌：一加
+- 机型：11
+- 类型：手机
 - 更新日期：2026-10-19
 
-简介：一加 11 相关的固件资源，776.2 GB，多半是多个系统版本和配套工具的集合
+简介：一加 11 手机相关资源，体积 776.2 GB，分享于 2026-10-19。
 
-标题只留了机型名，776.2 GB 的体积说明里面塞的东西不少，多半是多个系统版本和配套工具的集合。给一加 11 刷机、降级或者救砖之前，可以先把这份资源过一遍再动手。
+分享内共 1 个文件，体积 776.2 GB，分享日期 2026-10-19。标题只给出机型（一加 11），未标注系统版本、适用区域与刷机方式。下载后请先打开文件夹核对版本与机型，确认无误再动手。
 
 网盘入口：[打开网盘文件夹](https://pan.quark.cn/s/d24acde43d9a)
 
@@ -750,6 +861,9 @@ OnePlus Open 是一加的折叠屏机型，这份固件单文件 106.0 GB。折�
 - Markdown 镜像：[https://public.dagongren.tech/folders/oneplus-10-pro-e1a48aba/index.md](https://public.dagongren.tech/folders/oneplus-10-pro-e1a48aba/index.md)
 - 分类：设备与固件
 - 内容：1 个文件 · 701.1 GB
+- 品牌：一加
+- 机型：10 Pro
+- 类型：手机
 - 更新日期：2026-10-19
 
 简介：一加 10 Pro 机型名下的固件与刷机资源合集，701.1 GB，看起来不止一个固件包
@@ -766,6 +880,9 @@ OnePlus Open 是一加的折叠屏机型，这份固件单文件 106.0 GB。折�
 - Markdown 镜像：[https://public.dagongren.tech/folders/8-pro-eecfb796/index.md](https://public.dagongren.tech/folders/8-pro-eecfb796/index.md)
 - 分类：设备与固件
 - 内容：1 个文件 · 14.7 GB
+- 品牌：一加
+- 机型：8 Pro
+- 类型：手机
 - 更新日期：2026-10-19
 
 简介：整包固件适用于一加 8 Pro，14.7 GB，和一加 8 那份大小相近，但不是同一个机型。
@@ -782,6 +899,9 @@ OnePlus Open 是一加的折叠屏机型，这份固件单文件 106.0 GB。折�
 - Markdown 镜像：[https://public.dagongren.tech/folders/8-569ca80b/index.md](https://public.dagongren.tech/folders/8-569ca80b/index.md)
 - 分类：设备与固件
 - 内容：1 个文件 · 14.6 GB
+- 品牌：一加
+- 机型：8
+- 类型：手机
 - 更新日期：2026-10-19
 
 简介：一加 8 的固件整包，单个文件 14.6 GB，属于刷机和救砖时用到的系统镜像。
@@ -798,6 +918,9 @@ OnePlus Open 是一加的折叠屏机型，这份固件单文件 106.0 GB。折�
 - Markdown 镜像：[https://public.dagongren.tech/folders/7t-pro-92bfb774/index.md](https://public.dagongren.tech/folders/7t-pro-92bfb774/index.md)
 - 分类：设备与固件
 - 内容：1 个文件 · 6.6 GB
+- 品牌：一加
+- 机型：7T Pro
+- 类型：手机
 - 更新日期：2026-10-19
 
 简介：一加 7T Pro 的系统固件，单个文件 6.6 GB，可用于重装系统或回退到旧版本。
@@ -814,6 +937,9 @@ OnePlus Open 是一加的折叠屏机型，这份固件单文件 106.0 GB。折�
 - Markdown 镜像：[https://public.dagongren.tech/folders/7t-bfce7119/index.md](https://public.dagongren.tech/folders/7t-bfce7119/index.md)
 - 分类：设备与固件
 - 内容：1 个文件 · 6.5 GB
+- 品牌：一加
+- 机型：7T
+- 类型：手机
 - 更新日期：2026-10-19
 
 简介：一加 7T 的系统固件整包，6.5 GB，重装或升级系统时取用。
@@ -830,6 +956,9 @@ OnePlus Open 是一加的折叠屏机型，这份固件单文件 106.0 GB。折�
 - Markdown 镜像：[https://public.dagongren.tech/folders/7-pro-bed8bb54/index.md](https://public.dagongren.tech/folders/7-pro-bed8bb54/index.md)
 - 分类：设备与固件
 - 内容：1 个文件 · 13.7 GB
+- 品牌：一加
+- 机型：7 Pro
+- 类型：手机
 - 更新日期：2026-10-19
 
 简介：这份资源对应一加 7 Pro，是一份 13.7 GB 的固件包，体量接近完整的系统镜像。
@@ -846,11 +975,14 @@ OnePlus Open 是一加的折叠屏机型，这份固件单文件 106.0 GB。折�
 - Markdown 镜像：[https://public.dagongren.tech/folders/7-4a698cf3/index.md](https://public.dagongren.tech/folders/7-4a698cf3/index.md)
 - 分类：设备与固件
 - 内容：1 个文件 · 8.7 GB
+- 品牌：一加
+- 机型：7
+- 类型：手机
 - 更新日期：2026-10-19
 
-简介：一加 7 的系统固件资源，单个文件 8.7 GB，从体积看应该是完整的刷机包。
+简介：一加 7 手机相关资源，体积 8.7 GB，分享于 2026-10-19。
 
-以一加 7 为标题的固件分享，文件体积 8.7 GB，按这个大小判断大概率是整包系统镜像而非增量更新。适合需要重装系统、或者想把手机回退到官方版本的用户，刷之前务必确认机型代号对得上。
+分享内共 1 个文件，体积 8.7 GB，分享日期 2026-10-19。标题只给出机型（一加 7），未标注系统版本、适用区域与刷机方式。下载后请先打开文件夹核对版本与机型，确认无误再动手。
 
 网盘入口：[打开网盘文件夹](https://pan.quark.cn/s/a48a8f39d886)
 
@@ -880,9 +1012,9 @@ OnePlus Open 是一加的折叠屏机型，这份固件单文件 106.0 GB。折�
 - 内容：1 个文件 · 20.1 MB
 - 更新日期：2026-09-14
 
-简介：以版本号命名的 exe 安装包，约 20 MB，具体是哪个软件需要下载后判断。
+简介：「2.5.4594.1.exe」（软件工具），体积 20.1 MB，分享于 2026-09-14。
 
-文件名直接用了版本号 2.5.4594.1，没有写软件名称，只有一个约 20 MB 的 exe。从体积看像是某个桌面端小工具的安装程序，四段式版本号也符合常规软件的发版习惯，安装之前建议先确认来源和用途。
+分享内共 1 个文件，分享日期 2026-09-14。标题未标注具体版本号与更多说明，以网盘内文件名与版本为准。
 
 网盘入口：[打开网盘文件夹](https://pan.quark.cn/s/b3644f435053)
 
@@ -898,7 +1030,7 @@ OnePlus Open 是一加的折叠屏机型，这份固件单文件 106.0 GB。折�
 
 简介：超星学习通相关的脚本或插件，285.7 KB，这个体积放不下一个完整应用。
 
-文件名是 chaoxing，体积只有 285.7 KB，明显放不下一个完整的手机应用，更像是超星学习通相关的脚本、插件或配置。具体用途和适用平台没有更多说明，打开之前建议先看清文件类型。
+分享内共 1 个文件，分享日期 2026-09-11。标题未标注具体版本号与更多说明，以网盘内文件名与版本为准。
 
 网盘入口：[打开网盘文件夹](https://pan.quark.cn/s/cd12bd76bf79)
 
@@ -910,11 +1042,14 @@ OnePlus Open 是一加的折叠屏机型，这份固件单文件 106.0 GB。折�
 - Markdown 镜像：[https://public.dagongren.tech/folders/srunlogin-1-0-1-r3-apk-f4d9f443/index.md](https://public.dagongren.tech/folders/srunlogin-1-0-1-r3-apk-f4d9f443/index.md)
 - 分类：软件工具
 - 内容：1 个文件 · 2.5 MB
+- 说明：手机版软件，HTML 页为扫码获取；此处提供直链。
 - 更新日期：2026-09-01
 
 简介：srunlogin 1.0.1-r3 的安卓安装包，用于校园网深澜认证的自动登录。
 
 很多高校的校园网走深澜认证，每次连上都要手动输账号密码，这个工具能替你自动完成。适合住宿舍、经常断网重连的学生，2.5 MB 的体积几乎不占空间，装上后台挂着就行。
+
+网盘入口：[打开网盘文件夹](https://pan.quark.cn/s/bf0af64fe872)
 
 ---
 
@@ -924,11 +1059,14 @@ OnePlus Open 是一加的折叠屏机型，这份固件单文件 106.0 GB。折�
 - Markdown 镜像：[https://public.dagongren.tech/folders/share-6a9f7d98/index.md](https://public.dagongren.tech/folders/share-6a9f7d98/index.md)
 - 分类：软件工具
 - 内容：1 个文件 · 111.9 MB
+- 说明：手机版软件，HTML 页为扫码获取；此处提供直链。
 - 更新日期：2026-08-30
 
 简介：通义千问国际版的安卓客户端，可用于问答、写作和翻译，安装包约 112 MB。
 
 手机上装好后能直接和模型对话，整理资料、改文案或者练几句外语都行。国际版面向海外用户，界面语言和可访问的服务与国内版略有差别，适合需要备一个 AI 助手的安卓用户。
+
+网盘入口：[打开网盘文件夹](https://pan.quark.cn/s/93e31991316b)
 
 ---
 
@@ -938,11 +1076,14 @@ OnePlus Open 是一加的折叠屏机型，这份固件单文件 106.0 GB。折�
 - Markdown 镜像：[https://public.dagongren.tech/folders/share-19615642/index.md](https://public.dagongren.tech/folders/share-19615642/index.md)
 - 分类：影音媒体
 - 内容：1 个文件 · 2.5 MB
+- 说明：手机版软件，HTML 页为扫码获取；此处提供直链。
 - 更新日期：2026-08-27
 
 简介：体积仅 2.5 MB 的电视直播客户端，装在电视或盒子上看频道。
 
 一个只有 2.5 MB 的电视直播软件安装包，一般装在智能电视或者电视盒子上使用。体积这么小，功能通常也比较单一，适合给家里老人放几个常看的频道。
+
+网盘入口：[打开网盘文件夹](https://pan.quark.cn/s/37d30867b7cb)
 
 ---
 
@@ -968,11 +1109,14 @@ Grok 是 xAI 家的对话助手，能聊天、查资料，也能读取 X 上的�
 - Markdown 镜像：[https://public.dagongren.tech/folders/tv-3b1fd39e/index.md](https://public.dagongren.tech/folders/tv-3b1fd39e/index.md)
 - 分类：软件工具
 - 内容：1 个文件 · 87.7 MB
+- 说明：手机版软件，HTML 页为扫码获取；此处提供直链。
 - 更新日期：2026-08-26
 
 简介：海康威视的电视端客户端，装在电视或盒子上就能看摄像头画面，约 88 MB。
 
 家里装了海康的监控，用电视大屏也能随时调出画面，比临时掏手机方便。适合给老人看门口、看院子，安装前确认一下电视系统版本，并试试账号能不能正常登录。
+
+网盘入口：[打开网盘文件夹](https://pan.quark.cn/s/7856c9a7b4a2)
 
 ---
 
@@ -982,11 +1126,14 @@ Grok 是 xAI 家的对话助手，能聊天、查资料，也能读取 X 上的�
 - Markdown 镜像：[https://public.dagongren.tech/folders/share-f59ebc51/index.md](https://public.dagongren.tech/folders/share-f59ebc51/index.md)
 - 分类：学习资料
 - 内容：1 个文件 · 4.8 MB
+- 说明：手机版软件，HTML 页为扫码获取；此处提供直链。
 - 更新日期：2026-08-26
 
 简介：大学课表类应用的安装包，4.8 MB，用来录入课程表并按时提醒上课。
 
 开学第一件事就是把课表录进去，之后每天瞄一眼手机就知道下一节在哪间教室。适合刚入学、课表还理不清的新生，体积很小，装上就能用，不需要额外配置。
+
+网盘入口：[打开网盘文件夹](https://pan.quark.cn/s/04b6f1627271)
 
 ---
 
@@ -1016,7 +1163,7 @@ Grok 是 xAI 家的对话助手，能聊天、查资料，也能读取 X 上的�
 
 简介：以 codex 为名的软件资源，1.3 GB 单文件，按分类看是开发或命令行类工具。
 
-标题只有 codex，一个 1.3 GB 的文件，没有写版本号。Codex 一般指 OpenAI 的编程助手命令行工具，这个体积也可能是打包了运行环境的整合版本，安装前不妨先看清文件类型。
+分享内共 1 个文件，分享日期 2026-08-26。标题未标注具体版本号与更多说明，以网盘内文件名与版本为准。
 
 网盘入口：[打开网盘文件夹](https://pan.quark.cn/s/3bc6660cb75a)
 
@@ -1028,11 +1175,14 @@ Grok 是 xAI 家的对话助手，能聊天、查资料，也能读取 X 上的�
 - Markdown 镜像：[https://public.dagongren.tech/folders/v3-6-1-dlc-steam-apk-b4af9862/index.md](https://public.dagongren.tech/folders/v3-6-1-dlc-steam-apk-b4af9862/index.md)
 - 分类：游戏与修改器
 - 内容：1 个文件 · 346.7 MB
+- 说明：手机版软件，HTML 页为扫码获取；此处提供直链。
 - 更新日期：2026-08-25
 
 简介：《密教模拟器》v3.6.1 安卓版，完整版带 DLC，由 Steam 版移植，347 MB。
 
 一款靠文本和卡牌驱动的神秘学经营游戏，通过安排信徒、积累知识慢慢搭起自己的教团。适合喜欢慢节奏、愿意读大段文字的人，移植到手机后随时能推进一轮仪式。
+
+网盘入口：[打开网盘文件夹](https://pan.quark.cn/s/7f02264ed8d6)
 
 ---
 
@@ -1042,11 +1192,14 @@ Grok 是 xAI 家的对话助手，能聊天、查资料，也能读取 X 上的�
 - Markdown 镜像：[https://public.dagongren.tech/folders/share-66e0c068/index.md](https://public.dagongren.tech/folders/share-66e0c068/index.md)
 - 分类：软件工具
 - 内容：1 个文件 · 385.2 MB
+- 说明：手机版软件，HTML 页为扫码获取；此处提供直链。
 - 更新日期：2026-08-25
 
 简介：哔哩哔哩面向海外用户的国际版客户端，界面与内容分区跟国内版略有不同。
 
 装好之后照样能刷视频、看番剧和进直播间，国际版在账号体系和内容推荐上与国内版存在差别。接近 400 MB 的安装包在同类应用里算中等，适合想在手机上换个版本使用的用户。
+
+网盘入口：[打开网盘文件夹](https://pan.quark.cn/s/d00856867e2d)
 
 ---
 
@@ -1092,7 +1245,7 @@ Grok 是 xAI 家的对话助手，能聊天、查资料，也能读取 X 上的�
 
 简介：Wise Care 365 系统优化工具，可清理垃圾、管理启动项，体积约 21 MB。
 
-电脑用久了变慢，多半是临时文件和开机自启堆太多，它能一次扫出来集中处理。适合不想手动翻系统设置的用户，清理前把每一项看清楚，别把还要用的文件顺手删掉。
+分享内共 1 个文件，分享日期 2026-08-02。标题未标注具体版本号与更多说明，以网盘内文件名与版本为准。
 
 网盘入口：[打开网盘文件夹](https://pan.quark.cn/s/50e6239b8a53)
 
@@ -1122,9 +1275,9 @@ Grok 是 xAI 家的对话助手，能聊天、查资料，也能读取 X 上的�
 - 内容：1 个文件 · 5.8 MB
 - 更新日期：2026-07-30
 
-简介：MuMu 模拟器国际版的安装包，5.8 MB 只是引导器，装完还需要联网下载主体
+简介：MuMu 模拟器国际版的安装包，5.8 MB 只是引导器，装完还需要联网下载主体。
 
-MuMu 模拟器用来在电脑上跑安卓应用和手游，国际版在界面和预装内容上跟国内版不太一样。5.8 MB 这个体积应该是下载引导器，装完还要联网拉取主体，适合想玩外服手游的人。
+分享内共 1 个文件，分享日期 2026-07-30。标题未标注具体版本号与更多说明，以网盘内文件名与版本为准。
 
 网盘入口：[打开网盘文件夹](https://pan.quark.cn/s/de464316795d)
 
@@ -1135,7 +1288,7 @@ MuMu 模拟器用来在电脑上跑安卓应用和手游，国际版在界面和
 - 规范页面：[https://public.dagongren.tech/folders/1-7-81e2c85f/](https://public.dagongren.tech/folders/1-7-81e2c85f/)
 - Markdown 镜像：[https://public.dagongren.tech/folders/1-7-81e2c85f/index.md](https://public.dagongren.tech/folders/1-7-81e2c85f/index.md)
 - 分类：影音媒体
-- 内容：1 个文件 · 未知
+- 内容：1 个文件
 - 更新日期：2026-07-30
 
 简介：《哈利·波特》七部曲有声书打包分享，一次收齐全套朗读内容，适合通勤或睡前听。
@@ -1154,9 +1307,9 @@ MuMu 模拟器用来在电脑上跑安卓应用和手游，国际版在界面和
 - 内容：1 个文件 · 192.2 MB
 - 更新日期：2026-07-27
 
-简介：围绕天翼云电脑使用时长整理的一份工具包，按原始标题保存，体积约 192 MB。
+简介：「天翼云电脑续命」（软件工具），体积 192.2 MB，分享于 2026-07-27。
 
-标题里的「续命」指向延长云电脑可用时长一类的操作，具体做法需要自行按包内说明确认，未必适用于所有账号。适合已经在用天翼云电脑、想多用一阵的人，动手前最好先把本机重要数据备份一遍。
+分享内共 1 个文件，分享日期 2026-07-27。标题未标注具体版本号与更多说明，以网盘内文件名与版本为准。
 
 网盘入口：[打开网盘文件夹](https://pan.quark.cn/s/f21c39f41e2b)
 
@@ -1215,7 +1368,7 @@ MuMu 模拟器用来在电脑上跑安卓应用和手游，国际版在界面和
 - 规范页面：[https://public.dagongren.tech/folders/r-rstudio-b2f640d7/](https://public.dagongren.tech/folders/r-rstudio-b2f640d7/)
 - Markdown 镜像：[https://public.dagongren.tech/folders/r-rstudio-b2f640d7/index.md](https://public.dagongren.tech/folders/r-rstudio-b2f640d7/index.md)
 - 分类：软件工具
-- 内容：1 个文件 · 未知
+- 内容：1 个文件
 - 更新日期：2026-07-11
 
 简介：R 语言和 RStudio 的安装资源，体积未知，统计分析入门常见的组合。
@@ -1252,7 +1405,7 @@ Android Studio 的安装资源，4.2 GB，谷歌官方推出的安卓开发 IDE�
 
 简介：一个以拍摄时间命名的 mp4 文件，379 MB，内容为原始录像，没有说明。
 
-文件名是手机相册自动生成的格式，单看名字判断不出拍的是什么。379 MB 的体量大约对应十几分钟的高清画面，适合先下载打开确认一下，再决定要不要留。
+分享内共 1 个文件，分享日期 2026-07-02。标题未标注具体版本号与更多说明，以网盘内文件名与版本为准。
 
 网盘入口：[打开网盘文件夹](https://pan.quark.cn/s/ac7485a52fb9)
 
@@ -1264,11 +1417,14 @@ Android Studio 的安装资源，4.2 GB，谷歌官方推出的安卓开发 IDE�
 - Markdown 镜像：[https://public.dagongren.tech/folders/7-2-0-250907-apk-f94d4479/index.md](https://public.dagongren.tech/folders/7-2-0-250907-apk-f94d4479/index.md)
 - 分类：软件工具
 - 内容：1 个文件 · 217.1 MB
+- 说明：手机版软件，HTML 页为扫码获取；此处提供直链。
 - 更新日期：2026-06-25
 
 简介：扫描全能王 7.2.0.250907 的安卓安装包，217 MB，文档扫描与文字识别常用工具。
 
 扫描全能王 Android 版的 apk 安装包，版本号 7.2.0.250907，大小 217 MB。平时需要把纸质合同、票据、笔记拍成清晰 PDF 的人用得上，拍完还能裁边、增强，再导出分享。
+
+网盘入口：[打开网盘文件夹](https://pan.quark.cn/s/3ab9da761fc2)
 
 ---
 
@@ -1308,13 +1464,13 @@ B001 编号的《大学物理》期末速成课讲义，对应清华张云翼老
 
 - 规范页面：[https://public.dagongren.tech/folders/geekflashtool-7e308d1f/](https://public.dagongren.tech/folders/geekflashtool-7e308d1f/)
 - Markdown 镜像：[https://public.dagongren.tech/folders/geekflashtool-7e308d1f/index.md](https://public.dagongren.tech/folders/geekflashtool-7e308d1f/index.md)
-- 分类：设备与固件
+- 分类：软件工具
 - 内容：1 个文件 · 473.3 MB
 - 更新日期：2026-06-23
 
-简介：刷机匣 GeekFlashTool 安卓刷机工具，图形界面操作，473 MB 的安装包里应该带了驱动环境
+简介：「刷机匣GeekFlashTool」（设备与固件），体积 473.3 MB，分享于 2026-06-23。
 
-刷机匣是一款面向安卓设备的图形化刷机工具，用来刷入固件、解锁分区或者救砖。473 MB 在同类工具里算大的，一般意味着包里带了驱动或运行环境，适合手上正好有机器要折腾的人。
+分享内共 1 个文件，分享日期 2026-06-23。标题未标注具体版本号与更多说明，以网盘内文件名与版本为准。
 
 网盘入口：[打开网盘文件夹](https://pan.quark.cn/s/71c88b10c3ca)
 
@@ -1342,11 +1498,14 @@ B001 编号的《大学物理》期末速成课讲义，对应清华张云翼老
 - Markdown 镜像：[https://public.dagongren.tech/folders/welearn-ccd2a70e/index.md](https://public.dagongren.tech/folders/welearn-ccd2a70e/index.md)
 - 分类：软件工具
 - 内容：1 个文件 · 3.7 MB
+- 说明：手机版软件，HTML 页为扫码获取；此处提供直链。
 - 更新日期：2026-06-16
 
 简介：WeLearn 随行课堂的手机客户端，用于高校英语课程的配套学习，仅 3.7 MB。
 
 大学英语课常要求在上面看视频、做练习和交作业，装上就不必临时到处找入口。适合正在上这门课的学生，体积很小，登录学校账号后课程内容会自动出现。
+
+网盘入口：[打开网盘文件夹](https://pan.quark.cn/s/29f4e6f27708)
 
 ---
 
@@ -1371,12 +1530,12 @@ PixPin 是一款国产截图软件，除了常规截屏，还能做滚动长截�
 - 规范页面：[https://public.dagongren.tech/folders/gx-works2-3-4b2c0c28/](https://public.dagongren.tech/folders/gx-works2-3-4b2c0c28/)
 - Markdown 镜像：[https://public.dagongren.tech/folders/gx-works2-3-4b2c0c28/index.md](https://public.dagongren.tech/folders/gx-works2-3-4b2c0c28/index.md)
 - 分类：软件工具
-- 内容：1 个文件 · 未知
+- 内容：1 个文件
 - 更新日期：2026-06-07
 
-简介：三菱 PLC 编程软件 GX Works2 与 GX Works3 的合集，老型号和新系列都能拿来写程序、做调试
+简介：三菱 PLC 编程软件 GX Works2 与 GX Works3 的合集，老型号和新系列都能拿来写程序、做调试。
 
-GX Works2 和 GX Works3 是三菱电机用来给 PLC 写程序、做调试的工程软件，前者偏老型号，后者对应新系列。标题没写体积，估计是两个安装包放在一起，做工控调试、需要连三菱设备的人会用到。
+分享内共 1 个文件，分享未提供体积，分享日期 2026-06-07。标题未标注具体版本号与更多说明，以网盘内文件名与版本为准。
 
 网盘入口：[打开网盘文件夹](https://pan.quark.cn/s/193062ef195b)
 
@@ -1390,9 +1549,9 @@ GX Works2 和 GX Works3 是三菱电机用来给 PLC 写程序、做调试的工
 - 内容：1 个文件 · 28.6 MB
 - 更新日期：2026-06-07
 
-简介：文件名为 cet4_2025 的一份资料，28.6 MB，从命名看应该是 2025 年的英语四级备考内容。
+简介：「cet4_2025」（学习资料），体积 28.6 MB，分享于 2026-06-07。
 
-资源标题只写了 cet4_2025，一个 28.6 MB 的文件，没有更细的说明。按命名推测是 2025 年大学英语四级的真题或复习资料，想找近年题目练手的备考同学可以下下来看看包含哪些年份。
+分享内共 1 个文件，分享日期 2026-06-07。标题未标注具体版本号与更多说明，以网盘内文件名与版本为准。
 
 网盘入口：[打开网盘文件夹](https://pan.quark.cn/s/aca63e4ceec5)
 
@@ -1408,7 +1567,7 @@ GX Works2 和 GX Works3 是三菱电机用来给 PLC 写程序、做调试的工
 
 简介：网页另存后留下的附件目录，2 个文件共 1.3 MB，多是图片和样式表这类网页素材。
 
-从命名看，这份资源很像浏览器「另存为」网页之后生成的附件文件夹，里面 2 个文件、合计 1.3 MB，通常是图片、样式表一类的网页素材。内容零散、没有明确主题，下载前可以先想清楚是否用得上。
+分享内共 2 个文件，分享日期 2026-06-06。标题未标注具体版本号与更多说明，以网盘内文件名与版本为准。
 
 网盘入口：[打开网盘文件夹](https://pan.quark.cn/s/47d9691a75fc)
 
@@ -1467,12 +1626,12 @@ HiBit Uninstaller 除了常规卸载，还能扫注册表残留、管理开机�
 - 规范页面：[https://public.dagongren.tech/folders/logi-options-84f5e5ca/](https://public.dagongren.tech/folders/logi-options-84f5e5ca/)
 - Markdown 镜像：[https://public.dagongren.tech/folders/logi-options-84f5e5ca/index.md](https://public.dagongren.tech/folders/logi-options-84f5e5ca/index.md)
 - 分类：软件工具
-- 内容：1 个文件 · 未知
+- 内容：1 个文件
 - 更新日期：2026-05-31
 
-简介：罗技 Logi Options+ 是键鼠外设管理软件，用来配置按键功能、调整 DPI 和滚轮手感
+简介：罗技 Logi Options+ 是键鼠外设管理软件，用来配置按键功能、调整 DPI 和滚轮手感。
 
-Logi Options+ 用来给罗技的键盘鼠标配置按键、调整 DPI 和滚轮手感，也能装针对具体软件的配置文件。标题没写体积，估计是安装包或者在线安装器，用罗技外设的人装上才算把功能用全。
+分享内共 1 个文件，分享未提供体积，分享日期 2026-05-31。标题未标注具体版本号与更多说明，以网盘内文件名与版本为准。
 
 网盘入口：[打开网盘文件夹](https://pan.quark.cn/s/82087092596e)
 
@@ -1486,9 +1645,9 @@ Logi Options+ 用来给罗技的键盘鼠标配置按键、调整 DPI 和滚轮�
 - 内容：1 个文件 · 325.9 MB
 - 更新日期：2026-05-25
 
-简介：GitHub Store 把 GitHub 上的开源应用整理成商店，搜到就能直接装，省去翻页找包
+简介：GitHub Store 把 GitHub 上的开源应用整理成商店，搜到就能直接装，省去翻页找包。
 
-GitHub Store 把 GitHub 上的开源应用整理成应用商店的样子，搜到就能装，省去自己翻 release 页的步骤。325 MB 的包里应该包含运行依赖，适合喜欢试用各类开源小工具的人。
+分享内共 1 个文件，体积 325.9 MB，分享日期 2026-05-25。标题未标注具体版本号与更多说明，以网盘内文件名与版本为准。
 
 网盘入口：[打开网盘文件夹](https://pan.quark.cn/s/e2097ec6d056)
 
@@ -1499,7 +1658,7 @@ GitHub Store 把 GitHub 上的开源应用整理成应用商店的样子，搜�
 - 规范页面：[https://public.dagongren.tech/folders/2025-6-e7bc751c/](https://public.dagongren.tech/folders/2025-6-e7bc751c/)
 - Markdown 镜像：[https://public.dagongren.tech/folders/2025-6-e7bc751c/index.md](https://public.dagongren.tech/folders/2025-6-e7bc751c/index.md)
 - 分类：学习资料
-- 内容：1 个文件 · 未知
+- 内容：1 个文件
 - 更新日期：2026-05-25
 
 简介：2025 年 6 月英语四级三套真题，含答案和听力音频，一次拿全整套资料。
@@ -1515,12 +1674,12 @@ GitHub Store 把 GitHub 上的开源应用整理成应用商店的样子，搜�
 - 规范页面：[https://public.dagongren.tech/folders/share-c46272c2/](https://public.dagongren.tech/folders/share-c46272c2/)
 - Markdown 镜像：[https://public.dagongren.tech/folders/share-c46272c2/index.md](https://public.dagongren.tech/folders/share-c46272c2/index.md)
 - 分类：其他
-- 内容：1 个文件 · 未知
+- 内容：1 个文件
 - 更新日期：2026-05-24
 
-简介：名为「野草助手」的一份分享，体积未标注，具体用途要打开后自行判断。
+简介：「野草助手」（其他），分享未提供体积，分享于 2026-05-24。
 
-从名字看像是一个辅助类的小工具，但没有大小、版本这些信息，判断不出它的功能范围。适合先存下来试装，运行前留意来源和权限请求，不确定的话别急着授予敏感权限。
+分享内共 1 个文件，分享未提供体积，分享日期 2026-05-24。标题未标注具体版本号与更多说明，以网盘内文件名与版本为准。
 
 网盘入口：[打开网盘文件夹](https://pan.quark.cn/s/853a5bb44564)
 
@@ -1548,11 +1707,14 @@ frp 是常见的反向代理穿透工具，用在远程访问家里的 NAS、路
 - Markdown 镜像：[https://public.dagongren.tech/folders/piliplus-5647a0e3/index.md](https://public.dagongren.tech/folders/piliplus-5647a0e3/index.md)
 - 分类：其他
 - 内容：1 个文件 · 173.5 MB
+- 说明：手机版软件，HTML 页为扫码获取；此处提供直链。
 - 更新日期：2026-05-21
 
 简介：PiliPlus 第三方哔哩哔哩客户端，173.5 MB，给习惯用第三方 App 的人准备。
 
 PiliPlus 是社区里做的哔哩哔哩第三方客户端，界面和官方 App 不一样，用过这类产品的用户会上手快一些。安装包 173.5 MB，装上之后登录账号就可以用。
+
+网盘入口：[打开网盘文件夹](https://pan.quark.cn/s/832100f41e3c)
 
 ---
 
@@ -1577,12 +1739,12 @@ PiliPlus 是社区里做的哔哩哔哩第三方客户端，界面和官方 App 
 - 规范页面：[https://public.dagongren.tech/folders/steam-f4700d73/](https://public.dagongren.tech/folders/steam-f4700d73/)
 - Markdown 镜像：[https://public.dagongren.tech/folders/steam-f4700d73/index.md](https://public.dagongren.tech/folders/steam-f4700d73/index.md)
 - 分类：其他
-- 内容：1 个文件 · 未知
+- 内容：1 个文件
 - 更新日期：2026-05-15
 
 简介：与 Steam 加速相关的一份分享，体积未标注，具体形式需要打开确认。
 
-标题提到免费加速，可能是加速器客户端，也可能是相关配置，但文件大小为空，判断不出是安装包还是别的。适合常遇到商店打不开、下载速度慢的玩家先存一份看看。
+分享内共 1 个文件，分享未提供体积，分享日期 2026-05-15。标题未标注具体版本号与更多说明，以网盘内文件名与版本为准。
 
 网盘入口：[打开网盘文件夹](https://pan.quark.cn/s/5c336575217b)
 
@@ -1614,7 +1776,7 @@ PiliPlus 是社区里做的哔哩哔哩第三方客户端，界面和官方 App 
 
 简介：与 Zig 语言相关的一份资料或开发环境，152 MB，具体内容需打开确认。
 
-Zig 是一门偏底层的系统编程语言，语法接近 C，但在编译期能力和内存管理上做了另一套设计。这份分享可能是教程、文档或工具链，适合想了解这门语言的人先存一份再判断是否合用。
+分享内共 1 个文件，分享日期 2026-05-13。标题未标注具体版本号与更多说明，以网盘内文件名与版本为准。
 
 网盘入口：[打开网盘文件夹](https://pan.quark.cn/s/b3df8ba07394)
 
@@ -1674,11 +1836,14 @@ Zig 是一门偏底层的系统编程语言，语法接近 C，但在编译期�
 - Markdown 镜像：[https://public.dagongren.tech/folders/share-3d8e20b5/index.md](https://public.dagongren.tech/folders/share-3d8e20b5/index.md)
 - 分类：软件工具
 - 内容：1 个文件 · 3.4 MB
+- 说明：手机版软件，HTML 页为扫码获取；此处提供直链。
 - 更新日期：2026-05-11
 
 简介：澎湃工具箱，3.4 MB，面向小米澎湃系统的一类设置调节小工具。
 
 名字里的澎湃对应小米的澎湃系统，3.4 MB 的体积说明它是个轻量工具，通常用来开关一些藏得比较深的系统选项。装之前先弄清楚它会申请哪些权限，再决定是否使用。
+
+网盘入口：[打开网盘文件夹](https://pan.quark.cn/s/b610c745d210)
 
 ---
 
@@ -1704,11 +1869,14 @@ inZOI 是那款主打写实画面的生活模拟游戏，这个修改器用来�
 - Markdown 镜像：[https://public.dagongren.tech/folders/hyperceiler-debedecc/index.md](https://public.dagongren.tech/folders/hyperceiler-debedecc/index.md)
 - 分类：其他
 - 内容：1 个文件 · 7.8 MB
+- 说明：手机版软件，HTML 页为扫码获取；此处提供直链。
 - 更新日期：2026-05-11
 
 简介：HyperCeiler 是给小米澎湃 OS 补充界面与功能细节的框架模块，装进框架才生效
 
 HyperCeiler 是面向小米澎湃 OS 的模块，装进框架后可以调整系统界面、通知和权限相关的细节。7.8 MB 的体量符合模块类应用，前提是设备已解锁并装了 Xposed 类框架，否则装上也不生效。
+
+网盘入口：[打开网盘文件夹](https://pan.quark.cn/s/5855e6de5c4c)
 
 ---
 
@@ -1800,9 +1968,9 @@ Scratch 是麻省理工做的图形化编程工具，把积木块拖到一起就
 - 内容：1 个文件 · 523.9 MB
 - 更新日期：2026-05-05
 
-简介：标注为「电视」的 523.9 MB 分享，可能是电视端应用，也可能是影视资源，需看文件才能确定。
+简介：「电视」（其他），体积 523.9 MB，分享于 2026-05-05。
 
-原始标题就两个字：电视。523.9 MB 的体积，既可能是电视端应用的安装包，也可能是影视资源，线索太少不好判断。拿到文件之后先看看扩展名和名称，再决定怎么用。
+分享内共 1 个文件，分享日期 2026-05-05。标题未标注具体版本号与更多说明，以网盘内文件名与版本为准。
 
 网盘入口：[打开网盘文件夹](https://pan.quark.cn/s/d0bf83391c78)
 
@@ -1832,9 +2000,9 @@ Scratch 是麻省理工做的图形化编程工具，把积木块拖到一起就
 - 内容：1 个文件 · 92.9 MB
 - 更新日期：2026-05-04
 
-简介：名为「检测工具」的一份软件分享，约 93 MB，具体用途需按实际界面判断。
+简介：「检测工具」（软件工具），体积 92.9 MB，分享于 2026-05-04。
 
-标题比较笼统，没有交代检测的对象是硬件、网络还是文件本身。92.9 MB 的体积在工具类软件里属于中等，适合先存下来，打开看过界面和功能列表之后再确定用在哪。
+分享内共 1 个文件，分享日期 2026-05-04。标题未标注具体版本号与更多说明，以网盘内文件名与版本为准。
 
 网盘入口：[打开网盘文件夹](https://pan.quark.cn/s/0dd118bdac7d)
 
@@ -1862,11 +2030,14 @@ Scratch 是麻省理工做的图形化编程工具，把积木块拖到一起就
 - Markdown 镜像：[https://public.dagongren.tech/folders/smart-dock-3dc7f592/index.md](https://public.dagongren.tech/folders/smart-dock-3dc7f592/index.md)
 - 分类：软件工具
 - 内容：1 个文件 · 11.8 MB
+- 说明：手机版软件，HTML 页为扫码获取；此处提供直链。
 - 更新日期：2026-05-03
 
 简介：Smart Dock 安卓版，把手机接上外接屏后切换成桌面式的操作界面。
 
 连上显示器和键鼠，手机就能当一台轻办公用的小主机，窗口可以并排摆放。适合出差只带手机、临时要处理文档的人，实际顺不顺畅要看机型对外接视频输出的支持。
+
+网盘入口：[打开网盘文件夹](https://pan.quark.cn/s/7ef77a69d1a7)
 
 ---
 
@@ -1878,9 +2049,9 @@ Scratch 是麻省理工做的图形化编程工具，把积木块拖到一起就
 - 内容：1 个文件 · 67.4 MB
 - 更新日期：2026-05-03
 
-简介：一批音频文件，67.4 MB，大概几十首歌或一张专辑，曲目与格式以实际文件为准。
+简介：「音乐」（其他），体积 67.4 MB，分享于 2026-05-03。
 
-没有更多说明，从 67.4 MB 的大小推测，像是若干首歌曲或者整张专辑的音频文件。想找歌单的人可以先存下来听一遍，具体曲目和格式以实际文件为准，别按标题想当然。
+分享内共 1 个文件，分享日期 2026-05-03。标题未标注具体版本号与更多说明，以网盘内文件名与版本为准。
 
 网盘入口：[打开网盘文件夹](https://pan.quark.cn/s/e2abefcf2fd9)
 
@@ -1908,11 +2079,14 @@ Scratch 是麻省理工做的图形化编程工具，把积木块拖到一起就
 - Markdown 镜像：[https://public.dagongren.tech/folders/qq-91d578e4/index.md](https://public.dagongren.tech/folders/qq-91d578e4/index.md)
 - 分类：其他
 - 内容：1 个文件 · 140.2 MB
+- 说明：手机版软件，HTML 页为扫码获取；此处提供直链。
 - 更新日期：2026-05-03
 
 简介：QQ 手表版客户端，140.2 MB，让智能手表也能收消息、回消息。
 
 腾讯给手表端做的 QQ 客户端，140.2 MB。适合戴安卓智能手表、又不想每次都掏手机看消息的人，安装前先确认手表的系统版本能不能装上。
+
+网盘入口：[打开网盘文件夹](https://pan.quark.cn/s/a922983943cc)
 
 ---
 
@@ -1922,11 +2096,14 @@ Scratch 是麻省理工做的图形化编程工具，把积木块拖到一起就
 - Markdown 镜像：[https://public.dagongren.tech/folders/2-0e5396f6/index.md](https://public.dagongren.tech/folders/2-0e5396f6/index.md)
 - 分类：其他
 - 内容：1 个文件 · 43.1 MB
+- 说明：手机版软件，HTML 页为扫码获取；此处提供直链。
 - 更新日期：2026-05-03
 
-简介：智能手表端的应用安装包，约 43 MB，以「手表版2」为名分享，适配哪款设备需自行确认。
+简介：「手表版2」（其他），体积 43.1 MB，分享于 2026-05-03。
 
-这份资源以原始标题「手表版2」保存，没有更多版本说明，只有一个约 43 MB 的文件。从名字和体积看，应该是给智能手表用的应用安装包，属于手表端软件的搬运分享，具体适配哪款设备需要自行确认。
+分享内共 1 个文件，分享日期 2026-05-03。标题未标注具体版本号与更多说明，以网盘内文件名与版本为准。
+
+网盘入口：[打开网盘文件夹](https://pan.quark.cn/s/1dbc35133794)
 
 ---
 
@@ -1951,12 +2128,12 @@ Parsec 是一款主打低延迟的远程桌面工具，常被用来在外面连�
 - 规范页面：[https://public.dagongren.tech/folders/share-7c64dbe4/](https://public.dagongren.tech/folders/share-7c64dbe4/)
 - Markdown 镜像：[https://public.dagongren.tech/folders/share-7c64dbe4/index.md](https://public.dagongren.tech/folders/share-7c64dbe4/index.md)
 - 分类：其他
-- 内容：1 个文件 · 未知
+- 内容：1 个文件
 - 更新日期：2026-05-01
 
-简介：以《怪物猎人：荒野》为名保存的分享，体积未知，内容要打开后自行确认。
+简介：「怪物猎人：荒野」（其他），分享未提供体积，分享于 2026-05-01。
 
-标题指向卡普空的这款狩猎动作游戏，但文件大小没有标注，判断不出是安装包、补丁还是攻略资料。适合已经在玩本作、想找相关素材的人先存一份，再对照实际文件核对。
+分享内共 1 个文件，分享未提供体积，分享日期 2026-05-01。标题未标注具体版本号与更多说明，以网盘内文件名与版本为准。
 
 网盘入口：[打开网盘文件夹](https://pan.quark.cn/s/6cb23420dd60)
 
@@ -1984,11 +2161,14 @@ Kazumi 通过自己配置的规则抓取站点内容，整理成番剧列表来�
 - Markdown 镜像：[https://public.dagongren.tech/folders/appteka-38c81b65/index.md](https://public.dagongren.tech/folders/appteka-38c81b65/index.md)
 - 分类：其他
 - 内容：1 个文件 · 3.6 MB
+- 说明：手机版软件，HTML 页为扫码获取；此处提供直链。
 - 更新日期：2026-04-29
 
 简介：安卓第三方应用商店客户端 Appteka，3.6 MB 的安装包，版本与来源没有额外说明。
 
-Appteka 这个标题指向安卓上的第三方应用商店客户端，这份分享只有一个 3.6 MB 的文件，大概率是它的安装包。具体版本与来源没有额外说明，下载后可以自行确认。
+分享内共 1 个文件，分享日期 2026-04-29。标题未标注具体版本号与更多说明，以网盘内文件名与版本为准。
+
+网盘入口：[打开网盘文件夹](https://pan.quark.cn/s/5ecf5f426337)
 
 ---
 
@@ -2078,11 +2258,14 @@ LocalSend 走同一 Wi-Fi 下的直连，手机和电脑之间传文件不用经
 - Markdown 镜像：[https://public.dagongren.tech/folders/juicessh-95485ad3/index.md](https://public.dagongren.tech/folders/juicessh-95485ad3/index.md)
 - 分类：其他
 - 内容：1 个文件 · 80.9 MB
+- 说明：手机版软件，HTML 页为扫码获取；此处提供直链。
 - 更新日期：2026-04-27
 
 简介：JuiceSSH 是安卓手机上的 SSH 与终端客户端，80.9 MB 的包，能连服务器敲命令、传文件
 
 JuiceSSH 是安卓平台常用的 SSH 工具，能连服务器敲命令、传文件，也支持密钥认证。80.9 MB 的安装包在终端类应用里不算小，适合需要随时随地登上 VPS 处理事情的运维和开发者。
+
+网盘入口：[打开网盘文件夹](https://pan.quark.cn/s/01c9f71229b8)
 
 ---
 
@@ -2094,9 +2277,9 @@ JuiceSSH 是安卓平台常用的 SSH 工具，能连服务器敲命令、传文
 - 内容：1 个文件 · 650.5 MB
 - 更新日期：2026-04-26
 
-简介：归在软件工具里的 650.5 MB 分享，标题只留有「浏览器输入」，具体内容需下载后确认。
+简介：「浏览器输入」（软件工具），体积 650.5 MB，分享于 2026-04-26。
 
-标题是浏览器输入这么一句不太像软件名的话，体积 650.5 MB，分类却归在软件工具里。信息太少，判断不出具体是什么，下载后先确认文件类型和来路，再决定要不要打开。
+分享内共 1 个文件，分享日期 2026-04-26。标题未标注具体版本号与更多说明，以网盘内文件名与版本为准。
 
 网盘入口：[打开网盘文件夹](https://pan.quark.cn/s/d7ddf82afecc)
 
@@ -2126,9 +2309,9 @@ LabelNova 用来设计标签模板、生成条码并排版打印，常见于仓�
 - 内容：1 个文件 · 1010.0 MB
 - 更新日期：2026-04-25
 
-简介：跨平台性能测试软件 Geekbench，这份安装包足有 1010 MB，可用来对比不同机器的跑分成绩
+简介：跨平台性能测试软件 Geekbench，这份安装包足有 1010 MB，可用来对比不同机器的跑分成绩。
 
-Geekbench 主要给 CPU 和 GPU 跑分，装完可以对比不同机器或者不同平台的成绩。这份有 1010 MB，比常见的安装包大出不少，大概是把测试资源和附带的组件一起打了进去，具体以实际内容为准。
+分享内共 1 个文件，分享日期 2026-04-25。标题未标注具体版本号与更多说明，以网盘内文件名与版本为准。
 
 网盘入口：[打开网盘文件夹](https://pan.quark.cn/s/ac2325ad4f1e)
 
@@ -2158,9 +2341,9 @@ Geekbench 主要给 CPU 和 GPU 跑分，装完可以对比不同机器或者不
 - 内容：1 个文件 · 59.0 MB
 - 更新日期：2026-04-25
 
-简介：二次元题材的小体量游戏或工具，约 59 MB，具体内容需解压后确认。
+简介：「二次元猎宝2-v1.1」（其他），体积 59.0 MB，分享于 2026-04-25。
 
-这份资源以「二次元猎宝2-v1.1」为名保存，只有一个约 59 MB 的文件，没有更多说明。按体积和命名推测，可能是二次元画风的小体量游戏或辅助工具，具体内容需要解压后自行确认。
+分享内共 1 个文件，分享日期 2026-04-25。标题未标注具体版本号与更多说明，以网盘内文件名与版本为准。
 
 网盘入口：[打开网盘文件夹](https://pan.quark.cn/s/868c5dc8023e)
 
@@ -2192,7 +2375,7 @@ Geekbench 主要给 CPU 和 GPU 跑分，装完可以对比不同机器或者不
 
 简介：另一份以 Codex 命名的资源，1.2 GB 单文件，和同批次里那条体积略有差异。
 
-同样以 Codex 命名，这份是 1.2 GB 的单文件，和那份 1.3 GB 的不是同一个包，可能是不同版本或者不同打包方式。想试 AI 编程助手命令行工具的话，两份都留着对比也不算浪费。
+分享内共 1 个文件，分享日期 2026-04-24。标题未标注具体版本号与更多说明，以网盘内文件名与版本为准。
 
 网盘入口：[打开网盘文件夹](https://pan.quark.cn/s/5bd8b63ca3af)
 
@@ -2238,9 +2421,9 @@ Geekbench 主要给 CPU 和 GPU 跑分，装完可以对比不同机器或者不
 - 内容：1 个文件 · 23.3 MB
 - 更新日期：2026-04-22
 
-简介：某款游戏的修改工具，约 23 MB，对应的是哪一款游戏、版本是否匹配需自行核对。
+简介：「识质存在修改」（其他），体积 23.3 MB，分享于 2026-04-22。
 
-没有附带更多说明，只能推测是给同名游戏准备的修改文件，体积 23.3 MB 落在常见修改器的范围内。建议先弄清楚对应的是哪一款游戏、版本是否匹配，再决定要不要装。
+分享内共 1 个文件，分享日期 2026-04-22。标题未标注具体版本号与更多说明，以网盘内文件名与版本为准。
 
 网盘入口：[打开网盘文件夹](https://pan.quark.cn/s/fe30d6b81260)
 
@@ -2251,7 +2434,7 @@ Geekbench 主要给 CPU 和 GPU 跑分，装完可以对比不同机器或者不
 - 规范页面：[https://public.dagongren.tech/folders/radmin-lan-1fb7f3ef/](https://public.dagongren.tech/folders/radmin-lan-1fb7f3ef/)
 - Markdown 镜像：[https://public.dagongren.tech/folders/radmin-lan-1fb7f3ef/index.md](https://public.dagongren.tech/folders/radmin-lan-1fb7f3ef/index.md)
 - 分类：软件工具
-- 内容：1 个文件 · 未知
+- 内容：1 个文件
 - 更新日期：2026-04-22
 
 简介：Radmin LAN 虚拟局域网工具，把异地电脑拉进同一个网段联机打游戏。
@@ -2288,7 +2471,7 @@ Radmin LAN 能让不在同一个路由器下的电脑进入同一个虚拟局域
 
 简介：《生化危机8》修改器，单个 23 MB 文件，可直接在单机流程里调整游戏数值。
 
-《生化危机8》的修改器，单个文件 23 MB，和同批次另一份同名资源体积略有差别，应该是不同版本。想降低难度、把注意力放在探索和剧情上的玩家可以试试，游戏更新后功能可能会失灵。
+分享内共 1 个文件，分享日期 2026-04-22。标题未标注具体版本号与更多说明，以网盘内文件名与版本为准。
 
 网盘入口：[打开网盘文件夹](https://pan.quark.cn/s/ce7079cf18f8)
 
@@ -2336,7 +2519,7 @@ Radmin LAN 能让不在同一个路由器下的电脑进入同一个虚拟局域
 
 简介：游戏专用的运行库大合集，4.5 GB，把常见的各类组件一次装齐。
 
-新游戏启动报错、提示缺少 dll 时，多半是运行库没装全。这份 4.5 GB 的合集体量偏大，胜在覆盖面广，装完能省去一个个找的麻烦，适合常玩单机、爱折腾新作的人。
+分享内共 1 个文件，分享日期 2026-04-21。标题未标注具体版本号与更多说明，以网盘内文件名与版本为准。
 
 网盘入口：[打开网盘文件夹](https://pan.quark.cn/s/34cb562dafb4)
 
@@ -2396,11 +2579,14 @@ WebView2 是很多 Windows 程序内嵌网页时依赖的运行时，缺了它�
 - Markdown 镜像：[https://public.dagongren.tech/folders/python-79c31bda/index.md](https://public.dagongren.tech/folders/python-79c31bda/index.md)
 - 分类：软件工具
 - 内容：1 个文件 · 582.9 MB
+- 说明：手机版软件，HTML 页为扫码获取；此处提供直链。
 - 更新日期：2026-04-18
 
 简介：把 Python 装进安卓手机的安装包，582.9 MB，随时写几行代码跑脚本。
 
 安卓手机上运行的 Python 环境，582.9 MB，体积说明它不是个空壳，而是把运行环境和常用库一起带了进去。想在手机上随手试几行代码、跑个小脚本又不想开电脑时比较方便。
+
+网盘入口：[打开网盘文件夹](https://pan.quark.cn/s/9ff96d06b14e)
 
 ---
 
@@ -2492,9 +2678,9 @@ Gemini 是谷歌的对话式 AI 助手，这个电脑版方便在桌面上直接
 - 内容：1 个文件 · 26.0 MB
 - 更新日期：2026-04-16
 
-简介：《生化危机8》的修改资源，单个文件 26 MB，标题写得简略，按分类应属于修改器。
+简介：「生化危机8修改」（游戏与修改器），体积 26.0 MB，分享于 2026-04-16。
 
-给《生化危机8》准备的一份修改文件，约 26 MB，标题省略了具体说明。适合觉得弹药和背包空间太紧张、想更从容地逛村庄的玩家，单人流程里用就行。
+分享内共 1 个文件，分享日期 2026-04-16。标题未标注具体版本号与更多说明，以网盘内文件名与版本为准。
 
 网盘入口：[打开网盘文件夹](https://pan.quark.cn/s/a27c31ca6ead)
 
@@ -2570,11 +2756,14 @@ Gemini 是谷歌的对话式 AI 助手，这个电脑版方便在桌面上直接
 - Markdown 镜像：[https://public.dagongren.tech/folders/vlc-c1163307/index.md](https://public.dagongren.tech/folders/vlc-c1163307/index.md)
 - 分类：软件工具
 - 内容：1 个文件 · 96.7 MB
+- 说明：手机版软件，HTML 页为扫码获取；此处提供直链。
 - 更新日期：2026-04-15
 
 简介：VLC 的安卓客户端，几乎什么格式都能直接播放，安装包约 97 MB。
 
 下载来的视频格式五花八门，播放器打不开时换成 VLC 往往就能放。它还支持网络串流和挂字幕，适合常在手机上看片、不想为格式专门转码折腾的人。
+
+网盘入口：[打开网盘文件夹](https://pan.quark.cn/s/0ddb629abf24)
 
 ---
 
@@ -2602,9 +2791,9 @@ Gemini 是谷歌的对话式 AI 助手，这个电脑版方便在桌面上直接
 - 内容：1 个文件 · 326.7 MB
 - 更新日期：2026-04-15
 
-简介：OBS Studio 另一份分享，326.7 MB 的完整安装包，体积比常见版本大一些，含额外组件
+简介：OBS Studio 另一份分享，326.7 MB 的完整安装包，体积比常见版本大一些，含额外组件。
 
-同款录屏推流软件的另一份分享，326.7 MB 比常见安装包大出一些，可能带了浏览器源或额外组件。标题没标版本，想要较新功能的话得先确认，拿来录课、做游戏直播都够用。
+分享内共 1 个文件，分享日期 2026-04-15。标题未标注具体版本号与更多说明，以网盘内文件名与版本为准。
 
 网盘入口：[打开网盘文件夹](https://pan.quark.cn/s/4bb884e66677)
 
@@ -2648,11 +2837,14 @@ Advanced Port Scanner 是一款局域网端口扫描软件，安装包约 19.4 M
 - Markdown 镜像：[https://public.dagongren.tech/folders/shizuku-3676cb44/index.md](https://public.dagongren.tech/folders/shizuku-3676cb44/index.md)
 - 分类：软件工具
 - 内容：1 个文件 · 27.5 MB
+- 说明：手机版软件，HTML 页为扫码获取；此处提供直链。
 - 更新日期：2026-04-14
 
 简介：Shizuku 安卓权限管理工具，让应用在免 root 的情况下调用系统接口。
 
 装好后通过无线调试完成授权，不少原本需要 root 才能用的功能就能直接跑起来。适合不想解锁刷机、又想用进阶应用的人，27.5 MB 的包体很小，但对系统版本有一定要求。
+
+网盘入口：[打开网盘文件夹](https://pan.quark.cn/s/c0d38bdb0431)
 
 ---
 
@@ -2662,11 +2854,14 @@ Advanced Port Scanner 是一款局域网端口扫描软件，安装包约 19.4 M
 - Markdown 镜像：[https://public.dagongren.tech/folders/sam-helper-3b245a43/index.md](https://public.dagongren.tech/folders/sam-helper-3b245a43/index.md)
 - 分类：软件工具
 - 内容：1 个文件 · 3.3 MB
+- 说明：手机版软件，HTML 页为扫码获取；此处提供直链。
 - 更新日期：2026-04-14
 
 简介：只有 3.3 MB 的 Sam Helper 小工具，一般和三星手机的系统调节有关。
 
 体积 3.3 MB 的小工具，名字带 Sam，社区里通常把它和三星手机联系在一起，用来调一些系统里没直接放出来的选项。装完几乎不占地方，具体能改什么以应用内页面为准。
+
+网盘入口：[打开网盘文件夹](https://pan.quark.cn/s/d3bef594e510)
 
 ---
 
@@ -2708,11 +2903,14 @@ RustDesk 是开源的远程桌面软件，支持直连，也能自行搭建中�
 - Markdown 镜像：[https://public.dagongren.tech/folders/share-719cf3a7/index.md](https://public.dagongren.tech/folders/share-719cf3a7/index.md)
 - 分类：软件工具
 - 内容：1 个文件 · 26.8 MB
+- 说明：手机版软件，HTML 页为扫码获取；此处提供直链。
 - 更新日期：2026-04-13
 
 简介：比特彗星的安卓客户端，手机端也能挂种子下载和做种，体积不到 30 MB。
 
 平时在电脑上用比特彗星的人，可以在手机上装同款，继续查看 BT 任务和下载进度。适合常下大文件、又不想专门开电脑的用户，安装包轻巧，对存储空间的占用很小。
+
+网盘入口：[打开网盘文件夹](https://pan.quark.cn/s/c77546eea4e7)
 
 ---
 
@@ -2726,7 +2924,7 @@ RustDesk 是开源的远程桌面软件，支持直连，也能自行搭建中�
 
 简介：PuTTY 终端工具安装包，81.8 MB，用来连 SSH、开串口调设备。
 
-PuTTY 是 Windows 上常见的 SSH、Telnet 和串口客户端，连服务器、调路由器和开发板都靠它。这个包 81.8 MB，比单个可执行文件大，应该是带上了配套组件的版本。
+分享内共 1 个文件，分享日期 2026-04-13。标题未标注具体版本号与更多说明，以网盘内文件名与版本为准。
 
 网盘入口：[打开网盘文件夹](https://pan.quark.cn/s/92e9ae321727)
 
@@ -2756,9 +2954,9 @@ MobaXterm 把 SSH 客户端、文件传输和 X 服务器合在一个窗口里�
 - 内容：1 个文件 · 74.3 MB
 - 更新日期：2026-04-13
 
-简介：m3u8 视频下载工具，负责把流媒体的分片拉全并合成为本地一份完整视频
+简介：m3u8 视频下载工具，负责把流媒体的分片拉全并合成为本地一份完整视频。
 
-这类工具专门处理 m3u8 索引的流媒体，把一长串 ts 分片合并成完整视频。74.3 MB 的体积在下载器里偏大，大概自带了解码或者转码组件，适合需要离线保存网课、直播回放的人。
+分享内共 1 个文件，体积 74.3 MB，分享日期 2026-04-13。标题未标注具体版本号与更多说明，以网盘内文件名与版本为准。
 
 网盘入口：[打开网盘文件夹](https://pan.quark.cn/s/ca45ffc59994)
 
@@ -2769,7 +2967,7 @@ MobaXterm 把 SSH 客户端、文件传输和 X 服务器合在一个窗口里�
 - 规范页面：[https://public.dagongren.tech/folders/vscode-e39aeec8/](https://public.dagongren.tech/folders/vscode-e39aeec8/)
 - Markdown 镜像：[https://public.dagongren.tech/folders/vscode-e39aeec8/index.md](https://public.dagongren.tech/folders/vscode-e39aeec8/index.md)
 - 分类：软件工具
-- 内容：1 个文件 · 未知
+- 内容：1 个文件
 - 更新日期：2026-04-12
 
 简介：Visual Studio Code 的安装包，微软出品的免费代码编辑器，体积未标注。
@@ -2788,9 +2986,9 @@ MobaXterm 把 SSH 客户端、文件传输和 X 服务器合在一个窗口里�
 - 内容：1 个文件 · 8.5 MB
 - 更新日期：2026-04-12
 
-简介：缩写为 vs 的 8.5 MB 分享，可能是 Visual Studio 相关组件，也可能是对比工具，需打开确认。
+简介：「vs」（其他），体积 8.5 MB，分享于 2026-04-12。
 
-名字太短，判断不出指的是 Visual Studio、某个对比工具还是别的文件。8.5 MB 的体积对完整 IDE 来说偏小，更像是插件或小工具，先存下来看一眼再决定是否保留。
+分享内共 1 个文件，分享日期 2026-04-12。标题未标注具体版本号与更多说明，以网盘内文件名与版本为准。
 
 网盘入口：[打开网盘文件夹](https://pan.quark.cn/s/98d198f34875)
 
@@ -2804,9 +3002,9 @@ MobaXterm 把 SSH 客户端、文件传输和 X 服务器合在一个窗口里�
 - 内容：1 个文件 · 303.8 MB
 - 更新日期：2026-04-12
 
-简介：Motrix 是开源下载管理器，能同时跑 HTTP、BT 种子和磁力任务，界面干净不弹广告
+简介：Motrix 是开源下载管理器，能同时跑 HTTP、BT 种子和磁力任务，界面干净不弹广告。
 
-Motrix 是开源的下载管理器，界面干净，能同时处理 HTTP、FTP、BT 种子和磁力任务。303 MB 的体积在下载器里算大，可能是带了 Electron 运行环境的完整包，适合不喜欢广告弹窗的人。
+分享内共 1 个文件，体积 303.8 MB，分享日期 2026-04-12。标题未标注具体版本号与更多说明，以网盘内文件名与版本为准。
 
 网盘入口：[打开网盘文件夹](https://pan.quark.cn/s/3a111e5a10b0)
 
@@ -2838,7 +3036,7 @@ MinGW-w64 提供 64 位 Windows 下的 GCC、G++ 和 make 等工具，用来编�
 
 简介：Geek Uninstaller 的便携版主程序，6.3 MB 单文件，用来彻底卸载 Windows 软件并清理残留。
 
-标题只写了 geek.exe，从 6.3 MB 的体积和软件分类看，应该就是 Geek Uninstaller 的主程序。它用来彻底卸载 Windows 软件，顺带清理注册表和残留目录，不想装完整套工具的人拿单文件就能跑。
+分享内共 1 个文件，分享日期 2026-04-12。标题未标注具体版本号与更多说明，以网盘内文件名与版本为准。
 
 网盘入口：[打开网盘文件夹](https://pan.quark.cn/s/0392c7613e55)
 
@@ -2912,7 +3110,7 @@ Office Tool Plus 用来下载、安装和配置 Office，能选组件、选更�
 
 - 规范页面：[https://public.dagongren.tech/folders/notepad-04e3cb8b/](https://public.dagongren.tech/folders/notepad-04e3cb8b/)
 - Markdown 镜像：[https://public.dagongren.tech/folders/notepad-04e3cb8b/index.md](https://public.dagongren.tech/folders/notepad-04e3cb8b/index.md)
-- 分类：设备与固件
+- 分类：软件工具
 - 内容：1 个文件 · 23.0 MB
 - 更新日期：2026-04-11
 
@@ -2950,7 +3148,7 @@ Bilidown 的 1.2.7 版安装包，exe 格式，77.4 MB。它的用途是把 B �
 
 简介：《杀戮尖塔2》的 mod 合集，约 20 MB，按标题看是一次打包的多个模组。
 
-《杀戮尖塔2》的 mods 打包，单个文件约 20 MB，标题没有细分具体模组，应该是把常用的几个放在了一起。适合已经玩腻原版卡池、想加点新内容的玩家，装之前记得先备份游戏目录。
+分享内共 1 个文件，分享日期 2026-04-11。标题未标注具体版本号与更多说明，以网盘内文件名与版本为准。
 
 网盘入口：[打开网盘文件夹](https://pan.quark.cn/s/a065eded471c)
 
@@ -3028,9 +3226,9 @@ Everything 的安装包只有 10.9 MB，建好索引之后搜索几乎立刻出�
 - 内容：1 个文件 · 839.3 MB
 - 更新日期：2026-04-10
 
-简介：以 DirectX 为名的运行库资源，839.3 MB，体量比常规安装包大出不少，可能是合集。
+简介：「DirectX」（软件工具），体积 839.3 MB，分享于 2026-04-10。
 
-单个文件约 839 MB，比微软常规的 DirectX 安装包大很多，可能是把多个版本的运行库和修复工具打在一起。老游戏提示缺少组件、或者重装系统后想补齐运行环境的用户会需要它。
+分享内共 1 个文件，分享日期 2026-04-10。标题未标注具体版本号与更多说明，以网盘内文件名与版本为准。
 
 网盘入口：[打开网盘文件夹](https://pan.quark.cn/s/c34c9ce46891)
 
@@ -3073,12 +3271,15 @@ Autodesk 官方出的卸载工具，只有 1.2 MB。装过 AutoCAD、Revit 这�
 - 规范页面：[https://public.dagongren.tech/folders/share-2bd95619/](https://public.dagongren.tech/folders/share-2bd95619/)
 - Markdown 镜像：[https://public.dagongren.tech/folders/share-2bd95619/index.md](https://public.dagongren.tech/folders/share-2bd95619/index.md)
 - 分类：游戏与修改器
-- 内容：1 个文件 · 未知
+- 内容：1 个文件
+- 说明：手机版软件，HTML 页为扫码获取；此处提供直链。
 - 更新日期：2026-04-09
 
 简介：《星露谷物语》安卓手机版安装包，体积未知，随手种田经营的那种玩法。
 
 星露谷物语的手机版，把种地、养动物、和村民打交道的整套玩法搬到了安卓设备上。分享里没标体积，安装之前看一眼设备的剩余空间和系统版本比较稳妥。
+
+网盘入口：[打开网盘文件夹](https://pan.quark.cn/s/227555b5947a)
 
 ---
 
@@ -3122,9 +3323,9 @@ PCL2 是国内玩家常用的 Minecraft 启动器，装版本、加模组、改�
 - 内容：1 个文件 · 2.1 GB
 - 更新日期：2026-04-09
 
-简介：MySQL 数据库相关资源，2.1 GB，应是安装程序加示例库，或几个版本打在一起。
+简介：「mysql」（软件工具），体积 2.1 GB，分享于 2026-04-09。
 
-标题只有 mysql 一个词，2.1 GB 的体积不像单个安装包，看起来是安装程序加示例库，或者几个版本打在一起。学数据库、要在本地搭测试环境的人可以拿它起步，装哪个版本需要解开后自己挑。
+分享内共 1 个文件，分享日期 2026-04-09。标题未标注具体版本号与更多说明，以网盘内文件名与版本为准。
 
 网盘入口：[打开网盘文件夹](https://pan.quark.cn/s/7f748eeb5ea5)
 
@@ -3184,11 +3385,14 @@ Display Driver Uninstaller 的简称，作用是彻底清掉显卡驱动和残�
 - Markdown 镜像：[https://public.dagongren.tech/folders/google-play-d2be0774/index.md](https://public.dagongren.tech/folders/google-play-d2be0774/index.md)
 - 分类：软件工具
 - 内容：1 个文件 · 826.1 MB
+- 说明：手机版软件，HTML 页为扫码获取；此处提供直链。
 - 更新日期：2026-04-05
 
 简介：Google Play 商店安装包，826 MB 的包里通常含谷歌服务框架，用来给国行机补全谷歌生态
 
 这份是 Google Play 商店的安装包，826 MB 的体积通常说明把 Google 服务框架一并打了进去。给国行安卓机补上谷歌生态时常用到，装之前记得确认系统版本和处理器架构是否匹配。
+
+网盘入口：[打开网盘文件夹](https://pan.quark.cn/s/aad8911be166)
 
 ---
 
@@ -3200,9 +3404,9 @@ Display Driver Uninstaller 的简称，作用是彻底清掉显卡驱动和残�
 - 内容：1 个文件 · 2.2 GB
 - 更新日期：2026-04-05
 
-简介：谷歌相机 9.2 版本的资源包，2.2 GB，体积偏大，应该不止一个安装包。
+简介：「6、谷歌相机9.2」（软件工具），体积 2.2 GB，分享于 2026-04-05。
 
-标题为「6、谷歌相机9.2」，是一个 2.2 GB 的大包，从体积看不太可能只是单个 apk，更像是把多个版本和配置文件一起打了进去。适合想在非 Pixel 机型上试试谷歌相机算法的用户，适配情况要自己对照。
+分享内共 1 个文件，分享日期 2026-04-05。标题未标注具体版本号与更多说明，以网盘内文件名与版本为准。
 
 网盘入口：[打开网盘文件夹](https://pan.quark.cn/s/4c5fada24440)
 
@@ -3232,9 +3436,9 @@ Balatro 这类卡牌肉鸽靠模组能变出不少新玩法，这份合集把几
 - 内容：1 个文件 · 789.3 KB
 - 更新日期：2026-03-31
 
-简介：霍格沃茨之遗 v1.0-v1614419 版本对应的三十三项修改器压缩包，整个包只有 789 KB
+简介：霍格沃茨之遗 v1.0-v1614419 版本对应的三十三项修改器压缩包，整个包只有 789 KB。
 
-文件名对应《霍格沃茨之遗》的 v1.0-v1614419 版本，Plus.33Tr 一般指 33 项修改功能。整个包只有 789 KB，说明放的是修改器本体而不是游戏，需要配合对应版本使用，游戏更新后可能要换新版本。
+分享内共 1 个文件，分享日期 2026-03-31。标题未标注具体版本号与更多说明，以网盘内文件名与版本为准。
 
 网盘入口：[打开网盘文件夹](https://pan.quark.cn/s/e02a5a413c42)
 
@@ -3246,11 +3450,15 @@ Balatro 这类卡牌肉鸽靠模组能变出不少新玩法，这份合集把几
 - Markdown 镜像：[https://public.dagongren.tech/folders/rax3000m-oenwrt25-d0b01223/index.md](https://public.dagongren.tech/folders/rax3000m-oenwrt25-d0b01223/index.md)
 - 分类：设备与固件
 - 内容：1 个文件 · 465.5 MB
+- 品牌：网件
+- 机型：RAX3000M
+- 类型：路由器
+- 标注：标题含 OpenWrt 25
 - 更新日期：2026-03-29
 
-简介：按 OpenWrt 25 为 RAX3000M 编译的固件，465.5 MB，想换路由器系统可以看。
+简介：Netgear RAX3000M 路由器相关资源，体积 465.5 MB，分享于 2026-03-29。
 
-作者针对 RAX3000M 编译的一份 OpenWrt 25 固件，465.5 MB。体积比一般固件大，可能连编译产物一起打了包；想给路由器换系统、加插件的人可以看看，动手前务必备份原厂固件。
+分享内共 1 个文件，体积 465.5 MB，分享日期 2026-03-29。标题只给出机型（Netgear RAX3000M），未标注系统版本、适用区域与刷机方式。下载后请先打开文件夹核对版本与机型，确认无误再动手。
 
 网盘入口：[打开网盘文件夹](https://pan.quark.cn/s/a21559795ead)
 
@@ -3294,11 +3502,14 @@ Balatro 这类卡牌肉鸽靠模组能变出不少新玩法，这份合集把几
 - Markdown 镜像：[https://public.dagongren.tech/folders/share-015a8b72/index.md](https://public.dagongren.tech/folders/share-015a8b72/index.md)
 - 分类：游戏与修改器
 - 内容：1 个文件 · 1.8 GB
+- 说明：手机版软件，HTML 页为扫码获取；此处提供直链。
 - 更新日期：2026-03-28
 
 简介：植物大战僵尸杂交版，电脑版和安卓版一起打包，共 1.8 GB。
 
 植物大战僵尸的杂交版，把不同植物的特性混在一株上，玩起来和原版差别不小。这份 1.8 GB 的资源同时含电脑版和安卓手机版，想重温又想要点新花样的人可以试试。
+
+网盘入口：[打开网盘文件夹](https://pan.quark.cn/s/d3338d52cff9)
 
 ---
 
@@ -3312,7 +3523,7 @@ Balatro 这类卡牌肉鸽靠模组能变出不少新玩法，这份合集把几
 
 简介：缩写为 RER 的一份 222.1 GB 分享，这个体量更像整套视频、游戏或者素材资源。
 
-原始标题里只剩下 RER 这个缩写，没有版本、平台之类的线索，体积倒是很实在，222.1 GB。按这个体量判断，更像一整套视频、游戏或素材类资源，具体是什么得打开文件才知道。
+分享内共 1 个文件，分享日期 2026-03-28。标题未标注具体版本号与更多说明，以网盘内文件名与版本为准。
 
 网盘入口：[打开网盘文件夹](https://pan.quark.cn/s/7436908fdae5)
 
@@ -3324,6 +3535,10 @@ Balatro 这类卡牌肉鸽靠模组能变出不少新玩法，这份合集把几
 - Markdown 镜像：[https://public.dagongren.tech/folders/rax3000m-nikki-1f1a12d7/index.md](https://public.dagongren.tech/folders/rax3000m-nikki-1f1a12d7/index.md)
 - 分类：设备与固件
 - 内容：1 个文件 · 30.9 MB
+- 品牌：网件
+- 机型：RAX3000M
+- 类型：路由器
+- 标注：标题含 Nikki
 - 更新日期：2026-03-28
 
 简介：给 RAX3000M 路由器用的固件包，30.9 MB，看着是刷机用的系统镜像。
@@ -3340,11 +3555,14 @@ Balatro 这类卡牌肉鸽靠模组能变出不少新玩法，这份合集把几
 - Markdown 镜像：[https://public.dagongren.tech/folders/bilibili-guge-7fb18045/index.md](https://public.dagongren.tech/folders/bilibili-guge-7fb18045/index.md)
 - 分类：其他
 - 内容：1 个文件 · 255.8 MB
+- 说明：手机版软件，HTML 页为扫码获取；此处提供直链。
 - 更新日期：2026-03-28
 
-简介：哔哩哔哩的谷歌版客户端安装包，255.8 MB，一般指从 Google Play 渠道分发的那个版本。
+简介：「bilibili guge版」（其他），体积 255.8 MB，分享于 2026-03-28。
 
-标题写作 bilibili guge版，是一个 255.8 MB 的安装包，按命名习惯指哔哩哔哩的谷歌商店版本。两个渠道的版本在界面和功能上可能有些差别，想要哪个可以装上自行对比。
+分享内共 1 个文件，分享日期 2026-03-28。标题未标注具体版本号与更多说明，以网盘内文件名与版本为准。
+
+网盘入口：[打开网盘文件夹](https://pan.quark.cn/s/886987503045)
 
 ---
 
@@ -3358,7 +3576,7 @@ Balatro 这类卡牌肉鸽靠模组能变出不少新玩法，这份合集把几
 
 简介：适配《死亡搁浅2》V1.0 到 V1.1 的三十八项修改器，体积不到 1 MB。
 
-覆盖《死亡搁浅2》V1.0 至 V1.1 两个版本的修改器，共三十八项可选功能，文件只有 767.9 KB。想省掉长途送货、专心看剧情或搭建筑的玩家可以试试，注意版本对不上时功能可能失效。
+分享内共 1 个文件，分享日期 2026-03-28。标题未标注具体版本号与更多说明，以网盘内文件名与版本为准。
 
 网盘入口：[打开网盘文件夹](https://pan.quark.cn/s/630166168c2a)
 
@@ -3370,11 +3588,14 @@ Balatro 这类卡牌肉鸽靠模组能变出不少新玩法，这份合集把几
 - Markdown 镜像：[https://public.dagongren.tech/folders/share-c2cc9105/index.md](https://public.dagongren.tech/folders/share-c2cc9105/index.md)
 - 分类：游戏与修改器
 - 内容：1 个文件 · 19.0 GB
+- 说明：手机版软件，HTML 页为扫码获取；此处提供直链。
 - 更新日期：2026-03-24
 
 简介：《杀戮尖塔》的手机版资源，19 GB 的体量，通常包含本体与数据包。
 
 把这款卡牌构筑肉鸽搬到手机上，随时都能再爬一层塔。19 GB 不算小，安装前先确认手机剩余空间够用，适合喜欢反复研究卡组、通勤路上想打一局的人。
+
+网盘入口：[打开网盘文件夹](https://pan.quark.cn/s/c72ac41c29ee)
 
 ---
 

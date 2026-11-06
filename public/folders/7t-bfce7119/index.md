@@ -19,6 +19,9 @@ markdown: https://public.dagongren.tech/folders/7t-bfce7119/index.md
 ## 页面信息
 
 - 分类：[设备与固件](https://public.dagongren.tech/sitemap/)
+- 品牌：一加
+- 机型：7T
+- 类型：手机
 - 内容：1 个文件 · 6.5 GB
 - 更新日期：2026-10-19
 - 规范页面（HTML）：[https://public.dagongren.tech/folders/7t-bfce7119/](https://public.dagongren.tech/folders/7t-bfce7119/)

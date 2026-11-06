@@ -2,24 +2,24 @@
 title: "怪物猎人：荒野"
 date: 2026-05-01
 description: "夸克网盘分享 · 其他"
-summary: "以《怪物猎人：荒野》为名保存的分享，体积未知，内容要打开后自行确认。"
+summary: "「怪物猎人：荒野」（其他），分享未提供体积，分享于 2026-05-01。"
 categories: ["其他"]
 tags: ["夸克"]
-item_count: "1 个文件 · 未知"
+item_count: "1 个文件"
 canonical: https://public.dagongren.tech/folders/share-7c64dbe4/
 markdown: https://public.dagongren.tech/folders/share-7c64dbe4/index.md
 ---
 
 # 怪物猎人：荒野
 
-以《怪物猎人：荒野》为名保存的分享，体积未知，内容要打开后自行确认。
+「怪物猎人：荒野」（其他），分享未提供体积，分享于 2026-05-01。
 
-标题指向卡普空的这款狩猎动作游戏，但文件大小没有标注，判断不出是安装包、补丁还是攻略资料。适合已经在玩本作、想找相关素材的人先存一份，再对照实际文件核对。
+分享内共 1 个文件，分享未提供体积，分享日期 2026-05-01。标题未标注具体版本号与更多说明，以网盘内文件名与版本为准。
 
 ## 页面信息
 
 - 分类：[其他](https://public.dagongren.tech/sitemap/)
-- 内容：1 个文件 · 未知
+- 内容：1 个文件
 - 更新日期：2026-05-01
 - 规范页面（HTML）：[https://public.dagongren.tech/folders/share-7c64dbe4/](https://public.dagongren.tech/folders/share-7c64dbe4/)
 - Markdown 镜像：[https://public.dagongren.tech/folders/share-7c64dbe4/index.md](https://public.dagongren.tech/folders/share-7c64dbe4/index.md)

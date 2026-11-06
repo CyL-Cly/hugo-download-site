@@ -16,9 +16,11 @@
     <main>
       <section class="intro" aria-labelledby="intro-title">
         <h1 class="intro__title" id="intro-title">资源<span class="intro__slash">/</span>目录</h1>
-        <p class="intro__lead">共 {{ len (where .Site.RegularPages "Section" "folders") }} 个文件夹，按分享时间倒序排列。可按名称、简介、标签搜索，或按分类筛选。</p>
+        <p class="intro__lead">共 {{ len (where .Site.RegularPages "Section" "folders") }} 个文件夹，按分享时间倒序排列。可按名称、简介、标签搜索，按分类或设备品牌筛选。</p>
         <p class="mono sitemap__hint">全站索引：<a href="{{ "/sitemap/" | relURL }}">全站地图</a> · <a href="{{ "sitemap.md" | relURL }}">Markdown 版</a> · <a href="{{ "llms.txt" | relURL }}">llms.txt</a> · <a href="{{ "llms-full.txt" | relURL }}">llms-full.txt</a></p>
 
+        {{ $all := where .Site.RegularPages "Section" "folders" }}
+        {{ $dm := hugo.Data.device_meta | default dict }}
         <div class="controls">
           <div class="search">
             <label class="sr-only" for="q">搜索</label>
@@ -26,7 +28,6 @@
           </div>
           <div class="filters" role="group" aria-label="分类筛选">
             <button class="chip is-active" type="button" data-filter="all">全部</button>
-            {{ $all := where .Site.RegularPages "Section" "folders" }}
             {{ $cats := slice }}
             {{ range $all }}{{ range .Params.categories }}{{ $cats = $cats | append . }}{{ end }}{{ end }}
             {{ range sort (uniq $cats) }}
@@ -34,6 +35,17 @@
             {{ end }}
           </div>
         </div>
+        {{ $brands := slice }}
+        {{ range $all }}{{ with index $dm .Params.share_id }}{{ with .brand }}{{ $brands = $brands | append . }}{{ end }}{{ end }}{{ end }}
+        {{ with $brands }}
+        <div class="filters filters--brand" role="group" aria-label="品牌筛选">
+          <span class="filters__label mono">品牌</span>
+          <button class="chip chip--sm is-active" type="button" data-brand="all">全部</button>
+          {{ range sort (uniq .) }}
+          <button class="chip chip--sm" type="button" data-brand="{{ . }}">{{ . }}</button>
+          {{ end }}
+        </div>
+        {{ end }}
       </section>
 
       <section aria-label="文件夹列表">
@@ -46,11 +58,13 @@
         </div>
         <ul class="list" id="list">
           {{ range (where .Site.RegularPages "Section" "folders").ByDate.Reverse }}
-          <li class="row" data-category="{{ delimit .Params.categories " " }}" data-search="{{ .Title }} {{ .Description }} {{ with .Params.summary }}{{ . }}{{ end }} {{ delimit .Params.categories " " }} {{ delimit .Params.tags " " }}">
+          {{ $meta := index $dm .Params.share_id }}
+          <li class="row" data-category="{{ delimit .Params.categories " " }}" data-brand="{{ with $meta }}{{ .brand }}{{ end }}" data-search="{{ .Title }} {{ .Description }} {{ with .Params.summary }}{{ . }}{{ end }} {{ delimit .Params.categories " " }} {{ delimit .Params.tags " " }} {{ with $meta }}{{ .brand }} {{ .model }} {{ .type }}{{ end }}">
             <div class="row__main">
               <div class="row__titleline">
                 <a class="row__name" href="{{ .RelPermalink }}">{{ .Title }}</a>
                 {{ range .Params.categories }}<span class="tag">{{ . }}</span>{{ end }}
+                {{ with $meta }}{{ with .model }}<span class="tag tag--meta">{{ . }}</span>{{ end }}{{ end }}
               </div>
               <p class="row__desc">{{ with .Params.summary }}{{ . }}{{ else }}{{ .Description }}{{ end }}</p>
             </div>

@@ -2,7 +2,7 @@
 title: "一加OnePlus Ace 2"
 date: 2026-10-19
 description: "夸克网盘分享 · 设备与固件"
-summary: "一加 Ace 2 的固件与刷机资源，671.7 GB，推测里面的目录按系统版本分好了"
+summary: "一加 Ace 2 手机相关资源，体积 671.7 GB，分享于 2026-10-19。"
 categories: ["设备与固件"]
 tags: ["夸克"]
 item_count: "1 个文件 · 671.7 GB"
@@ -12,13 +12,16 @@ markdown: https://public.dagongren.tech/folders/oneplus-ace-2-0ccc7492/index.md
 
 # 一加OnePlus Ace 2
 
-一加 Ace 2 的固件与刷机资源，671.7 GB，推测里面的目录按系统版本分好了
+一加 Ace 2 手机相关资源，体积 671.7 GB，分享于 2026-10-19。
 
-671.7 GB 对一台手机来说是大数目，推测里面按版本分了不少目录。一加 Ace 2 用户如果要降级、救砖或者试试不同系统，可以从这份归档里挑对应的包来用。
+分享内共 1 个文件，体积 671.7 GB，分享日期 2026-10-19。标题只给出机型（一加 Ace 2），未标注系统版本、适用区域与刷机方式。下载后请先打开文件夹核对版本与机型，确认无误再动手。
 
 ## 页面信息
 
 - 分类：[设备与固件](https://public.dagongren.tech/sitemap/)
+- 品牌：一加
+- 机型：Ace 2
+- 类型：手机
 - 内容：1 个文件 · 671.7 GB
 - 更新日期：2026-10-19
 - 规范页面（HTML）：[https://public.dagongren.tech/folders/oneplus-ace-2-0ccc7492/](https://public.dagongren.tech/folders/oneplus-ace-2-0ccc7492/)

@@ -2,7 +2,7 @@
 title: "一加OnePlus 13T"
 date: 2026-10-19
 description: "夸克网盘分享 · 设备与固件"
-summary: "一加 13T 的固件与刷机工具集合，284.0 GB 的分享，小屏机型玩机时留着备查"
+summary: "一加 13T 手机相关资源，体积 284.0 GB，分享于 2026-10-19。"
 categories: ["设备与固件"]
 tags: ["夸克"]
 item_count: "1 个文件 · 284.0 GB"
@@ -12,13 +12,16 @@ markdown: https://public.dagongren.tech/folders/oneplus-13t-cc3b775c/index.md
 
 # 一加OnePlus 13T
 
-一加 13T 的固件与刷机工具集合，284.0 GB 的分享，小屏机型玩机时留着备查
+一加 13T 手机相关资源，体积 284.0 GB，分享于 2026-10-19。
 
-一加 13T 是小屏定位的机型，这份 284 GB 的分享从体量看应该是固件加刷机工具的集合。玩机的人遇到系统异常、或者想换回旧版本时，本地有份存档会比临时找链接踏实。
+分享内共 1 个文件，体积 284.0 GB，分享日期 2026-10-19。标题只给出机型（一加 13T），未标注系统版本、适用区域与刷机方式。下载后请先打开文件夹核对版本与机型，确认无误再动手。
 
 ## 页面信息
 
 - 分类：[设备与固件](https://public.dagongren.tech/sitemap/)
+- 品牌：一加
+- 机型：13T
+- 类型：手机
 - 内容：1 个文件 · 284.0 GB
 - 更新日期：2026-10-19
 - 规范页面（HTML）：[https://public.dagongren.tech/folders/oneplus-13t-cc3b775c/](https://public.dagongren.tech/folders/oneplus-13t-cc3b775c/)
