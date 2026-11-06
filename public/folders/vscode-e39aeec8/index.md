@@ -2,7 +2,7 @@
 title: "VSCode最新版"
 date: 2026-04-12
 description: "夸克网盘分享 · 软件工具"
-summary: "Visual Studio Code 的安装包，微软出品的免费代码编辑器，体积未标注。"
+summary: "微软出品的免费跨平台代码编辑器，支持语法高亮、智能补全和插件扩展，适合程序员编写与调试各类代码。"
 categories: ["软件工具"]
 tags: ["夸克"]
 item_count: "1 个文件"
@@ -12,9 +12,9 @@ markdown: https://public.dagongren.tech/folders/vscode-e39aeec8/index.md
 
 # VSCode最新版
 
-Visual Studio Code 的安装包，微软出品的免费代码编辑器，体积未标注。
+微软出品的免费跨平台代码编辑器，支持语法高亮、智能补全和插件扩展，适合程序员编写与调试各类代码。
 
-写前端、Python 或者 Go 都能用，靠装插件把编辑器扩成顺手的工作台。适合刚学编程、还没定下用哪个 IDE 的人，启动轻快，配置和扩展也能跟着账号同步。
+Visual Studio Code 是微软推出的轻量级代码编辑器，内置 Git 支持、调试器和终端，可通过扩展市场安装各类语言插件。它启动快、占用低，能覆盖前端、后端、脚本与数据处理的日常开发需求。适合学生、独立开发者和需要频繁切换技术栈的工程团队使用。
 
 ## 页面信息
 
